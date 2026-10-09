@@ -1,0 +1,28 @@
+{
+  "nine": {
+    "00591A": "Gros yeux", "005936": "Téléport.", "00594E": "Calme",
+    "005966": "Sommeil", "005980": "Jeu feu", "0059FE": "Gaz lacr.",
+    "005A19": "Bûcher", "005A32": "Énergie", "005A4A": "Hippo",
+    "005A9C": "Gr.table", "005AB9": "Chaîne", "005AD6": "Murmure",
+    "005B40": "Tornade", "005B5A": "Smash feu", "005B77": "Tacle",
+    "005B93": "Cri"
+  },
+  "seven": {
+    "0052D6": "Sukiy.", "0052EE": "F.vice", "00530A": "Konjac",
+    "00533E": "Ch.sinc", "005358": "Cherry", "005374": "Talis.",
+    "0053A6": "YontaFé", "005409": "S.feu", "005425": "Cosmos",
+    "00545A": "Poulpe", "0054A5": "Tourn.", "005543": "Hagoit+",
+    "005561": "S.susp.", "00557C": "C.coq.", "005597": "Destin",
+    "0055B2": "B.Ole", "0055CE": "M.Shin.", "0055EB": "É.parad",
+    "005609": "H.Kint.", "005625": "M.somn.", "00565D": "G.comb.",
+    "00567B": "É.glam.", "0056B1": "Pantal.", "0056CD": "Surv.b.",
+    "00571C": "A.tigre", "00578A": "T.élec.", "0057A5": "A.Asuka",
+    "0057C0": "A.parad", "0057DD": "S.Iida", "0057FB": "Cartab.",
+    "005818": "Écu par", "005834": "Delic.", "005851": "H.blas.",
+    "00586C": "P.zomb.", "00588B": "A.moul.", "0058A7": "Clinch",
+    "0058C5": "Écu nu", "005902": "Antid.", "00591A": "Yeux !",
+    "005936": "Télép.", "0059B1": "Exorc.", "0059C9": "Silence",
+    "0059FE": "Gaz", "005A7F": "Microb.", "005A9C": "Gr.tab.",
+    "005AF2": "Fessée", "005B5A": "Smash", "005BC5": "Leopard"
+  }
+}

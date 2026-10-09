@@ -1,0 +1,8 @@
+{
+  "rom_sha256": "a4674ff67b4b55d76f3ebf4360b29985ede6fbb0aa21cf39a52014d490572a77",
+  "changed_bytes_since_v1_1": 30,
+  "only_accented_capital_tiles_and_checksum_changed": true,
+  "capitals_checked": "ÉÈÊÀÂÎÔÛ",
+  "top_strokes_preserved": true,
+  "ips_roundtrip_verified": true
+}

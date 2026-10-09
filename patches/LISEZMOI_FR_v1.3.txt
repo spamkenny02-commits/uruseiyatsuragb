@@ -1,0 +1,16 @@
+MISS TOMOBIKI — FR v1.3
+
+Sous-titre de l’écran titre redessiné pixel par pixel :
+À LA RECHERCHE DE
+MISS TOMOBIKI !
+Lettres de 5 pixels avec espacement régulier et séparation entre les lignes.
+Les corrections de police des v1.1 et v1.2 sont conservées.
+Les textes et le code du jeu restent identiques à la v1.2.
+
+Utiliser la ROM GB v1.3 directement, ou appliquer son IPS à la ROM japonaise
+originale lamujp.gb (256 Ko), jamais à une ROM déjà traduite.
+SHA256 source : 65429bd2a36a33cd8ab696be2f485b647260b327039887931cec4775c718424f
+SHA256 ROM v1.3 : 23061eba292d03c907c81878730ad75e289ce5aecd51509e817a5cb2001bf25e
+
+La capture est issue d’un démarrage neuf dans l’émulateur. Le reste de
+l’écran titre est pixel-identique à la v1.2. L’éditeur utilise ces sources.

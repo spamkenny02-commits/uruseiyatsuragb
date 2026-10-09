@@ -1,0 +1,21 @@
+{
+  "rom_sha256": "fbd8aa445fcf3b680343aa8ae8c4e9604e67e814a06a9dfd9f9313a7338a3f33",
+  "title": "URUSEI YATSURA",
+  "fresh_boot_title_and_start_menu_verified": true,
+  "logo_rom_pixels_and_runtime_pixels_match_asset": true,
+  "subtitle_and_portrait_identical_to_v1_3": true,
+  "start_menu_identical_to_v1_3": true,
+  "changed_screen_pixels": 4376,
+  "logo_palette": [
+    0,
+    85,
+    170,
+    255
+  ],
+  "changed_bytes_since_v1_3": 2091,
+  "only_title_tiles_blocks_map_and_checksum_changed": true,
+  "ips_roundtrip_verified": true,
+  "new_title_tiles": 129,
+  "exclusive_title_blocks": 35,
+  "original_star_background_pattern_restored": true
+}

@@ -1,0 +1,115 @@
+{
+  "rom_sha256": "9455e6a057a4d1aa9091d25a36815f2c5afa95661b48295311637f962a93b33a",
+  "scope": "Background composition decoded independently from final ROM map/block/tile bytes. Both title pages, all nine poster frames and all six alternate credit pages. Original artwork preserved outside specified French text areas; first eight poster frames are pixel-identical. Sprite text is separately covered by resource/runtime captures.",
+  "cases": [
+    {
+      "scene": "title 0",
+      "file": "composed_graphics/title_0_fr.png",
+      "protected_artwork_identical": true,
+      "changed_pixels": 5476
+    },
+    {
+      "scene": "title 1",
+      "file": "composed_graphics/title_1_fr.png",
+      "protected_artwork_identical": true,
+      "changed_pixels": 450
+    },
+    {
+      "scene": "poster 0",
+      "file": "composed_graphics/poster_0_fr.png",
+      "protected_artwork_identical": true,
+      "changed_pixels": 0
+    },
+    {
+      "scene": "poster 1",
+      "file": "composed_graphics/poster_1_fr.png",
+      "protected_artwork_identical": true,
+      "changed_pixels": 0
+    },
+    {
+      "scene": "poster 2",
+      "file": "composed_graphics/poster_2_fr.png",
+      "protected_artwork_identical": true,
+      "changed_pixels": 0
+    },
+    {
+      "scene": "poster 3",
+      "file": "composed_graphics/poster_3_fr.png",
+      "protected_artwork_identical": true,
+      "changed_pixels": 0
+    },
+    {
+      "scene": "poster 4",
+      "file": "composed_graphics/poster_4_fr.png",
+      "protected_artwork_identical": true,
+      "changed_pixels": 0
+    },
+    {
+      "scene": "poster 5",
+      "file": "composed_graphics/poster_5_fr.png",
+      "protected_artwork_identical": true,
+      "changed_pixels": 0
+    },
+    {
+      "scene": "poster 6",
+      "file": "composed_graphics/poster_6_fr.png",
+      "protected_artwork_identical": true,
+      "changed_pixels": 0
+    },
+    {
+      "scene": "poster 7",
+      "file": "composed_graphics/poster_7_fr.png",
+      "protected_artwork_identical": true,
+      "changed_pixels": 0
+    },
+    {
+      "scene": "poster 8",
+      "file": "composed_graphics/poster_8_fr.png",
+      "protected_artwork_identical": true,
+      "changed_pixels": 1666
+    },
+    {
+      "scene": "credits 0",
+      "role": "Programmation",
+      "name": "Shunichi Sekiguchi",
+      "file": "composed_graphics/credits_0_fr.png",
+      "row_layout_verified": true
+    },
+    {
+      "scene": "credits 1",
+      "role": "Graphisme",
+      "name": "Norikazu Shimizu",
+      "file": "composed_graphics/credits_1_fr.png",
+      "row_layout_verified": true
+    },
+    {
+      "scene": "credits 2",
+      "role": "Musique",
+      "name": "Yûsuke Takahama",
+      "file": "composed_graphics/credits_2_fr.png",
+      "row_layout_verified": true
+    },
+    {
+      "scene": "credits 3",
+      "role": "Conception",
+      "name": "Kuniharu Hosoda",
+      "file": "composed_graphics/credits_3_fr.png",
+      "row_layout_verified": true
+    },
+    {
+      "scene": "credits 4",
+      "role": "Conception",
+      "name": "Masanobu Fukasawa",
+      "file": "composed_graphics/credits_4_fr.png",
+      "row_layout_verified": true
+    },
+    {
+      "scene": "credits 5",
+      "role": "Direction",
+      "name": "Kuniharu Hosoda",
+      "file": "composed_graphics/credits_5_fr.png",
+      "row_layout_verified": true
+    }
+  ],
+  "all_protected_artwork_verified": true
+}

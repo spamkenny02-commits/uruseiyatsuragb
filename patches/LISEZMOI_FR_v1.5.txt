@@ -1,0 +1,17 @@
+MISS TOMOBIKI — FR v1.5
+
+Sous-titre de l’écran titre stylisé pixel par pixel :
+- À LA RECHERCHE DE : petite ligne d’introduction centrée.
+- MISS TOMOBIKI ! : lettres épaisses et inclinées, ombre grise.
+- Deux petits éclats décoratifs encadrent la ligne principale.
+Le logo URUSEI YATSURA, le fond étoilé, Lamu et le menu de la v1.4 restent
+pixel-identiques. Le code, les textes et les polices du jeu sont inchangés.
+
+Utiliser la ROM GB v1.5 directement, ou appliquer son IPS à la ROM japonaise
+originale lamujp.gb (256 Ko), jamais à une ROM déjà traduite.
+SHA256 source : 65429bd2a36a33cd8ab696be2f485b647260b327039887931cec4775c718424f
+SHA256 ROM v1.5 : 9455e6a057a4d1aa9091d25a36815f2c5afa95661b48295311637f962a93b33a
+
+Le rendu a été vérifié depuis un démarrage neuf dans l’émulateur. Les pixels
+du sous-titre ont été relus dans la ROM et comparés à la création graphique.
+L’éditeur utilise les mêmes sources et reconstruit cette version.

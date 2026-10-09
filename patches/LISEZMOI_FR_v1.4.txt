@@ -1,0 +1,20 @@
+MISS TOMOBIKI — FR v1.4
+
+Logo japonais de l’écran titre remplacé par URUSEI YATSURA, en deux lignes,
+avec des lettres épaisses et inclinées et une étoile dans le R de URUSEI.
+Le modèle fourni est adapté aux quatre teintes de la Game Boy.
+Le motif étoilé original est conservé derrière le logo. Son contour clair
+reste opaque pour séparer les lettres des étoiles et préserver la lisibilité.
+Le sous-titre français, le portrait et les menus de la v1.3 sont conservés.
+La nouvelle ressource utilise 129 tuiles et 35 blocs réservés à cet écran.
+Le code, les textes et les polices restent identiques à la v1.3.
+
+Utiliser la ROM GB v1.4 directement, ou appliquer son IPS à la ROM japonaise
+originale lamujp.gb (256 Ko), jamais à une ROM déjà traduite.
+SHA256 source : 65429bd2a36a33cd8ab696be2f485b647260b327039887931cec4775c718424f
+SHA256 ROM v1.4 : fbd8aa445fcf3b680343aa8ae8c4e9604e67e814a06a9dfd9f9313a7338a3f33
+
+La capture montre le résultat dans l’émulateur après un démarrage neuf.
+Le menu a été ouvert normalement et comparé pixel par pixel à la v1.3.
+L’éditeur fourni utilise ces mêmes sources et reconstruit la v1.4.
+Le logo a été créé avec l’outil intégré imagegen ; source et prompt joints.

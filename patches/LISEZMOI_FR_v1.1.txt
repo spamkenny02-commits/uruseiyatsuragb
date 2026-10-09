@@ -1,0 +1,15 @@
+MISS TOMOBIKI — FR v1.1
+
+Police dessinée pixel par pixel sur une grille 8 × 8.
+x/k et z sont distingués ; accents, chiffres et ponctuation sont harmonisés.
+La police des menus de démarrage et des crédits à tuiles est également mise à jour.
+Les textes, leur pagination et le code du jeu sont identiques à la v1.0.
+Les images telles que le sous-titre illustré conservent leur lettrage précédent.
+
+Utiliser la ROM GB v1.1 directement, ou appliquer son IPS à la ROM japonaise
+originale lamujp.gb (256 Ko). Ne pas appliquer l’IPS à une ROM déjà traduite.
+SHA256 source : 65429bd2a36a33cd8ab696be2f485b647260b327039887931cec4775c718424f
+SHA256 ROM v1.1 : f670431ce171102a89ece79b9b80bbb8b02f27597de27cb236c30e90f2753bb2
+
+La v1.0 reste disponible. Une capture d’émulateur et une comparaison des
+polices accompagnent cette version. L’éditeur fourni utilise cette même fonte.

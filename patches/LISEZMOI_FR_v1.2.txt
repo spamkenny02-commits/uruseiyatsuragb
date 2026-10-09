@@ -1,0 +1,11 @@
+MISS TOMOBIKI — FR v1.2
+
+Correction des majuscules accentuées : la barre supérieure des A et E est
+conservée sous l’accent. Le même principe est appliqué à Î et Ô.
+Cette version conserve les textes, le code et les autres glyphes de la v1.1.
+La police de l’éditeur est également mise à jour.
+
+Utiliser la ROM GB v1.2 directement, ou appliquer son IPS à la ROM japonaise
+originale lamujp.gb (256 Ko), jamais à une ROM déjà traduite.
+SHA256 source : 65429bd2a36a33cd8ab696be2f485b647260b327039887931cec4775c718424f
+SHA256 ROM v1.2 : a4674ff67b4b55d76f3ebf4360b29985ede6fbb0aa21cf39a52014d490572a77

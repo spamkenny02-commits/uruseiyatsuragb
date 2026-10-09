@@ -1,0 +1,53 @@
+ATELIER DE TRADUCTION — MISS TOMOBIKI
+
+Double-cliquer sur Lancer.cmd. Tout fonctionne localement, sans réseau.
+Prérequis : Python 3.10 ou ultérieur, Tkinter et Pillow.
+Python et Pillow sont déjà présents sur le poste utilisé pour ce projet.
+Sur un autre poste, installer Python, puis : py -3 -m pip install Pillow
+
+1. Charger la ROM japonaise originale lamujp.gb (256 Ko).
+   Seule la révision SHA256
+   65429bd2a36a33cd8ab696be2f485b647260b327039887931cec4775c718424f
+   est acceptée. Une ROM française ne sert pas de source d'extraction.
+2. Les 436 chaînes sont extraites à nouveau. La traduction française actuelle
+   et la nouvelle police pixel sont fournies comme point de départ.
+3. Rechercher une adresse, un texte français ou japonais. Modifier le français.
+   L'aperçu est recalculé après une courte pause. Si une erreur empêche la
+   compilation, l'ancien aperçu reste affiché et est signalé comme périmé.
+4. Pour les noms, modifier aussi les variantes de 9 et de 7 caractères.
+   Choisir le contexte dans la liste située au-dessus de l'aperçu.
+5. Sauver le projet JSON conserve textes ET noms courts. Exporter textes
+   crée l'extraction japonaise JSON, le TXT ID=texte et les noms courts JSON.
+   Importer TXT remplace les 436 textes, en conservant les noms courts.
+6. Créer ROM + IPS écrit une nouvelle ROM de 512 Ko et son patch.
+   L'original n'est pas modifié. Le projet n'inclut aucune ROM commerciale.
+
+NOTATION
+| ou retour dans l'éditeur : ligne suivante, 2 rangées de tuiles plus bas.
+[NL1] : une seule rangée plus bas.
+[WAIT] : attente du bouton, nouvelle page.
+<FB> : marge d'une case. <F2> : deux-points spécial des libellés.
+Les dialogues longs sont coupés et paginés automatiquement par le compilateur.
+Les libellés et les menus conservent leurs positions fixes. Ne pas effacer les
+espaces réservés aux curseurs, aux noms insérés et aux valeurs numériques.
+Les colonnes de statistiques et certains menus imposent le maintien exact
+des espaces, commandes et du nombre de cases : raccourcir un libellé exige
+de compléter avec des espaces. Cette restriction protège les champs voisins.
+Les lettres et accents disponibles sont ceux de la police française du jeu.
+
+APERÇU ET LIMITES
+L'aperçu lit les octets du texte et de la police dans la ROM reconstruite :
+il montre les lignes, marges et pages réellement encodées, avec une grille.
+Les caractères hors cadre sont rouges et bloquent la création de la ROM.
+Le compilateur vérifie aussi les noms courts, plusieurs curseurs de menus,
+les caractères disponibles et la capacité des banques de texte.
+L'aperçu représente le texte et le cadre, pas une émulation de l'écran entier.
+Les portraits, noms insérés et chiffres variables ne sont pas simulés.
+Les interfaces dont le texte partage une zone avec des valeurs exigent
+toujours une vérification en jeu après modification.
+L'éditeur concerne les 436 chaînes. Les textes intégrés aux images (titre,
+panneaux, certains crédits) se modifient dans les scripts sources fournis.
+La police est dessinée dans sources/pixel_font.py, chaque caractère sur 8×8.
+
+Un sous-dossier cache est utilisé temporairement pendant les compilations.
+Les erreurs de compilation ne suppriment pas votre projet ni vos traductions.

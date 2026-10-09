@@ -1,0 +1,7485 @@
+[
+  {
+    "id": "00E36B",
+    "offset": 58219,
+    "end": 58253,
+    "length": 34,
+    "jp": "   かいだんを、つかいますか？\n    はい      いいえ[END]",
+    "fr": "Changer d'étage ?|    Oui       Non",
+    "references": [
+      58175
+    ],
+    "raw": "00 00 00 10 0c fd 1a 38 37 71 1c 10 0c 29 17 10 77 fe 00 00 00 00 24 0c 00 00 00 00 00 00 0c 0c 0e ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Changer d'étage ?|    Oui       Non",
+    "target_bank": 16,
+    "target_address": 16384,
+    "target_length": 36
+  },
+  {
+    "id": "00E38D",
+    "offset": 58253,
+    "end": 58290,
+    "length": 37,
+    "jp": "  たたかう アイテム\n  いんちき ステータス\n  にげる  はなす[END]",
+    "fr": "  Att. Objet|  Ruse État|  Fuir Parle",
+    "references": [
+      58177
+    ],
+    "raw": "fb 00 1a 1a 10 0d 00 3d 3e 4f 5d fe fb 00 0c 38 1b 11 00 49 4f 73 4c 49 fe fb 00 20 fd 13 33 00 00 24 1f 17 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "  Att. Objet|  Ruse État|  Fuir Parle",
+    "target_bank": 16,
+    "target_address": 16420,
+    "target_length": 38
+  },
+  {
+    "id": "00E3B2",
+    "offset": 58290,
+    "end": 58332,
+    "length": 42,
+    "jp": "しらべる    アイテム\nいんちき    ステータス\nセーブ     そうび[END]",
+    "fr": "Voir    Objet|Ruse    État|Sauver  Équip.",
+    "references": [
+      58179
+    ],
+    "raw": "16 31 fd 27 33 00 00 00 00 3d 3e 4f 5d fe 0c 38 1b 11 00 00 00 00 49 4f 73 4c 49 fe 4a 73 fd 58 00 00 00 00 00 19 0d fd 25 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Voir    Objet|Ruse    État|Sauver  Équip.",
+    "target_bank": 16,
+    "target_address": 16458,
+    "target_length": 42
+  },
+  {
+    "id": "00E3DC",
+    "offset": 58332,
+    "end": 58365,
+    "length": 33,
+    "jp": "     ポイントの\n   ダメージを\n      うけた[END]",
+    "fr": "     pts|  de dégâts|    reçus",
+    "references": [
+      58181
+    ],
+    "raw": "fb fb 00 00 fb fa 5a 3e 6a 50 23 fe fb 00 00 fd 4c 5e 73 fd 48 37 fe fb 00 00 00 00 00 0d 13 1a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "     pts|  de dégâts|    reçus",
+    "target_bank": 16,
+    "target_address": 16500,
+    "target_length": 31
+  },
+  {
+    "id": "00E3FD",
+    "offset": 58365,
+    "end": 58396,
+    "length": 31,
+    "jp": "    ポイントの\n  ダメージを\n     あたえた[END]",
+    "fr": "    pts| de dégâts| infligés",
+    "references": [
+      58183
+    ],
+    "raw": "fb 00 00 fb fa 5a 3e 6a 50 23 fe 00 00 fd 4c 5e 73 fd 48 37 fe 00 00 00 00 00 0b 1a 0e 1a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "    pts| de dégâts| infligés",
+    "target_bank": 16,
+    "target_address": 16531,
+    "target_length": 29
+  },
+  {
+    "id": "00E41C",
+    "offset": 58396,
+    "end": 58409,
+    "length": 13,
+    "jp": "\n\n   の こうげき[END]",
+    "fr": "||  attaque !",
+    "references": [
+      58185
+    ],
+    "raw": "fe fe fb fb fb 23 00 14 0d fd 13 11 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "||  attaque !",
+    "target_bank": 16,
+    "target_address": 16560,
+    "target_length": 14
+  },
+  {
+    "id": "00E429",
+    "offset": 58409,
+    "end": 58421,
+    "length": 12,
+    "jp": "\n\n  の こうげき[END]",
+    "fr": "|| attaque !",
+    "references": [
+      58187
+    ],
+    "raw": "fe fe fb fb 23 00 14 0d fd 13 11 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "|| attaque !",
+    "target_bank": 16,
+    "target_address": 16574,
+    "target_length": 13
+  },
+  {
+    "id": "00E435",
+    "offset": 58421,
+    "end": 58437,
+    "length": 16,
+    "jp": "\n\n  こうげきをはずした[END]",
+    "fr": "||  Raté !",
+    "references": [
+      58189
+    ],
+    "raw": "fe fe fb fb 14 0d fd 13 11 37 24 fd 17 16 1a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "||  Raté !",
+    "target_bank": 16,
+    "target_address": 16587,
+    "target_length": 11
+  },
+  {
+    "id": "00E445",
+    "offset": 58437,
+    "end": 58452,
+    "length": 15,
+    "jp": "\n\n こうげきをはずした[END]",
+    "fr": "|| Raté !",
+    "references": [
+      58191
+    ],
+    "raw": "fe fe fb 14 0d fd 13 11 37 24 fd 17 16 1a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "|| Raté !",
+    "target_bank": 16,
+    "target_address": 16598,
+    "target_length": 10
+  },
+  {
+    "id": "00E454",
+    "offset": 58452,
+    "end": 58466,
+    "length": 14,
+    "jp": "\n\n  こうげきをよけた[END]",
+    "fr": "||  Esquivé !",
+    "references": [
+      58193
+    ],
+    "raw": "fe fe fb fb 14 0d fd 13 11 37 30 13 1a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "||  Esquivé !",
+    "target_bank": 16,
+    "target_address": 16608,
+    "target_length": 14
+  },
+  {
+    "id": "00E462",
+    "offset": 58466,
+    "end": 58479,
+    "length": 13,
+    "jp": "\n\n こうげきをよけた[END]",
+    "fr": "|| Esquivé !",
+    "references": [
+      58195
+    ],
+    "raw": "fe fe fb 14 0d fd 13 11 37 30 13 1a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "|| Esquivé !",
+    "target_bank": 16,
+    "target_address": 16622,
+    "target_length": 13
+  },
+  {
+    "id": "00E46F",
+    "offset": 58479,
+    "end": 58491,
+    "length": 12,
+    "jp": "ウーム なにもない！！[END]",
+    "fr": "Rien ici !",
+    "references": [
+      58197
+    ],
+    "raw": "3f 73 5d 00 1f 20 2d 1f 0c 76 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Rien ici !",
+    "target_bank": 16,
+    "target_address": 16635,
+    "target_length": 11
+  },
+  {
+    "id": "00E47B",
+    "offset": 58491,
+    "end": 58512,
+    "length": 21,
+    "jp": "やるきがつきた\nいしきが\nとおくなる[END]",
+    "fr": "Épuisé...|Je perds|conscience",
+    "references": [
+      58199,
+      62761
+    ],
+    "raw": "2e 33 11 fd 10 1c 11 1a fe 0c 16 11 fd 10 fe 1e 0f 12 1f 33 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Épuisé...|Je perds|conscience",
+    "target_bank": 16,
+    "target_address": 16646,
+    "target_length": 30
+  },
+  {
+    "id": "00E490",
+    "offset": 58512,
+    "end": 58519,
+    "length": 7,
+    "jp": "うごけない[END]",
+    "fr": "Immobi-|lisé",
+    "references": [
+      58201
+    ],
+    "raw": "0d fd 14 13 1f 0c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Immobi-|lisé",
+    "target_bank": 16,
+    "target_address": 16676,
+    "target_length": 13
+  },
+  {
+    "id": "00E497",
+    "offset": 58519,
+    "end": 58527,
+    "length": 8,
+    "jp": "あいてにならん[END]",
+    "fr": "Minable!",
+    "references": [
+      58203
+    ],
+    "raw": "0b 0c 1d 20 1f 31 38 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Minable!",
+    "target_bank": 16,
+    "target_address": 16689,
+    "target_length": 9
+  },
+  {
+    "id": "00E49F",
+    "offset": 58527,
+    "end": 58536,
+    "length": 9,
+    "jp": "よし おぼえた[END]",
+    "fr": "C'est noté",
+    "references": [
+      58205
+    ],
+    "raw": "30 16 fb 0f fd 28 0e 1a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "C'est noté",
+    "target_bank": 16,
+    "target_address": 16698,
+    "target_length": 11
+  },
+  {
+    "id": "00E4A8",
+    "offset": 58536,
+    "end": 58547,
+    "length": 11,
+    "jp": "なにもおこらなかった[END]",
+    "fr": "Aucun effet.",
+    "references": [
+      58207
+    ],
+    "raw": "1f 20 2d 0f 14 31 1f 10 3c 1a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Aucun effet.",
+    "target_bank": 16,
+    "target_address": 16709,
+    "target_length": 13
+  },
+  {
+    "id": "00E4B3",
+    "offset": 58547,
+    "end": 58560,
+    "length": 13,
+    "jp": "せいじょうにもどった[END]",
+    "fr": "État normal.",
+    "references": [
+      58209
+    ],
+    "raw": "18 0c fd 16 3b 0d 20 2d fd 1e 3c 1a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "État normal.",
+    "target_bank": 16,
+    "target_address": 16722,
+    "target_length": 13
+  },
+  {
+    "id": "00E4C0",
+    "offset": 58560,
+    "end": 58572,
+    "length": 12,
+    "jp": "やるきはぜんかいした[END]",
+    "fr": "PV au maximum",
+    "references": [
+      58211
+    ],
+    "raw": "2e 33 11 24 fd 18 38 10 0c 16 1a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "PV au maximum",
+    "target_bank": 16,
+    "target_address": 16735,
+    "target_length": 14
+  },
+  {
+    "id": "00E4CC",
+    "offset": 58572,
+    "end": 58589,
+    "length": 17,
+    "jp": "やるきが   までもどった[END]",
+    "fr": "PV:     au total",
+    "references": [
+      58213
+    ],
+    "raw": "2e 33 11 fd 10 fb fb fb 29 fd 1d 2d fd 1e 3c 1a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "PV:     au total",
+    "target_bank": 16,
+    "target_address": 16749,
+    "target_length": 17
+  },
+  {
+    "id": "00E4DD",
+    "offset": 58589,
+    "end": 58605,
+    "length": 16,
+    "jp": "あたるが\n\nを つかった！！[END]",
+    "fr": "Ataru :||!",
+    "references": [
+      58215
+    ],
+    "raw": "0b 1a 33 fd 10 fe fe 37 fb 1c 10 3c 1a 76 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Ataru :||!",
+    "target_bank": 16,
+    "target_address": 16766,
+    "target_length": 11
+  },
+  {
+    "id": "00E4ED",
+    "offset": 58605,
+    "end": 58620,
+    "length": 15,
+    "jp": "あいては\n\nを つかった！！[END]",
+    "fr": "Ennemi :||!",
+    "references": [
+      58217
+    ],
+    "raw": "0b 0c 1d 24 fe fe 37 fb 1c 10 3c 1a 76 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Ennemi :||!",
+    "target_bank": 16,
+    "target_address": 16777,
+    "target_length": 12
+  },
+  {
+    "id": "00E52C",
+    "offset": 58668,
+    "end": 58681,
+    "length": 13,
+    "jp": "いらっしゃいませ ！！！[END]",
+    "fr": "Bienvenue !",
+    "references": [
+      58620
+    ],
+    "raw": "0c 31 3c 16 39 0c 29 18 fb 76 76 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Bienvenue !",
+    "target_bank": 16,
+    "target_address": 16789,
+    "target_length": 12
+  },
+  {
+    "id": "00E539",
+    "offset": 58681,
+    "end": 58697,
+    "length": 16,
+    "jp": "どんな ごようですか ？[END]",
+    "fr": "Vous désirez ?",
+    "references": [
+      58622
+    ],
+    "raw": "fd 1e 38 1f fb fd 14 30 0d fd 1d 17 10 fb 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Vous désirez ?",
+    "target_bank": 16,
+    "target_address": 16801,
+    "target_length": 15
+  },
+  {
+    "id": "00E549",
+    "offset": 58697,
+    "end": 58720,
+    "length": 23,
+    "jp": "やすむ  どうぐ  ぶき  ぼうぐ[END]",
+    "fr": "Dodo Obj. Ar. Arm",
+    "references": [
+      58624
+    ],
+    "raw": "2e 17 2b fb fb fd 1e 0d fd 12 fb fb fd 26 11 fb fb fd 28 0d fd 12 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Dodo Obj. Ar. Arm",
+    "target_bank": 16,
+    "target_address": 16816,
+    "target_length": 18
+  },
+  {
+    "id": "00E560",
+    "offset": 58720,
+    "end": 58732,
+    "length": 12,
+    "jp": "おつかれのようですね[END]",
+    "fr": "Vous semblez las.",
+    "references": [
+      58626
+    ],
+    "raw": "0f 1c 10 34 23 30 0d fd 1d 17 22 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Vous semblez las.",
+    "target_bank": 16,
+    "target_address": 16834,
+    "target_length": 18
+  },
+  {
+    "id": "00E56C",
+    "offset": 58732,
+    "end": 58744,
+    "length": 12,
+    "jp": "ヲ     になります[END]",
+    "fr": "Y     au total",
+    "references": [
+      58628
+    ],
+    "raw": "69 fb fb fb fb fb 20 1f 32 29 17 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Y     au total",
+    "target_bank": 16,
+    "target_address": 16852,
+    "target_length": 15
+  },
+  {
+    "id": "00E578",
+    "offset": 58744,
+    "end": 58754,
+    "length": 10,
+    "jp": "よろしいですか？[END]",
+    "fr": "Ça vous va ?",
+    "references": [
+      58630
+    ],
+    "raw": "30 35 16 0c fd 1d 17 10 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Ça vous va ?",
+    "target_bank": 16,
+    "target_address": 16867,
+    "target_length": 13
+  },
+  {
+    "id": "00E582",
+    "offset": 58754,
+    "end": 58768,
+    "length": 14,
+    "jp": "     はい   いいえ[END]",
+    "fr": "     Oui  Non",
+    "references": [
+      58632
+    ],
+    "raw": "fb fb fb fb fb 24 0c fb fb fb 0c 0c 0e ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "     Oui  Non",
+    "target_bank": 16,
+    "target_address": 16880,
+    "target_length": 14
+  },
+  {
+    "id": "00E590",
+    "offset": 58768,
+    "end": 58780,
+    "length": 12,
+    "jp": "おかねがたりません！[END]",
+    "fr": "Pas assez de yens",
+    "references": [
+      58634
+    ],
+    "raw": "0f 10 22 fd 10 1a 32 29 18 38 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Pas assez de yens",
+    "target_bank": 16,
+    "target_address": 16894,
+    "target_length": 18
+  },
+  {
+    "id": "00E59C",
+    "offset": 58780,
+    "end": 58794,
+    "length": 14,
+    "jp": "では、ごゆっくり・・・[END]",
+    "fr": "Bon repos.",
+    "references": [
+      58636
+    ],
+    "raw": "fd 1d 24 71 fd 14 2f 3c 12 32 74 74 74 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Bon repos.",
+    "target_bank": 16,
+    "target_address": 16912,
+    "target_length": 11
+  },
+  {
+    "id": "00E5AA",
+    "offset": 58794,
+    "end": 58805,
+    "length": 11,
+    "jp": "よくねむれましたか？[END]",
+    "fr": "Bien dormi ?",
+    "references": [
+      58638
+    ],
+    "raw": "30 12 22 2b 34 29 16 1a 10 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Bien dormi ?",
+    "target_bank": 16,
+    "target_address": 16923,
+    "target_length": 13
+  },
+  {
+    "id": "00E5B5",
+    "offset": 58805,
+    "end": 58818,
+    "length": 13,
+    "jp": "またごりようください[END]",
+    "fr": "Revenez vite !",
+    "references": [
+      58640
+    ],
+    "raw": "29 1a fd 14 32 30 0d 12 fd 1a 15 0c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Revenez vite !",
+    "target_bank": 16,
+    "target_address": 16936,
+    "target_length": 15
+  },
+  {
+    "id": "00E5C2",
+    "offset": 58818,
+    "end": 58826,
+    "length": 8,
+    "jp": "なにかようか！[END]",
+    "fr": "Que veux-tu ?",
+    "references": [
+      58642
+    ],
+    "raw": "1f 20 10 30 0d 10 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Que veux-tu ?",
+    "target_bank": 16,
+    "target_address": 16951,
+    "target_length": 14
+  },
+  {
+    "id": "00E5CA",
+    "offset": 58826,
+    "end": 58842,
+    "length": 16,
+    "jp": "  かう   うる   でる[END]",
+    "fr": "Achat Vente Sort.",
+    "references": [
+      58644
+    ],
+    "raw": "fb fb 10 0d fb fb fb 0d 33 fb fb fb fd 1d 33 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Achat Vente Sort.",
+    "target_bank": 16,
+    "target_address": 16965,
+    "target_length": 18
+  },
+  {
+    "id": "00E5DA",
+    "offset": 58842,
+    "end": 58850,
+    "length": 8,
+    "jp": "どれにする？[END]",
+    "fr": "Lequel ?",
+    "references": [
+      58646
+    ],
+    "raw": "fd 1e 34 20 17 33 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Lequel ?",
+    "target_bank": 16,
+    "target_address": 16983,
+    "target_length": 9
+  },
+  {
+    "id": "00E5E2",
+    "offset": 58850,
+    "end": 58860,
+    "length": 10,
+    "jp": "これでいいのか？[END]",
+    "fr": "Valider ?",
+    "references": [
+      58648
+    ],
+    "raw": "14 34 fd 1d 0c 0c 23 10 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Valider ?",
+    "target_bank": 16,
+    "target_address": 16992,
+    "target_length": 10
+  },
+  {
+    "id": "00E5EC",
+    "offset": 58860,
+    "end": 58869,
+    "length": 9,
+    "jp": " はい  いいえ[END]",
+    "fr": " Oui Non",
+    "references": [
+      58650
+    ],
+    "raw": "fb 24 0c fb fb 0c 0c 0e ff",
+    "source_bank": 3,
+    "fr_encoded_layout": " Oui Non",
+    "target_bank": 16,
+    "target_address": 17002,
+    "target_length": 9
+  },
+  {
+    "id": "00E5F5",
+    "offset": 58869,
+    "end": 58879,
+    "length": 10,
+    "jp": "ありがとう！！！[END]",
+    "fr": "Merci !",
+    "references": [
+      58652
+    ],
+    "raw": "0b 32 fd 10 1e 0d 76 76 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Merci !",
+    "target_bank": 16,
+    "target_address": 17011,
+    "target_length": 8
+  },
+  {
+    "id": "00E5FF",
+    "offset": 58879,
+    "end": 58890,
+    "length": 11,
+    "jp": "おかねがたりない！[END]",
+    "fr": "Trop cher",
+    "references": [
+      58654
+    ],
+    "raw": "0f 10 22 fd 10 1a 32 1f 0c 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Trop cher",
+    "target_bank": 16,
+    "target_address": 17019,
+    "target_length": 10
+  },
+  {
+    "id": "00E60A",
+    "offset": 58890,
+    "end": 58897,
+    "length": 7,
+    "jp": "またな！！！[END]",
+    "fr": "À bientôt !",
+    "references": [
+      58656
+    ],
+    "raw": "29 1a 1f 76 76 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "À bientôt !",
+    "target_bank": 16,
+    "target_address": 17029,
+    "target_length": 12
+  },
+  {
+    "id": "00E611",
+    "offset": 58897,
+    "end": 58912,
+    "length": 15,
+    "jp": "こうしゃに、もどりますか？[END]",
+    "fr": "Retour au lycée ?",
+    "references": [
+      58658
+    ],
+    "raw": "14 0d 16 39 20 71 2d fd 1e 32 29 17 10 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Retour au lycée ?",
+    "target_bank": 16,
+    "target_address": 17041,
+    "target_length": 18
+  },
+  {
+    "id": "00E620",
+    "offset": 58912,
+    "end": 58926,
+    "length": 14,
+    "jp": "     はい   いいえ[END]",
+    "fr": "     Oui  Non",
+    "references": [
+      58660
+    ],
+    "raw": "fb fb fb fb fb 24 0c fb fb fb 0c 0c 0e ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "     Oui  Non",
+    "target_bank": 16,
+    "target_address": 17059,
+    "target_length": 14
+  },
+  {
+    "id": "00E62E",
+    "offset": 58926,
+    "end": 58933,
+    "length": 7,
+    "jp": "もうもてない[END]",
+    "fr": "Sac plein",
+    "references": [
+      58662
+    ],
+    "raw": "2d 0d 2d 1d 1f 0c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Sac plein",
+    "target_bank": 16,
+    "target_address": 17073,
+    "target_length": 10
+  },
+  {
+    "id": "00E635",
+    "offset": 58933,
+    "end": 58948,
+    "length": 15,
+    "jp": "    いいよ   いやだ[END]",
+    "fr": "    Oui   Non",
+    "references": [
+      58664
+    ],
+    "raw": "fb fb fb fb 0c 0c 30 fb fb fb 0c 2e fd 1a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "    Oui   Non",
+    "target_bank": 16,
+    "target_address": 17083,
+    "target_length": 14
+  },
+  {
+    "id": "00E644",
+    "offset": 58948,
+    "end": 58960,
+    "length": 12,
+    "jp": "いんちきがたりない！[END]",
+    "fr": "Ruse insuff.",
+    "references": [
+      58666
+    ],
+    "raw": "0c 38 1b 11 fd 10 1a 32 1f 0c 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Ruse insuff.",
+    "target_bank": 16,
+    "target_address": 17097,
+    "target_length": 13
+  },
+  {
+    "id": "00E6B6",
+    "offset": 59062,
+    "end": 59080,
+    "length": 18,
+    "jp": "どうぞ こちらがうけつけです[END]",
+    "fr": "Voici l'accueil.",
+    "references": [
+      58960
+    ],
+    "raw": "72 0d fd 19 00 14 1b 31 fd 10 0d 13 1c 13 fd 1d 17 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Voici l'accueil.",
+    "target_bank": 16,
+    "target_address": 17110,
+    "target_length": 17
+  },
+  {
+    "id": "00E6C8",
+    "offset": 59080,
+    "end": 59098,
+    "length": 18,
+    "jp": "ーもろぼし あたるーさまですね[END]",
+    "fr": "Ataru Moroboshi ?",
+    "references": [
+      58962
+    ],
+    "raw": "73 2d 35 fd 28 16 00 0b 1a 33 73 15 29 fd 1d 17 22 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Ataru Moroboshi ?",
+    "target_bank": 16,
+    "target_address": 17127,
+    "target_length": 18
+  },
+  {
+    "id": "00E6DA",
+    "offset": 59098,
+    "end": 59108,
+    "length": 10,
+    "jp": "ルールのせつめいを[END]",
+    "fr": "Voici les règles",
+    "references": [
+      58964
+    ],
+    "raw": "65 73 65 23 18 1c 2c 0c 37 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Voici les règles",
+    "target_bank": 16,
+    "target_address": 17145,
+    "target_length": 17
+  },
+  {
+    "id": "00E6E4",
+    "offset": 59108,
+    "end": 59119,
+    "length": 11,
+    "jp": "させていただきます[END]",
+    "fr": "du concours.",
+    "references": [
+      58966
+    ],
+    "raw": "15 18 1d 0c 1a fd 1a 11 29 17 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "du concours.",
+    "target_bank": 16,
+    "target_address": 17162,
+    "target_length": 13
+  },
+  {
+    "id": "00E6EF",
+    "offset": 59119,
+    "end": 59137,
+    "length": 18,
+    "jp": "こんかいの ミスともびきこうこう[END]",
+    "fr": "Le concours Miss",
+    "references": [
+      58968
+    ],
+    "raw": "14 38 10 0c 23 00 5c 49 1e 2d fd 25 11 14 0d 14 0d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Le concours Miss",
+    "target_bank": 16,
+    "target_address": 17175,
+    "target_length": 17
+  },
+  {
+    "id": "00E701",
+    "offset": 59137,
+    "end": 59144,
+    "length": 7,
+    "jp": "コンテストは[END]",
+    "fr": "Tomobiki sera",
+    "references": [
+      58970
+    ],
+    "raw": "46 6a 4f 49 50 24 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Tomobiki sera",
+    "target_bank": 16,
+    "target_address": 17192,
+    "target_length": 14
+  },
+  {
+    "id": "00E708",
+    "offset": 59144,
+    "end": 59162,
+    "length": 18,
+    "jp": "しゃしんによって せんこうされます[END]",
+    "fr": "jugé sur photos.",
+    "references": [
+      58972
+    ],
+    "raw": "16 39 16 38 20 30 3c 1d 00 18 38 14 0d 15 34 29 17 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "jugé sur photos.",
+    "target_bank": 16,
+    "target_address": 17206,
+    "target_length": 17
+  },
+  {
+    "id": "00E71A",
+    "offset": 59162,
+    "end": 59172,
+    "length": 10,
+    "jp": "さんかしゃのかたは[END]",
+    "fr": "Les participants",
+    "references": [
+      58974
+    ],
+    "raw": "15 38 10 16 39 23 10 1a 24 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Les participants",
+    "target_bank": 16,
+    "target_address": 17223,
+    "target_length": 17
+  },
+  {
+    "id": "00E724",
+    "offset": 59172,
+    "end": 59187,
+    "length": 15,
+    "jp": "めいきゅうに かいそうされた[END]",
+    "fr": "exploreront le",
+    "references": [
+      58976
+    ],
+    "raw": "2c 0c 11 3a 0d 20 00 10 0c 19 0d 15 34 1a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "exploreront le",
+    "target_bank": 16,
+    "target_address": 17240,
+    "target_length": 15
+  },
+  {
+    "id": "00E733",
+    "offset": 59187,
+    "end": 59202,
+    "length": 15,
+    "jp": "こうしゃないを あるきまわり[END]",
+    "fr": "lycée transformé",
+    "references": [
+      58978
+    ],
+    "raw": "14 0d 16 39 1f 0c 37 00 0b 33 11 29 36 32 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "lycée transformé",
+    "target_bank": 16,
+    "target_address": 17255,
+    "target_length": 17
+  },
+  {
+    "id": "00E742",
+    "offset": 59202,
+    "end": 59214,
+    "length": 12,
+    "jp": "どこかに かくれている[END]",
+    "fr": "en labyrinthe",
+    "references": [
+      58980
+    ],
+    "raw": "72 14 10 20 00 10 12 34 1d 0c 33 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "en labyrinthe",
+    "target_bank": 16,
+    "target_address": 17272,
+    "target_length": 14
+  },
+  {
+    "id": "00E74E",
+    "offset": 59214,
+    "end": 59226,
+    "length": 12,
+    "jp": "ミスともびきこうほの[END]",
+    "fr": "pour trouver les",
+    "references": [
+      58982
+    ],
+    "raw": "5c 49 1e 2d fd 25 11 14 0d 28 23 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "pour trouver les",
+    "target_bank": 16,
+    "target_address": 17286,
+    "target_length": 17
+  },
+  {
+    "id": "00E75A",
+    "offset": 59226,
+    "end": 59242,
+    "length": 16,
+    "jp": "おんなのこを さがしだして[END]",
+    "fr": "candidates et",
+    "references": [
+      58984
+    ],
+    "raw": "0f 38 1f 23 14 37 00 15 fd 10 16 fd 1a 16 1d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "candidates et",
+    "target_bank": 16,
+    "target_address": 17303,
+    "target_length": 14
+  },
+  {
+    "id": "00E76A",
+    "offset": 59242,
+    "end": 59257,
+    "length": 15,
+    "jp": "しゃしんを とってください[END]",
+    "fr": "les photographier",
+    "references": [
+      58986
+    ],
+    "raw": "16 39 16 38 37 00 1e 3c 1d 12 fd 1a 15 0c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "les photographier",
+    "target_bank": 16,
+    "target_address": 17317,
+    "target_length": 18
+  },
+  {
+    "id": "00E779",
+    "offset": 59257,
+    "end": 59276,
+    "length": 19,
+    "jp": "また ほかのライバルのかたがたは[END]",
+    "fr": "Vos rivaux ont",
+    "references": [
+      58988
+    ],
+    "raw": "29 1a 00 28 10 23 63 3e fd 56 65 23 10 1a fd 10 1a 24 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Vos rivaux ont",
+    "target_bank": 16,
+    "target_address": 17335,
+    "target_length": 15
+  },
+  {
+    "id": "00E78C",
+    "offset": 59276,
+    "end": 59287,
+    "length": 11,
+    "jp": "かなりのそうびを [END]",
+    "fr": "de bonnes armes",
+    "references": [
+      58990
+    ],
+    "raw": "10 1f 32 23 19 0d fd 25 37 00 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "de bonnes armes",
+    "target_bank": 16,
+    "target_address": 17350,
+    "target_length": 16
+  },
+  {
+    "id": "00E797",
+    "offset": 59287,
+    "end": 59297,
+    "length": 10,
+    "jp": "すでではとても[END]",
+    "fr": "À mains nues,",
+    "references": [
+      58994
+    ],
+    "raw": "17 fd 1d fd 1d 24 1e 1d 2d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "À mains nues,",
+    "target_bank": 16,
+    "target_address": 17366,
+    "target_length": 14
+  },
+  {
+    "id": "00E7A1",
+    "offset": 59297,
+    "end": 59311,
+    "length": 14,
+    "jp": "かなわないと おもわれます[END]",
+    "fr": "vous perdrez !",
+    "references": [
+      58996
+    ],
+    "raw": "10 1f 36 1f 0c 1e 00 0f 2d 36 34 29 17 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "vous perdrez !",
+    "target_bank": 16,
+    "target_address": 17380,
+    "target_length": 15
+  },
+  {
+    "id": "00E7AF",
+    "offset": 59311,
+    "end": 59323,
+    "length": 12,
+    "jp": "ここ うけつけにおいて[END]",
+    "fr": "Ici, à l'accueil,",
+    "references": [
+      58998
+    ],
+    "raw": "14 14 00 0d 13 1c 13 20 0f 0c 1d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Ici, à l'accueil,",
+    "target_bank": 16,
+    "target_address": 17395,
+    "target_length": 18
+  },
+  {
+    "id": "00E7BB",
+    "offset": 59323,
+    "end": 59333,
+    "length": 10,
+    "jp": "かいせつされている[END]",
+    "fr": "vous trouverez",
+    "references": [
+      59000
+    ],
+    "raw": "10 0c 18 1c 15 34 1d 0c 33 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "vous trouverez",
+    "target_bank": 16,
+    "target_address": 17413,
+    "target_length": 15
+  },
+  {
+    "id": "00E7C5",
+    "offset": 59333,
+    "end": 59352,
+    "length": 19,
+    "jp": "ーぶきやーーぼうぐやーなどで[END]",
+    "fr": "armes et armures.",
+    "references": [
+      59002
+    ],
+    "raw": "73 fd 26 11 2e 73 73 fd 28 0d fd 12 2e 73 1f 72 fd 1d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "armes et armures.",
+    "target_bank": 16,
+    "target_address": 17428,
+    "target_length": 18
+  },
+  {
+    "id": "00E7D8",
+    "offset": 59352,
+    "end": 59366,
+    "length": 14,
+    "jp": "そうびを ととのえてから[END]",
+    "fr": "Équipez-vous bien",
+    "references": [
+      59004
+    ],
+    "raw": "19 0d fd 25 37 00 1e 1e 23 0e 1d 10 31 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Équipez-vous bien",
+    "target_bank": 16,
+    "target_address": 17446,
+    "target_length": 18
+  },
+  {
+    "id": "00E7E6",
+    "offset": 59366,
+    "end": 59380,
+    "length": 14,
+    "jp": "ごにゅうじょうください[END]",
+    "fr": "avant d'entrer !",
+    "references": [
+      59006
+    ],
+    "raw": "fd 14 20 3a 0d 70 3b 0d 12 fd 1a 15 0c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "avant d'entrer !",
+    "target_bank": 16,
+    "target_address": 17464,
+    "target_length": 17
+  },
+  {
+    "id": "00E7F4",
+    "offset": 59380,
+    "end": 59386,
+    "length": 6,
+    "jp": "ほかにも [END]",
+    "fr": "Nous avons aussi",
+    "references": [
+      59008
+    ],
+    "raw": "28 10 20 2d 00 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Nous avons aussi",
+    "target_bank": 16,
+    "target_address": 17481,
+    "target_length": 17
+  },
+  {
+    "id": "00E7FA",
+    "offset": 59386,
+    "end": 59396,
+    "length": 10,
+    "jp": "などを せっちして[END]",
+    "fr": "pour vous aider.",
+    "references": [
+      59012
+    ],
+    "raw": "1f 72 37 00 18 3c 1b 16 1d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "pour vous aider.",
+    "target_bank": 16,
+    "target_address": 17498,
+    "target_length": 17
+  },
+  {
+    "id": "00E804",
+    "offset": 59396,
+    "end": 59405,
+    "length": 9,
+    "jp": "あなたのおこしを[END]",
+    "fr": "Venez donc",
+    "references": [
+      59014
+    ],
+    "raw": "0b 1f 1a 23 0f 14 16 37 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Venez donc",
+    "target_bank": 16,
+    "target_address": 17515,
+    "target_length": 11
+  },
+  {
+    "id": "00E80D",
+    "offset": 59405,
+    "end": 59416,
+    "length": 11,
+    "jp": "おまちしてますので[END]",
+    "fr": "nous voir",
+    "references": [
+      59016
+    ],
+    "raw": "0f 29 1b 16 1d 29 17 23 fd 1d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "nous voir",
+    "target_bank": 16,
+    "target_address": 17526,
+    "target_length": 10
+  },
+  {
+    "id": "00E818",
+    "offset": 59416,
+    "end": 59429,
+    "length": 13,
+    "jp": "りようしてくださいね♥[END]",
+    "fr": "et en profiter !♥",
+    "references": [
+      59018
+    ],
+    "raw": "32 30 0d 16 1d 12 fd 1a 15 0c 22 79 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "et en profiter !♥",
+    "target_bank": 16,
+    "target_address": 17536,
+    "target_length": 18
+  },
+  {
+    "id": "00E825",
+    "offset": 59429,
+    "end": 59440,
+    "length": 11,
+    "jp": "なお めんどうくんの[END]",
+    "fr": "Grâce à la",
+    "references": [
+      59034
+    ],
+    "raw": "1f 0f 00 2c 38 72 0d 12 38 23 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Grâce à la",
+    "target_bank": 16,
+    "target_address": 17554,
+    "target_length": 11
+  },
+  {
+    "id": "00E830",
+    "offset": 59440,
+    "end": 59449,
+    "length": 9,
+    "jp": "ごこういにより[END]",
+    "fr": "bonté de Mendô,",
+    "references": [
+      59036
+    ],
+    "raw": "fd 14 14 0d 0c 20 30 32 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "bonté de Mendô,",
+    "target_bank": 16,
+    "target_address": 17565,
+    "target_length": 16
+  },
+  {
+    "id": "00E839",
+    "offset": 59449,
+    "end": 59460,
+    "length": 11,
+    "jp": "さいしんがたカメラ[END]",
+    "fr": "nous vous prêtons",
+    "references": [
+      59038
+    ],
+    "raw": "15 0c 16 38 fd 10 1a 42 5e 63 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "nous vous prêtons",
+    "target_bank": 16,
+    "target_address": 17581,
+    "target_length": 18
+  },
+  {
+    "id": "00E844",
+    "offset": 59460,
+    "end": 59470,
+    "length": 10,
+    "jp": "オクトパス55と[END]",
+    "fr": "un Octopus 55,",
+    "references": [
+      59040
+    ],
+    "raw": "41 44 50 fa 56 49 06 06 1e ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "un Octopus 55,",
+    "target_bank": 16,
+    "target_address": 17599,
+    "target_length": 15
+  },
+  {
+    "id": "00E84E",
+    "offset": 59470,
+    "end": 59481,
+    "length": 11,
+    "jp": "めんどうけとくせいの[END]",
+    "fr": "un appareil neuf,",
+    "references": [
+      59042
+    ],
+    "raw": "2c 38 72 0d 13 1e 12 18 0c 23 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "un appareil neuf,",
+    "target_bank": 16,
+    "target_address": 17614,
+    "target_length": 18
+  },
+  {
+    "id": "00E859",
+    "offset": 59481,
+    "end": 59491,
+    "length": 10,
+    "jp": "フィルム 5まいを[END]",
+    "fr": "et 5 pellicules",
+    "references": [
+      59044
+    ],
+    "raw": "58 6b 65 5d 00 06 29 0c 37 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "et 5 pellicules",
+    "target_bank": 16,
+    "target_address": 17632,
+    "target_length": 16
+  },
+  {
+    "id": "00E863",
+    "offset": 59491,
+    "end": 59499,
+    "length": 8,
+    "jp": "かしだします[END]",
+    "fr": "de chez Mendô.",
+    "references": [
+      59046
+    ],
+    "raw": "10 16 fd 1a 16 29 17 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "de chez Mendô.",
+    "target_bank": 16,
+    "target_address": 17648,
+    "target_length": 15
+  },
+  {
+    "id": "00E86B",
+    "offset": 59499,
+    "end": 59514,
+    "length": 15,
+    "jp": "どうぞ おつかいください[END]",
+    "fr": "Servez-vous-en !",
+    "references": [
+      59048
+    ],
+    "raw": "72 0d fd 19 00 0f 1c 10 0c 12 fd 1a 15 0c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Servez-vous-en !",
+    "target_bank": 16,
+    "target_address": 17663,
+    "target_length": 17
+  },
+  {
+    "id": "00E87A",
+    "offset": 59514,
+    "end": 59527,
+    "length": 13,
+    "jp": "では こちらへどうぞ[END]",
+    "fr": "Venez par ici.",
+    "references": [
+      59060
+    ],
+    "raw": "fd 1d 24 00 14 1b 31 27 72 0d fd 19 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Venez par ici.",
+    "target_bank": 16,
+    "target_address": 17680,
+    "target_length": 15
+  },
+  {
+    "id": "00E887",
+    "offset": 59527,
+    "end": 59539,
+    "length": 12,
+    "jp": "みにつけていますので[END]",
+    "fr": "dès le départ.",
+    "references": [
+      58992
+    ],
+    "raw": "2a 20 1c 13 1d 0c 29 17 23 fd 1d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "dès le départ.",
+    "target_bank": 16,
+    "target_address": 17695,
+    "target_length": 15
+  },
+  {
+    "id": "00E893",
+    "offset": 59539,
+    "end": 59556,
+    "length": 17,
+    "jp": "ーきゅうけいじょーーどうぐやー[END]",
+    "fr": "auberge et bazar",
+    "references": [
+      59010
+    ],
+    "raw": "73 11 3a 0d 13 0c 70 3b 73 73 72 0d fd 12 2e 73 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "auberge et bazar",
+    "target_bank": 16,
+    "target_address": 17710,
+    "target_length": 17
+  },
+  {
+    "id": "00E8A4",
+    "offset": 59556,
+    "end": 59567,
+    "length": 11,
+    "jp": "なおゲームちゅうに[END]",
+    "fr": "Pendant le jeu,",
+    "references": [
+      59050
+    ],
+    "raw": "1f 0f fd 45 73 5d 1b 3a 0d 20 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Pendant le jeu,",
+    "target_bank": 16,
+    "target_address": 17727,
+    "target_length": 16
+  },
+  {
+    "id": "00E8AF",
+    "offset": 59567,
+    "end": 59580,
+    "length": 13,
+    "jp": "スタートボタンをおすと[END]",
+    "fr": "appuyez sur START",
+    "references": [
+      59052
+    ],
+    "raw": "49 4c 73 50 fd 5a 4c 6a 37 0f 17 1e ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "appuyez sur START",
+    "target_bank": 16,
+    "target_address": 17743,
+    "target_length": 18
+  },
+  {
+    "id": "00E8BC",
+    "offset": 59580,
+    "end": 59598,
+    "length": 18,
+    "jp": "マップをみることができますよ[END]",
+    "fr": "pour voir le plan",
+    "references": [
+      59054
+    ],
+    "raw": "5b 6f fa 58 37 2a 33 14 1e fd 10 fd 1d 11 29 17 30 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "pour voir le plan",
+    "target_bank": 16,
+    "target_address": 17761,
+    "target_length": 18
+  },
+  {
+    "id": "00E8CE",
+    "offset": 59598,
+    "end": 59608,
+    "length": 10,
+    "jp": "こまめなセーブも[END]",
+    "fr": "Pensez aussi à",
+    "references": [
+      59056
+    ],
+    "raw": "14 29 2c 1f 4a 73 fd 58 2d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Pensez aussi à",
+    "target_bank": 16,
+    "target_address": 17779,
+    "target_length": 15
+  },
+  {
+    "id": "00E8D8",
+    "offset": 59608,
+    "end": 59623,
+    "length": 15,
+    "jp": "わすれないでくださいね♥[END]",
+    "fr": "sauver souvent !♥",
+    "references": [
+      59058
+    ],
+    "raw": "36 17 34 1f 0c fd 1d 12 fd 1a 15 0c 22 79 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "sauver souvent !♥",
+    "target_bank": 16,
+    "target_address": 17794,
+    "target_length": 18
+  },
+  {
+    "id": "00E8E7",
+    "offset": 59623,
+    "end": 59641,
+    "length": 18,
+    "jp": "アイテムは 8コしかもてませんが[END]",
+    "fr": "8 objets maximum.",
+    "references": [
+      59020
+    ],
+    "raw": "3d 3e 4f 5d 24 00 09 46 16 10 2d 1d 29 18 38 fd 10 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "8 objets maximum.",
+    "target_bank": 16,
+    "target_address": 17812,
+    "target_length": 18
+  },
+  {
+    "id": "00E8F9",
+    "offset": 59641,
+    "end": 59651,
+    "length": 10,
+    "jp": "こうしゃないでの[END]",
+    "fr": "dans le lycée,",
+    "references": [
+      59022
+    ],
+    "raw": "14 0d 16 39 1f 0c fd 1d 23 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "dans le lycée,",
+    "target_bank": 16,
+    "target_address": 17830,
+    "target_length": 15
+  },
+  {
+    "id": "00E903",
+    "offset": 59651,
+    "end": 59661,
+    "length": 10,
+    "jp": "きんしされています[END]",
+    "fr": "est interdit.",
+    "references": [
+      59026
+    ],
+    "raw": "11 38 16 15 34 1d 0c 29 17 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "est interdit.",
+    "target_bank": 16,
+    "target_address": 17845,
+    "target_length": 14
+  },
+  {
+    "id": "00E90D",
+    "offset": 59661,
+    "end": 59672,
+    "length": 11,
+    "jp": "いらなくなったものは[END]",
+    "fr": "Vos objets en trop",
+    "references": [
+      59028
+    ],
+    "raw": "0c 31 1f 12 1f 3c 1a 2d 23 24 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Vos objets en trop",
+    "target_bank": 16,
+    "target_address": 17859,
+    "target_length": 19
+  },
+  {
+    "id": "00E918",
+    "offset": 59672,
+    "end": 59687,
+    "length": 15,
+    "jp": "おみせでかいとりますので[END]",
+    "fr": "nos boutiques",
+    "references": [
+      59030
+    ],
+    "raw": "0f 2a 18 fd 1d 10 0c 1e 32 29 17 23 fd 1d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "nos boutiques",
+    "target_bank": 16,
+    "target_address": 17878,
+    "target_length": 14
+  },
+  {
+    "id": "00E927",
+    "offset": 59687,
+    "end": 59699,
+    "length": 12,
+    "jp": "おもうしつけください[END]",
+    "fr": "les rachèteront.",
+    "references": [
+      59032
+    ],
+    "raw": "0f 2d 0d 16 1c 13 12 fd 1a 15 0c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "les rachèteront.",
+    "target_bank": 16,
+    "target_address": 17892,
+    "target_length": 17
+  },
+  {
+    "id": "00E933",
+    "offset": 59699,
+    "end": 59711,
+    "length": 12,
+    "jp": "アイテムのなげすては[END]",
+    "fr": "Jeter vos objets",
+    "references": [
+      59024
+    ],
+    "raw": "3d 3e 4f 5d 23 1f fd 13 17 1d 24 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Jeter vos objets",
+    "target_bank": 16,
+    "target_address": 17909,
+    "target_length": 17
+  },
+  {
+    "id": "00E959",
+    "offset": 59737,
+    "end": 59770,
+    "length": 33,
+    "jp": "[NL1] ー あたる ー\n ラム\n フラフラしとらんで\n はやくこい[END]",
+    "fr": "Ataru|Lamu !|Arrête de|traîner et|viens !",
+    "references": [
+      59711
+    ],
+    "raw": "fc fb 73 fb 0b 1a 33 fb 73 fe fb 63 5d fe fb 58 63 58 63 16 1e 31 38 fd 1d fe fb 24 2e 12 14 0c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Ataru|Lamu !|Arrête de|traîner et|viens !",
+    "target_bank": 16,
+    "target_address": 17926,
+    "target_length": 42
+  },
+  {
+    "id": "00E97A",
+    "offset": 59770,
+    "end": 59797,
+    "length": 27,
+    "jp": "\n ー ラム ー\n ダーリンに\n あわせてるっちゃ[END]",
+    "fr": "Lamu|Je te suis,|chéri !",
+    "references": [
+      59713
+    ],
+    "raw": "fe fb 73 fb 63 5d fb 73 fe fb fd 4c 73 64 6a 20 fe fb 0b 36 18 1d 33 3c 1b 39 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Lamu|Je te suis,|chéri !",
+    "target_bank": 16,
+    "target_address": 17968,
+    "target_length": 25
+  },
+  {
+    "id": "00E995",
+    "offset": 59797,
+    "end": 59816,
+    "length": 19,
+    "jp": "\n[NL1] ー あたる ー\n わるかったな[END]",
+    "fr": "Ataru|Désolé !",
+    "references": [
+      59715
+    ],
+    "raw": "fe fc fb 73 fb 0b 1a 33 fb 73 fe fb 36 33 10 3c 1a 1f ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Ataru|Désolé !",
+    "target_bank": 16,
+    "target_address": 17993,
+    "target_length": 15
+  },
+  {
+    "id": "00E9A8",
+    "offset": 59816,
+    "end": 59836,
+    "length": 20,
+    "jp": "\n[NL1] ー ラム ー\n はやくいくっちゃ[END]",
+    "fr": "Lamu|Allons-y !",
+    "references": [
+      59717
+    ],
+    "raw": "fe fc fb 73 fb 63 5d fb 73 fe fb 24 2e 12 0c 12 3c 1b 39 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Lamu|Allons-y !",
+    "target_bank": 16,
+    "target_address": 18008,
+    "target_length": 16
+  },
+  {
+    "id": "00E9BC",
+    "offset": 59836,
+    "end": 59868,
+    "length": 32,
+    "jp": "\n ー ラム ー\n がっこうのほうが\n さわがしいっちゃ[END]",
+    "fr": "Lamu|Quel bruit|au lycée !",
+    "references": [
+      59721
+    ],
+    "raw": "fe fb 73 fb 63 5d fb 73 fe fb fd 10 3c 14 0d 23 28 0d fd 10 fe fb 15 36 fd 10 16 0c 3c 1b 39 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Lamu|Quel bruit|au lycée !",
+    "target_bank": 16,
+    "target_address": 18024,
+    "target_length": 27
+  },
+  {
+    "id": "00E9DC",
+    "offset": 59868,
+    "end": 59892,
+    "length": 24,
+    "jp": "\n[NL1] ー あたる ー\n なにがあったんだ？[END]",
+    "fr": "Ataru|Que se|passe-t-il ?",
+    "references": [
+      59723
+    ],
+    "raw": "fe fc fb 73 fb 0b 1a 33 fb 73 fe fb 1f 20 fd 10 0b 3c 1a 38 fd 1a 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Ataru|Que se|passe-t-il ?",
+    "target_bank": 16,
+    "target_address": 18051,
+    "target_length": 26
+  },
+  {
+    "id": "00E9F4",
+    "offset": 59892,
+    "end": 59926,
+    "length": 34,
+    "jp": "[NL1] ー あたる ー\n おまえに\n いわれんでも\n わかっとるわい[END]",
+    "fr": "Ataru|Je sais !|Pas besoin|de le dire.",
+    "references": [
+      59719
+    ],
+    "raw": "fc fb 73 fb 0b 1a 33 fb 73 fe fb 0f 29 0e 20 fe fb 0c 36 34 38 fd 1d 2d fe fb 36 10 3c 1e 33 36 0c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Ataru|Je sais !|Pas besoin|de le dire.",
+    "target_bank": 16,
+    "target_address": 18077,
+    "target_length": 39
+  },
+  {
+    "id": "00EA16",
+    "offset": 59926,
+    "end": 59961,
+    "length": 35,
+    "jp": "[NL1] ー あたる ー\n どわっ！\n ラムなんちゅうこと\n するんじゃい[END]",
+    "fr": "Ataru|Aïe ! Lamu,|qu'est-ce|qui te prend ?",
+    "references": [
+      59725
+    ],
+    "raw": "fc fb 73 fb 0b 1a 33 fb 73 fe fb 72 36 3c 76 fe fb 63 5d 1f 38 1b 3a 0d 14 1e fe fb 17 33 38 70 39 0c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Ataru|Aïe ! Lamu,|qu'est-ce|qui te prend ?",
+    "target_bank": 16,
+    "target_address": 18116,
+    "target_length": 43
+  },
+  {
+    "id": "00EA39",
+    "offset": 59961,
+    "end": 59995,
+    "length": 34,
+    "jp": "[NL1] ー ラム ー\n ダーリンは\n さんかしなくて\n いいっちゃ！[END]",
+    "fr": "Lamu|Chéri, pas|besoin de|participer !",
+    "references": [
+      59727
+    ],
+    "raw": "fc fb 73 fb 63 5d fb 73 fe fb fd 4c 73 64 6a 24 fe fb 15 38 10 16 1f 12 1d fe fb 0c 0c 3c 1b 39 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Lamu|Chéri, pas|besoin de|participer !",
+    "target_bank": 16,
+    "target_address": 18159,
+    "target_length": 39
+  },
+  {
+    "id": "00EA5B",
+    "offset": 59995,
+    "end": 60042,
+    "length": 47,
+    "jp": " ー あたる ー\n おろかものめ\n そんなことで\n おとこのロマンを\n あきらめられるか！[END]",
+    "fr": "Ataru|Idiote !|Renoncer à|mon rêve|d'homme ?|Jamais !",
+    "references": [
+      59729
+    ],
+    "raw": "fb 73 fb 0b 1a 33 fb 73 fe fb 0f 35 10 2d 23 2c fe fb 19 38 1f 14 1e fd 1d fe fb 0f 1e 14 23 67 5b 6a 37 fe fb 0b 11 31 2c 31 34 33 10 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Ataru|Idiote !|Renoncer à|mon rêve|d'homme ?|Jamais !",
+    "target_bank": 16,
+    "target_address": 18198,
+    "target_length": 54
+  },
+  {
+    "id": "00EA8A",
+    "offset": 60042,
+    "end": 60085,
+    "length": 43,
+    "jp": "[NL1]ー ラム ー\nダーリンまつっちゃ\nいかりのでんげきを\nおみまいするっちゃよ！[END]",
+    "fr": "Lamu|Attends !|Tu vas|prendre le|jus !",
+    "references": [
+      59731
+    ],
+    "raw": "fc 73 fb 63 5d fb 73 fe fd 4c 73 64 6a 29 1c 3c 1b 39 fe 0c 10 32 23 fd 1d 38 fd 13 11 37 fe 0f 2a 29 0c 17 33 3c 1b 39 30 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Lamu|Attends !|Tu vas|prendre le|jus !",
+    "target_bank": 16,
+    "target_address": 18252,
+    "target_length": 39
+  },
+  {
+    "id": "00EAB5",
+    "offset": 60085,
+    "end": 60127,
+    "length": 42,
+    "jp": "[NL1]こうして あたるは\nミスともびきこうこう\nコンテストに\nさんかするのであった[END]",
+    "fr": "Et Ataru|participa|au concours|de Miss|Tomobiki.",
+    "references": [
+      59733
+    ],
+    "raw": "fc 14 0d 16 1d 00 0b 1a 33 24 fe 5c 49 1e 2d fd 25 11 14 0d 14 0d fe 46 6a 4f 49 50 20 fe 15 38 10 17 33 23 fd 1d 0b 3c 1a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Et Ataru|participa|au concours|de Miss|Tomobiki.",
+    "target_bank": 16,
+    "target_address": 18291,
+    "target_length": 49
+  },
+  {
+    "id": "00EADF",
+    "offset": 60127,
+    "end": 60163,
+    "length": 36,
+    "jp": "[NL1] ー メガネ ー\n あたるっ\n たったいへんだー\n あれをみろっ[END]",
+    "fr": "Megane|Ataru !|C'est grave !|Regarde !",
+    "references": [
+      59735
+    ],
+    "raw": "fc fb 73 fb 5e fd 42 54 fb 73 fe fb 0b 1a 33 3c fe fb 1a 3c 1a 0c 27 38 fd 1a 73 fe fb 0b 34 37 2a 35 3c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Megane|Ataru !|C'est grave !|Regarde !",
+    "target_bank": 16,
+    "target_address": 18340,
+    "target_length": 39
+  },
+  {
+    "id": "00EB17",
+    "offset": 60183,
+    "end": 60190,
+    "length": 7,
+    "jp": "せいじょう[END]",
+    "fr": "Normal",
+    "references": [
+      60163
+    ],
+    "raw": "18 0c fd 16 3b 0d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Normal",
+    "target_bank": 16,
+    "target_address": 18379,
+    "target_length": 7
+  },
+  {
+    "id": "00EB1E",
+    "offset": 60190,
+    "end": 60194,
+    "length": 4,
+    "jp": "どく[END]",
+    "fr": "Poison",
+    "references": [
+      60165
+    ],
+    "raw": "fd 1e 12 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Poison",
+    "target_bank": 16,
+    "target_address": 18386,
+    "target_length": 7
+  },
+  {
+    "id": "00EB22",
+    "offset": 60194,
+    "end": 60197,
+    "length": 3,
+    "jp": "マヒ[END]",
+    "fr": "Paralysé",
+    "references": [
+      60167
+    ],
+    "raw": "5b 57 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Paralysé",
+    "target_bank": 16,
+    "target_address": 18393,
+    "target_length": 9
+  },
+  {
+    "id": "00EB25",
+    "offset": 60197,
+    "end": 60203,
+    "length": 6,
+    "jp": "きょうこう[END]",
+    "fr": "Panique",
+    "references": [
+      60169
+    ],
+    "raw": "11 3b 0d 14 0d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Panique",
+    "target_bank": 16,
+    "target_address": 18402,
+    "target_length": 8
+  },
+  {
+    "id": "00EB2B",
+    "offset": 60203,
+    "end": 60209,
+    "length": 6,
+    "jp": "びょうき[END]",
+    "fr": "Malade",
+    "references": [
+      60171
+    ],
+    "raw": "fd 25 3b 0d 11 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Malade",
+    "target_bank": 16,
+    "target_address": 18410,
+    "target_length": 7
+  },
+  {
+    "id": "00EB31",
+    "offset": 60209,
+    "end": 60214,
+    "length": 5,
+    "jp": "もうもく[END]",
+    "fr": "Aveugle",
+    "references": [
+      60173
+    ],
+    "raw": "2d 0d 2d 12 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Aveugle",
+    "target_bank": 16,
+    "target_address": 18417,
+    "target_length": 8
+  },
+  {
+    "id": "00EB36",
+    "offset": 60214,
+    "end": 60218,
+    "length": 4,
+    "jp": "ねむけ[END]",
+    "fr": "Somnolent",
+    "references": [
+      60175
+    ],
+    "raw": "22 2b 13 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Somnolent",
+    "target_bank": 16,
+    "target_address": 18425,
+    "target_length": 10
+  },
+  {
+    "id": "00EB3A",
+    "offset": 60218,
+    "end": 60223,
+    "length": 5,
+    "jp": "ちんもく[END]",
+    "fr": "Muet",
+    "references": [
+      60177
+    ],
+    "raw": "1b 38 2d 12 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Muet",
+    "target_bank": 16,
+    "target_address": 18435,
+    "target_length": 5
+  },
+  {
+    "id": "00EB3F",
+    "offset": 60223,
+    "end": 60227,
+    "length": 4,
+    "jp": "のろい[END]",
+    "fr": "Maudit",
+    "references": [
+      60179
+    ],
+    "raw": "23 35 0c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Maudit",
+    "target_bank": 16,
+    "target_address": 18440,
+    "target_length": 7
+  },
+  {
+    "id": "00EB43",
+    "offset": 60227,
+    "end": 60229,
+    "length": 2,
+    "jp": "し[END]",
+    "fr": "Mort",
+    "references": [
+      60181
+    ],
+    "raw": "16 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Mort",
+    "target_bank": 16,
+    "target_address": 18447,
+    "target_length": 5
+  },
+  {
+    "id": "00EB45",
+    "offset": 60229,
+    "end": 60270,
+    "length": 41,
+    "jp": "じょうたい:\n[NL1]やるき:\n   ／\nあぶなさ:\n[NL1]みりょく:\n\nいじわるど:[END]",
+    "fr": "État<F2>|[NL1]PV<F2>|   /|Dngr<F2>|[NL1]CHA<F2>||Méch.<F2>",
+    "references": [],
+    "raw": "fd 16 3b 0d 1a 0c f2 fe fc 2e 33 11 f2 fe 00 00 00 7c fe 0b fd 26 1f 15 f2 fe fc 2a 32 3b 12 f2 fe fe 0c 70 36 33 72 f2 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "État<F2>|[NL1]PV<F2>|   /|Dngr<F2>|[NL1]CHA<F2>||Méch.<F2>",
+    "target_bank": 16,
+    "target_address": 18452,
+    "target_length": 36
+  },
+  {
+    "id": "00EB6E",
+    "offset": 60270,
+    "end": 60301,
+    "length": 31,
+    "jp": " LV\n[NL1]いんちき:\n  ／\nあくうん:\n[NL1]おちつき:\n\nヲ[END]",
+    "fr": " NV|[NL1]Ruse<F2>|  /|Veine<F2>|[NL1]Calme<F2>||Y",
+    "references": [],
+    "raw": "00 7d 7f fe fc 0c 38 1b 11 f2 fe 00 00 7c fe 0b 12 0d 38 f2 fe fc 0f 1b 1c 11 f2 fe fe 69 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": " NV|[NL1]Ruse<F2>|  /|Veine<F2>|[NL1]Calme<F2>||Y",
+    "target_bank": 16,
+    "target_address": 18488,
+    "target_length": 33
+  },
+  {
+    "id": "00EB8D",
+    "offset": 60301,
+    "end": 60317,
+    "length": 16,
+    "jp": "やすむ  アイテム  いんちき[END]",
+    "fr": "Repos  Objet  Ruse",
+    "references": [],
+    "raw": "2e 17 2b fb fb 3d 3e 4f 5d fb fb 0c 38 1b 11 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Repos  Objet  Ruse",
+    "target_bank": 16,
+    "target_address": 18521,
+    "target_length": 19
+  },
+  {
+    "id": "00EB9D",
+    "offset": 60317,
+    "end": 60333,
+    "length": 16,
+    "jp": "やすむ  アイテム  いんちき[END]",
+    "fr": "Repos  Objet  Ruse",
+    "references": [],
+    "raw": "2e 17 2b fb fb 3d 3e 4f 5d fb fb 0c 38 1b 11 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Repos  Objet  Ruse",
+    "target_bank": 16,
+    "target_address": 18540,
+    "target_length": 19
+  },
+  {
+    "id": "00EBAD",
+    "offset": 60333,
+    "end": 60361,
+    "length": 28,
+    "jp": "メイキュウから、でますか？\n はい      いいえ[END]",
+    "fr": "Sortir d'ici ?| Oui     Non",
+    "references": [],
+    "raw": "5e 3e 43 6d 3f 10 31 71 fd 1d 29 17 10 77 fe 00 24 0c 00 00 00 00 00 00 0c 0c 0e ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Sortir d'ici ?| Oui     Non",
+    "target_bank": 16,
+    "target_address": 18559,
+    "target_length": 28
+  },
+  {
+    "id": "00EBC9",
+    "offset": 60361,
+    "end": 60375,
+    "length": 14,
+    "jp": "7\n6\n5\n4\n3\n2\n1[END]",
+    "fr": "7|6|5|4|3|2|1",
+    "references": [],
+    "raw": "08 fe 07 fe 06 fe 05 fe 04 fe 03 fe 02 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "7|6|5|4|3|2|1",
+    "target_bank": 16,
+    "target_address": 18587,
+    "target_length": 14
+  },
+  {
+    "id": "00EBD7",
+    "offset": 60375,
+    "end": 60387,
+    "length": 12,
+    "jp": "みなみ    ひがし[END]",
+    "fr": "Sud        Est",
+    "references": [],
+    "raw": "2a 1f 2a fb fb fb fb 25 fd 10 16 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Sud        Est",
+    "target_bank": 16,
+    "target_address": 18601,
+    "target_length": 15
+  },
+  {
+    "id": "00EBE3",
+    "offset": 60387,
+    "end": 60399,
+    "length": 12,
+    "jp": "\n\n が あらわれた[END]",
+    "fr": "|| apparaît !",
+    "references": [],
+    "raw": "fe fe 00 fd 10 00 0b 31 36 34 1a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "|| apparaît !",
+    "target_bank": 16,
+    "target_address": 18616,
+    "target_length": 14
+  },
+  {
+    "id": "00EBEF",
+    "offset": 60399,
+    "end": 60411,
+    "length": 12,
+    "jp": "なにをそうびしますか？[END]",
+    "fr": "Équiper quoi ?",
+    "references": [],
+    "raw": "1f 20 37 19 0d f3 16 29 17 10 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Équiper quoi ?",
+    "target_bank": 16,
+    "target_address": 18630,
+    "target_length": 15
+  },
+  {
+    "id": "00EBFB",
+    "offset": 60411,
+    "end": 60447,
+    "length": 36,
+    "jp": "ぶき  :     たて  :\n\nぼうぐ :     アイテム:[END]",
+    "fr": "Arme<F2>     Écu<F2>||Armure<F2>   Objet<F2>",
+    "references": [],
+    "raw": "fd 26 11 fb fb f2 fb fb fb fb fb 1a 1d fb fb f2 fe fe fd 28 0d fd 12 fb f2 fb fb fb fb fb 3d 3e 4f 5d f2 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Arme<F2>     Écu<F2>||Armure<F2>   Objet<F2>",
+    "target_bank": 16,
+    "target_address": 18645,
+    "target_length": 33
+  },
+  {
+    "id": "00EC7D",
+    "offset": 60541,
+    "end": 60553,
+    "length": 12,
+    "jp": "  もろぼし あたる[END]",
+    "fr": "  Ataru|  Moroboshi",
+    "references": [
+      60447
+    ],
+    "raw": "fb fb 2d 35 fd 28 16 00 0b 1a 33 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Ataru|Moroboshi",
+    "target_bank": 16,
+    "target_address": 18678,
+    "target_length": 18
+  },
+  {
+    "id": "00EC89",
+    "offset": 60553,
+    "end": 60561,
+    "length": 8,
+    "jp": "  CAOー2[END]",
+    "fr": "CAO-2",
+    "references": [
+      60449
+    ],
+    "raw": "00 00 7b 7a 7e 73 03 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>CAO-2",
+    "target_bank": 16,
+    "target_address": 18696,
+    "target_length": 8
+  },
+  {
+    "id": "00EC91",
+    "offset": 60561,
+    "end": 60580,
+    "length": 19,
+    "jp": " スーパー\n  デリシャス・・・[END]",
+    "fr": "Super|Delicious",
+    "references": [
+      60451
+    ],
+    "raw": "00 49 73 fa 56 73 fe 00 00 fd 4f 64 48 6c 49 74 74 74 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Super|Delicious",
+    "target_bank": 16,
+    "target_address": 18704,
+    "target_length": 18
+  },
+  {
+    "id": "00ECA4",
+    "offset": 60580,
+    "end": 60589,
+    "length": 9,
+    "jp": "   そうばん[END]",
+    "fr": "Sôban",
+    "references": [
+      60453
+    ],
+    "raw": "00 00 00 19 0d fd 24 38 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Sôban",
+    "target_bank": 16,
+    "target_address": 18722,
+    "target_length": 8
+  },
+  {
+    "id": "00ECAD",
+    "offset": 60589,
+    "end": 60597,
+    "length": 8,
+    "jp": "   メガネ[END]",
+    "fr": "Megane",
+    "references": [
+      60455
+    ],
+    "raw": "00 00 00 5e fd 42 54 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Megane",
+    "target_bank": 16,
+    "target_address": 18730,
+    "target_length": 9
+  },
+  {
+    "id": "00ECB5",
+    "offset": 60597,
+    "end": 60606,
+    "length": 9,
+    "jp": "   カクガリ[END]",
+    "fr": "Kakugari",
+    "references": [
+      60457
+    ],
+    "raw": "00 00 00 42 44 fd 42 64 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Kakugari",
+    "target_bank": 16,
+    "target_address": 18739,
+    "target_length": 10
+  },
+  {
+    "id": "00ECBE",
+    "offset": 60606,
+    "end": 60614,
+    "length": 8,
+    "jp": "   パーマ[END]",
+    "fr": "Perm",
+    "references": [
+      60459
+    ],
+    "raw": "00 00 00 fa 56 73 5b ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB><FB>Perm",
+    "target_bank": 16,
+    "target_address": 18749,
+    "target_length": 8
+  },
+  {
+    "id": "00ECC6",
+    "offset": 60614,
+    "end": 60622,
+    "length": 8,
+    "jp": "    チビ[END]",
+    "fr": " Chibi",
+    "references": [
+      60461
+    ],
+    "raw": "00 00 00 00 4d fd 57 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Chibi",
+    "target_bank": 16,
+    "target_address": 18757,
+    "target_length": 8
+  },
+  {
+    "id": "00ECCE",
+    "offset": 60622,
+    "end": 60633,
+    "length": 11,
+    "jp": " おづの つばめ[END]",
+    "fr": "Tsubame|Ozuno",
+    "references": [
+      60463
+    ],
+    "raw": "00 0f fd 1c 23 00 1c fd 24 2c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Tsubame|<FB><FB>Ozuno",
+    "target_bank": 16,
+    "target_address": 18765,
+    "target_length": 17
+  },
+  {
+    "id": "00ECD9",
+    "offset": 60633,
+    "end": 60641,
+    "length": 8,
+    "jp": "  しゅんみん[END]",
+    "fr": "Shunmin",
+    "references": [
+      60465
+    ],
+    "raw": "00 00 16 3a 38 2a 38 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Shunmin",
+    "target_bank": 16,
+    "target_address": 18782,
+    "target_length": 9
+  },
+  {
+    "id": "00ECE1",
+    "offset": 60641,
+    "end": 60652,
+    "length": 11,
+    "jp": "  げいひとすじ[END]",
+    "fr": "Geihito-|suji",
+    "references": [
+      60467
+    ],
+    "raw": "00 00 fd 13 0c 25 1e 17 fd 16 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Geihito-|<FB><FB><FB>suji",
+    "target_bank": 16,
+    "target_address": 18791,
+    "target_length": 18
+  },
+  {
+    "id": "00ECEC",
+    "offset": 60652,
+    "end": 60661,
+    "length": 9,
+    "jp": " はなわせんせい[END]",
+    "fr": "M. Hanawa",
+    "references": [
+      60469
+    ],
+    "raw": "00 24 1f 36 18 38 18 0c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "M. Hanawa",
+    "target_bank": 16,
+    "target_address": 18809,
+    "target_length": 10
+  },
+  {
+    "id": "00ECF5",
+    "offset": 60661,
+    "end": 60681,
+    "length": 20,
+    "jp": "かげの せいかつ\n  しどうぶいん[END]",
+    "fr": "Surveill.|de l'ombre",
+    "references": [
+      60471
+    ],
+    "raw": "10 fd 13 23 00 18 0c 10 1c fe 00 00 16 72 0d fd 26 0c 38 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Surveill.|de l'ombre",
+    "target_bank": 16,
+    "target_address": 18819,
+    "target_length": 21
+  },
+  {
+    "id": "00ED09",
+    "offset": 60681,
+    "end": 60691,
+    "length": 10,
+    "jp": " いわなみせんせい[END]",
+    "fr": "M. Iwanami",
+    "references": [
+      60473
+    ],
+    "raw": "00 0c 36 1f 2a 18 38 18 0c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "M. Iwanami",
+    "target_bank": 16,
+    "target_address": 18840,
+    "target_length": 11
+  },
+  {
+    "id": "00ED13",
+    "offset": 60691,
+    "end": 60698,
+    "length": 7,
+    "jp": "   くみこ[END]",
+    "fr": "Kumiko",
+    "references": [
+      60475
+    ],
+    "raw": "00 00 00 12 2a 14 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Kumiko",
+    "target_bank": 16,
+    "target_address": 18851,
+    "target_length": 9
+  },
+  {
+    "id": "00ED1A",
+    "offset": 60698,
+    "end": 60712,
+    "length": 14,
+    "jp": "  くノー\n   かえで[END]",
+    "fr": "Kaede la|ninja",
+    "references": [
+      60477
+    ],
+    "raw": "00 00 12 55 73 fe 00 00 00 10 0e fd 1d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Kaede la|<FB><FB>ninja",
+    "target_bank": 16,
+    "target_address": 18860,
+    "target_length": 18
+  },
+  {
+    "id": "00ED28",
+    "offset": 60712,
+    "end": 60720,
+    "length": 8,
+    "jp": "  あかマント[END]",
+    "fr": "Cape rouge",
+    "references": [
+      60479
+    ],
+    "raw": "00 00 0b 10 5b 6a 50 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Cape rouge",
+    "target_bank": 16,
+    "target_address": 18878,
+    "target_length": 11
+  },
+  {
+    "id": "00ED30",
+    "offset": 60720,
+    "end": 60728,
+    "length": 8,
+    "jp": "  べんてん[END]",
+    "fr": "Benten",
+    "references": [
+      60481
+    ],
+    "raw": "00 00 fd 27 38 1d 38 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Benten",
+    "target_bank": 16,
+    "target_address": 18889,
+    "target_length": 9
+  },
+  {
+    "id": "00ED38",
+    "offset": 60728,
+    "end": 60734,
+    "length": 6,
+    "jp": "  クラマ[END]",
+    "fr": "Kurama",
+    "references": [
+      60483
+    ],
+    "raw": "00 00 44 63 5b ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Kurama",
+    "target_bank": 16,
+    "target_address": 18898,
+    "target_length": 9
+  },
+  {
+    "id": "00ED3E",
+    "offset": 60734,
+    "end": 60740,
+    "length": 6,
+    "jp": "  ももえ[END]",
+    "fr": "Momoe",
+    "references": [
+      60485
+    ],
+    "raw": "00 00 2d 2d 0e ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Momoe",
+    "target_bank": 16,
+    "target_address": 18907,
+    "target_length": 8
+  },
+  {
+    "id": "00ED44",
+    "offset": 60740,
+    "end": 60754,
+    "length": 14,
+    "jp": " キャプテン\n  なつこ[END]",
+    "fr": "Capitaine|Natsuko",
+    "references": [
+      60487
+    ],
+    "raw": "00 43 6c fa 58 4f 6a fe 00 00 1f 1c 14 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Capitaine|<FB>Natsuko",
+    "target_bank": 16,
+    "target_address": 18915,
+    "target_length": 19
+  },
+  {
+    "id": "00ED52",
+    "offset": 60754,
+    "end": 60763,
+    "length": 9,
+    "jp": "  ウェンディ[END]",
+    "fr": "Wendy",
+    "references": [
+      60489
+    ],
+    "raw": "00 00 3f 78 6a fd 4f 6b ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Wendy",
+    "target_bank": 16,
+    "target_address": 18934,
+    "target_length": 8
+  },
+  {
+    "id": "00ED5B",
+    "offset": 60763,
+    "end": 60783,
+    "length": 20,
+    "jp": "ラグビーうちゅう\nせんの じょおう[END]",
+    "fr": "Reine du|vaisseau",
+    "references": [
+      60491
+    ],
+    "raw": "63 fd 44 fd 57 73 0d 1b 3a 0d fe 18 38 23 00 70 3b 0f 0d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Reine du|<FB>vaisseau",
+    "target_bank": 16,
+    "target_address": 18942,
+    "target_length": 20
+  },
+  {
+    "id": "00ED6F",
+    "offset": 60783,
+    "end": 60790,
+    "length": 7,
+    "jp": "  いずみ[END]",
+    "fr": "Izumi",
+    "references": [
+      60493
+    ],
+    "raw": "00 00 0c fd 17 2a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Izumi",
+    "target_bank": 16,
+    "target_address": 18962,
+    "target_length": 8
+  },
+  {
+    "id": "00ED76",
+    "offset": 60790,
+    "end": 60798,
+    "length": 8,
+    "jp": "  コギツネ[END]",
+    "fr": "Petit|renard",
+    "references": [
+      60495
+    ],
+    "raw": "00 00 46 fd 43 4e 54 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Petit|<FB><FB>renard",
+    "target_bank": 16,
+    "target_address": 18970,
+    "target_length": 17
+  },
+  {
+    "id": "00ED7E",
+    "offset": 60798,
+    "end": 60805,
+    "length": 7,
+    "jp": " ベリアル[END]",
+    "fr": "Belial",
+    "references": [
+      60497
+    ],
+    "raw": "00 fd 59 64 3d 65 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Belial",
+    "target_bank": 16,
+    "target_address": 18987,
+    "target_length": 9
+  },
+  {
+    "id": "00ED85",
+    "offset": 60805,
+    "end": 60813,
+    "length": 8,
+    "jp": "  マコのはは[END]",
+    "fr": "Mère de|Mako",
+    "references": [
+      60499
+    ],
+    "raw": "00 00 5b 46 23 24 24 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Mère de|<FB><FB><FB>Mako",
+    "target_bank": 16,
+    "target_address": 18996,
+    "target_length": 17
+  },
+  {
+    "id": "00ED8D",
+    "offset": 60813,
+    "end": 60822,
+    "length": 9,
+    "jp": "あまもり つゆこ[END]",
+    "fr": "Tsuyuko|Amamori",
+    "references": [
+      60501
+    ],
+    "raw": "0b 29 2d 32 00 1c 2f 14 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Tsuyuko|<FB>Amamori",
+    "target_bank": 16,
+    "target_address": 19013,
+    "target_length": 18
+  },
+  {
+    "id": "00ED96",
+    "offset": 60822,
+    "end": 60830,
+    "length": 8,
+    "jp": "  とんちゃん[END]",
+    "fr": "Tobimaro",
+    "references": [
+      60503
+    ],
+    "raw": "00 00 1e 38 1b 39 38 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Tobimaro",
+    "target_bank": 16,
+    "target_address": 19031,
+    "target_length": 10
+  },
+  {
+    "id": "00ED9E",
+    "offset": 60830,
+    "end": 60836,
+    "length": 6,
+    "jp": "  あすか[END]",
+    "fr": "Asuka",
+    "references": [
+      60505
+    ],
+    "raw": "00 00 0b 17 10 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Asuka",
+    "target_bank": 16,
+    "target_address": 19041,
+    "target_length": 8
+  },
+  {
+    "id": "00EDA4",
+    "offset": 60836,
+    "end": 60843,
+    "length": 7,
+    "jp": "  りょうこ[END]",
+    "fr": "Ryôko",
+    "references": [
+      60507
+    ],
+    "raw": "00 00 32 3b 0d 14 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Ryôko",
+    "target_bank": 16,
+    "target_address": 19049,
+    "target_length": 8
+  },
+  {
+    "id": "00EDAB",
+    "offset": 60843,
+    "end": 60852,
+    "length": 9,
+    "jp": "  ジャリテン[END]",
+    "fr": "Ten",
+    "references": [
+      60509
+    ],
+    "raw": "00 00 fd 48 6c 64 4f 6a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB><FB>Ten",
+    "target_bank": 16,
+    "target_address": 19057,
+    "target_length": 7
+  },
+  {
+    "id": "00EDB4",
+    "offset": 60852,
+    "end": 60861,
+    "length": 9,
+    "jp": " おんせんマーク[END]",
+    "fr": "M. Onsen",
+    "references": [
+      60511
+    ],
+    "raw": "00 0f 38 18 38 5b 73 44 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>M. Onsen",
+    "target_bank": 16,
+    "target_address": 19064,
+    "target_length": 10
+  },
+  {
+    "id": "00EDBD",
+    "offset": 60861,
+    "end": 60870,
+    "length": 9,
+    "jp": "  りゅうのすけ[END]",
+    "fr": "Ryûnosuke",
+    "references": [
+      60513
+    ],
+    "raw": "00 00 32 3a 0d 23 17 13 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Ryûnosuke",
+    "target_bank": 16,
+    "target_address": 19074,
+    "target_length": 10
+  },
+  {
+    "id": "00EDC6",
+    "offset": 60870,
+    "end": 60875,
+    "length": 5,
+    "jp": "  レイ[END]",
+    "fr": "Rei",
+    "references": [
+      60515
+    ],
+    "raw": "00 00 66 3e ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB><FB>Rei",
+    "target_bank": 16,
+    "target_address": 19084,
+    "target_length": 7
+  },
+  {
+    "id": "00EDCB",
+    "offset": 60875,
+    "end": 60885,
+    "length": 10,
+    "jp": " ふとったツバメ[END]",
+    "fr": "Tsubame|dodu",
+    "references": [
+      60517
+    ],
+    "raw": "fb 26 1e 3c 1a 4e fd 56 5e ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Tsubame|<FB><FB><FB>dodu",
+    "target_bank": 16,
+    "target_address": 19091,
+    "target_length": 17
+  },
+  {
+    "id": "00EDD5",
+    "offset": 60885,
+    "end": 60893,
+    "length": 8,
+    "jp": "  こたつネコ[END]",
+    "fr": "Chat|Kotatsu",
+    "references": [
+      60519
+    ],
+    "raw": "00 00 14 1a 1c 54 46 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB><FB>Chat|<FB>Kotatsu",
+    "target_bank": 16,
+    "target_address": 19108,
+    "target_length": 17
+  },
+  {
+    "id": "00EDDD",
+    "offset": 60893,
+    "end": 60902,
+    "length": 9,
+    "jp": "しらい コースケ[END]",
+    "fr": "Kôsuke|Shirai",
+    "references": [
+      60521
+    ],
+    "raw": "16 31 0c 00 46 73 49 45 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Kôsuke|<FB><FB>Shirai",
+    "target_bank": 16,
+    "target_address": 19125,
+    "target_length": 18
+  },
+  {
+    "id": "00EDE6",
+    "offset": 60902,
+    "end": 60918,
+    "length": 16,
+    "jp": " りゅうのすけの\n   おやじ[END]",
+    "fr": "Père de|Ryûnosuke",
+    "references": [
+      60523
+    ],
+    "raw": "00 32 3a 0d 23 17 13 23 fe 00 00 00 0f 2e 70 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Père de|Ryûnosuke",
+    "target_bank": 16,
+    "target_address": 19143,
+    "target_length": 19
+  },
+  {
+    "id": "00EDF6",
+    "offset": 60918,
+    "end": 60925,
+    "length": 7,
+    "jp": "  チェリー[END]",
+    "fr": "Cherry",
+    "references": [
+      60525
+    ],
+    "raw": "00 00 4d 78 64 73 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Cherry",
+    "target_bank": 16,
+    "target_address": 19162,
+    "target_length": 9
+  },
+  {
+    "id": "00EDFD",
+    "offset": 60925,
+    "end": 60934,
+    "length": 9,
+    "jp": "  しゅうたろう[END]",
+    "fr": "Shûtarô",
+    "references": [
+      60527
+    ],
+    "raw": "00 00 16 3a 0d 1a 35 0d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Shûtarô",
+    "target_bank": 16,
+    "target_address": 19171,
+    "target_length": 9
+  },
+  {
+    "id": "00EE06",
+    "offset": 60934,
+    "end": 60939,
+    "length": 5,
+    "jp": "  ラン[END]",
+    "fr": "Ran",
+    "references": [
+      60529
+    ],
+    "raw": "00 00 63 6a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB><FB>Ran",
+    "target_bank": 16,
+    "target_address": 19180,
+    "target_length": 7
+  },
+  {
+    "id": "00EE0B",
+    "offset": 60939,
+    "end": 60945,
+    "length": 6,
+    "jp": "  サクラ[END]",
+    "fr": "Sakura",
+    "references": [
+      60531
+    ],
+    "raw": "00 00 47 44 63 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Sakura",
+    "target_bank": 16,
+    "target_address": 19187,
+    "target_length": 9
+  },
+  {
+    "id": "00EE11",
+    "offset": 60945,
+    "end": 60951,
+    "length": 6,
+    "jp": "  おゆき[END]",
+    "fr": "Oyuki",
+    "references": [
+      60533
+    ],
+    "raw": "00 00 0f 2f 11 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Oyuki",
+    "target_bank": 16,
+    "target_address": 19196,
+    "target_length": 8
+  },
+  {
+    "id": "00EE17",
+    "offset": 60951,
+    "end": 60958,
+    "length": 7,
+    "jp": "  しのぶ[END]",
+    "fr": "Shinobu",
+    "references": [
+      60535
+    ],
+    "raw": "00 00 16 23 fd 26 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Shinobu",
+    "target_bank": 16,
+    "target_address": 19204,
+    "target_length": 9
+  },
+  {
+    "id": "00EE1E",
+    "offset": 60958,
+    "end": 60963,
+    "length": 5,
+    "jp": "  ラム[END]",
+    "fr": "Lamu",
+    "references": [
+      60537
+    ],
+    "raw": "00 00 63 5d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB><FB>Lamu",
+    "target_bank": 16,
+    "target_address": 19213,
+    "target_length": 8
+  },
+  {
+    "id": "00EE23",
+    "offset": 60963,
+    "end": 60977,
+    "length": 14,
+    "jp": " こうちょう\n  せんせい[END]",
+    "fr": "Proviseur",
+    "references": [
+      60539
+    ],
+    "raw": "00 14 0d 1b 3b 0d fe 00 00 18 38 18 0c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Proviseur",
+    "target_bank": 16,
+    "target_address": 19221,
+    "target_length": 10
+  },
+  {
+    "id": "00EE83",
+    "offset": 61059,
+    "end": 61071,
+    "length": 12,
+    "jp": "  なぜじゃまをする[END]",
+    "fr": "Pourquoi me gênes-tu ?",
+    "references": [
+      60977
+    ],
+    "raw": "fb fb 1f fd 18 70 39 29 37 17 33 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Pourquoi|<FB>me|<FB>gênes-tu?",
+    "target_bank": 16,
+    "target_address": 19231,
+    "target_length": 25
+  },
+  {
+    "id": "00EE8F",
+    "offset": 61071,
+    "end": 61079,
+    "length": 8,
+    "jp": "きくみみもたん[END]",
+    "fr": "Je n'écoute pas !",
+    "references": [
+      60979,
+      60987,
+      60989,
+      60995,
+      61051
+    ],
+    "raw": "11 12 2a 2a 2d 1a 38 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Je|<FB>n'écoute|<FB>pas !",
+    "target_bank": 16,
+    "target_address": 19256,
+    "target_length": 21
+  },
+  {
+    "id": "00EE97",
+    "offset": 61079,
+    "end": 61097,
+    "length": 18,
+    "jp": "あくを ゆるす\n ことはできない[END]",
+    "fr": "Je ne peux tolérer le mal !",
+    "references": [
+      60981
+    ],
+    "raw": "0b 12 37 00 2f 33 17 fe 00 14 1e 24 fd 1d 11 1f 0c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Je ne|<FB>peux[WAIT]<FB>tolérer|<FB>le mal !",
+    "target_bank": 16,
+    "target_address": 19277,
+    "target_length": 32
+  },
+  {
+    "id": "00EEA9",
+    "offset": 61097,
+    "end": 61113,
+    "length": 16,
+    "jp": "しのぶさん\n すきだー！！[END]",
+    "fr": "Shinobu, je t'aime !",
+    "references": [
+      60983
+    ],
+    "raw": "16 23 fd 26 15 38 fe 00 17 11 fd 1a 73 76 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Shinobu,|<FB>je|<FB>t'aime !",
+    "target_bank": 16,
+    "target_address": 19309,
+    "target_length": 24
+  },
+  {
+    "id": "00EEB9",
+    "offset": 61113,
+    "end": 61134,
+    "length": 21,
+    "jp": "おまえと\nはなしあって\n  なんになる！[END]",
+    "fr": "À quoi bon discuter avec toi ?",
+    "references": [
+      61041
+    ],
+    "raw": "0f 29 0e 1e fe 24 1f 16 0b 3c 1d fe 00 00 1f 38 20 1f 33 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>À quoi|<FB>bon|<FB>discuter[WAIT]<FB>avec|<FB>toi ?",
+    "target_bank": 16,
+    "target_address": 19333,
+    "target_length": 36
+  },
+  {
+    "id": "00EECE",
+    "offset": 61134,
+    "end": 61148,
+    "length": 14,
+    "jp": "きみは \n のろわれている[END]",
+    "fr": "Tu es maudit !",
+    "references": [
+      60993
+    ],
+    "raw": "11 2a 24 00 fe 00 23 35 36 34 1d 0c 33 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Tu es|<FB>maudit !",
+    "target_bank": 16,
+    "target_address": 19369,
+    "target_length": 17
+  },
+  {
+    "id": "00EEDC",
+    "offset": 61148,
+    "end": 61154,
+    "length": 6,
+    "jp": "  ？？？[END]",
+    "fr": "???",
+    "references": [
+      60997,
+      61025
+    ],
+    "raw": "00 00 77 77 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>???",
+    "target_bank": 16,
+    "target_address": 19386,
+    "target_length": 5
+  },
+  {
+    "id": "00EEE2",
+    "offset": 61154,
+    "end": 61170,
+    "length": 16,
+    "jp": "たまには\nべんきょうしたまえ[END]",
+    "fr": "Étudie un peu !",
+    "references": [
+      60999
+    ],
+    "raw": "1a 29 20 24 fe fd 27 38 11 3b 0d 16 1a 29 0e ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Étudie un|<FB>peu !",
+    "target_bank": 16,
+    "target_address": 19391,
+    "target_length": 18
+  },
+  {
+    "id": "00EEF2",
+    "offset": 61170,
+    "end": 61180,
+    "length": 10,
+    "jp": "ゆうきだんけつ！[END]",
+    "fr": "Courage et solidarité !",
+    "references": [
+      61001
+    ],
+    "raw": "2f 0d 11 fd 1a 38 13 1c 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Courage|<FB>et[WAIT]<FB>solidari-|<FB>té!",
+    "target_bank": 16,
+    "target_address": 19409,
+    "target_length": 29
+  },
+  {
+    "id": "00EEFC",
+    "offset": 61180,
+    "end": 61194,
+    "length": 14,
+    "jp": "わたしじゃ\n ダメなの？[END]",
+    "fr": "Je ne te plais pas ?",
+    "references": [
+      61005,
+      61015
+    ],
+    "raw": "36 1a 16 70 39 fe 00 fd 4c 5e 1f 23 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Je ne te|<FB>plais|<FB>pas ?",
+    "target_bank": 16,
+    "target_address": 19438,
+    "target_length": 24
+  },
+  {
+    "id": "00EF0A",
+    "offset": 61194,
+    "end": 61217,
+    "length": 23,
+    "jp": " みっしょを\n かえしてもらいに\n きたのよ[END]",
+    "fr": "Je viens reprendre les lettres secrètes.",
+    "references": [
+      61007
+    ],
+    "raw": "00 2a 3c 16 3b 37 fe 00 10 0e 16 1d 2d 31 0c 20 fe 00 11 1a 23 30 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Je viens|<FB>reprendre|<FB>les[WAIT]<FB>lettres|<FB>secrètes.",
+    "target_bank": 16,
+    "target_address": 19462,
+    "target_length": 46
+  },
+  {
+    "id": "00EF21",
+    "offset": 61217,
+    "end": 61231,
+    "length": 14,
+    "jp": "かんべん\n ならねえ！！[END]",
+    "fr": "C'est impardonnable !",
+    "references": [
+      61011,
+      61043
+    ],
+    "raw": "10 38 fd 27 38 fe 00 1f 31 22 0e 76 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>C'est|<FB>impardon-|<FB>nable!",
+    "target_bank": 16,
+    "target_address": 19508,
+    "target_length": 26
+  },
+  {
+    "id": "00EF2F",
+    "offset": 61231,
+    "end": 61239,
+    "length": 8,
+    "jp": "おだまりっ！[END]",
+    "fr": "Silence !",
+    "references": [
+      61013,
+      61021
+    ],
+    "raw": "0f fd 1a 29 32 3c 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Silence !",
+    "target_bank": 16,
+    "target_address": 19534,
+    "target_length": 11
+  },
+  {
+    "id": "00EF37",
+    "offset": 61239,
+    "end": 61259,
+    "length": 20,
+    "jp": " たいかいに\n そなえて\n とっくんよ[END]",
+    "fr": "Je m'entraîne pour le tournoi.",
+    "references": [
+      61017
+    ],
+    "raw": "00 1a 0c 10 0c 20 fe 00 19 1f 0e 1d fe 00 1e 3c 12 38 30 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Je|<FB>m'entraî-|<FB>ne pour[WAIT]<FB>le|<FB>tournoi.",
+    "target_bank": 16,
+    "target_address": 19545,
+    "target_length": 38
+  },
+  {
+    "id": "00EF4B",
+    "offset": 61259,
+    "end": 61268,
+    "length": 9,
+    "jp": "おちゃしません？[END]",
+    "fr": "Un thé ensemble ?",
+    "references": [
+      61019,
+      61023,
+      61029
+    ],
+    "raw": "0f 1b 39 16 29 18 38 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Un thé|<FB>ensemble?",
+    "target_bank": 16,
+    "target_address": 19583,
+    "target_length": 19
+  },
+  {
+    "id": "00EF54",
+    "offset": 61268,
+    "end": 61288,
+    "length": 20,
+    "jp": "おまえの\nたましいを\nもらいにきたぞ[END]",
+    "fr": "Je viens prendre ton âme !",
+    "references": [
+      61027
+    ],
+    "raw": "0f 29 0e 23 fe 1a 29 16 0c 37 fe 2d 31 0c 20 11 1a fd 19 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Je viens|<FB>prendre|<FB>ton âme !",
+    "target_bank": 16,
+    "target_address": 19602,
+    "target_length": 30
+  },
+  {
+    "id": "00EF68",
+    "offset": 61288,
+    "end": 61297,
+    "length": 9,
+    "jp": "あめは きらいよ[END]",
+    "fr": "Je déteste la pluie.",
+    "references": [
+      61031
+    ],
+    "raw": "0b 2c 24 00 11 31 0c 30 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Je|<FB>déteste|<FB>la pluie.",
+    "target_bank": 16,
+    "target_address": 19632,
+    "target_length": 24
+  },
+  {
+    "id": "00EF71",
+    "offset": 61297,
+    "end": 61312,
+    "length": 15,
+    "jp": " あすかに\n てをだすな！[END]",
+    "fr": "Ne touche pas à Asuka !",
+    "references": [
+      61033
+    ],
+    "raw": "00 0b 17 10 20 fe 00 1d 37 fd 1a 17 1f 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Ne touche|<FB>pas à|<FB>Asuka !",
+    "target_bank": 16,
+    "target_address": 19656,
+    "target_length": 27
+  },
+  {
+    "id": "00EF80",
+    "offset": 61312,
+    "end": 61330,
+    "length": 18,
+    "jp": "これも あいする\nおにいさまのため[END]",
+    "fr": "Tout ça pour mon cher grand frère !",
+    "references": [
+      61037
+    ],
+    "raw": "14 34 2d 00 0b 0c 17 33 fe 0f 20 0c 15 29 23 1a 2c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Tout ça|<FB>pour mon|<FB>cher[WAIT]<FB>grand|<FB>frère !",
+    "target_bank": 16,
+    "target_address": 19683,
+    "target_length": 41
+  },
+  {
+    "id": "00EF92",
+    "offset": 61330,
+    "end": 61339,
+    "length": 9,
+    "jp": "やかましい アホ[END]",
+    "fr": "Tais-toi, crétin !",
+    "references": [
+      61003,
+      61039
+    ],
+    "raw": "2e 10 29 16 0c 00 3d 5a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Tais-toi,|<FB>crétin !",
+    "target_bank": 16,
+    "target_address": 19724,
+    "target_length": 21
+  },
+  {
+    "id": "00EF9B",
+    "offset": 61339,
+    "end": 61346,
+    "length": 7,
+    "jp": "  ぶも？[END]",
+    "fr": "Meuh ?",
+    "references": [
+      61045
+    ],
+    "raw": "00 00 fd 26 2d 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Meuh ?",
+    "target_bank": 16,
+    "target_address": 19745,
+    "target_length": 8
+  },
+  {
+    "id": "00EFA2",
+    "offset": 61346,
+    "end": 61353,
+    "length": 7,
+    "jp": "  ピヨ？[END]",
+    "fr": "Cui ?",
+    "references": [
+      61047
+    ],
+    "raw": "00 00 fa 57 62 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Cui ?",
+    "target_bank": 16,
+    "target_address": 19753,
+    "target_length": 7
+  },
+  {
+    "id": "00EFA9",
+    "offset": 61353,
+    "end": 61360,
+    "length": 7,
+    "jp": "  ふんぬ！[END]",
+    "fr": "Hmpf !",
+    "references": [
+      61049
+    ],
+    "raw": "00 00 26 38 21 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Hmpf !",
+    "target_bank": 16,
+    "target_address": 19760,
+    "target_length": 8
+  },
+  {
+    "id": "00EFB0",
+    "offset": 61360,
+    "end": 61368,
+    "length": 8,
+    "jp": " さだめじゃ[END]",
+    "fr": "C'est le destin.",
+    "references": [
+      61055
+    ],
+    "raw": "00 15 fd 1a 2c 70 39 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>C'est le|<FB>destin.",
+    "target_bank": 16,
+    "target_address": 19768,
+    "target_length": 19
+  },
+  {
+    "id": "00EFB8",
+    "offset": 61368,
+    "end": 61395,
+    "length": 27,
+    "jp": "もんどうむよう！\nカタナのサビに\nしてくれるっ！！[END]",
+    "fr": "Assez parlé ! Mon sabre aura ta peau !",
+    "references": [
+      61057
+    ],
+    "raw": "2d 38 72 0d 2b 30 0d 76 fe 42 4c 51 23 47 fd 57 20 fe 16 1d 12 34 33 3c 76 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Assez|<FB>parlé !|<FB>Mon sabre[WAIT]<FB>aura ta|<FB>peau !",
+    "target_bank": 16,
+    "target_address": 19787,
+    "target_length": 44
+  },
+  {
+    "id": "00EFD3",
+    "offset": 61395,
+    "end": 61411,
+    "length": 16,
+    "jp": "メガネに\nいわれたんだよう[END]",
+    "fr": "C'est Megane qui me l'a dit !",
+    "references": [
+      60991
+    ],
+    "raw": "5e fd 42 54 20 fe 0c 36 34 1a 38 fd 1a 30 0d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>C'est|<FB>Megane[WAIT]<FB>qui me|<FB>l'a dit !",
+    "target_bank": 16,
+    "target_address": 19831,
+    "target_length": 34
+  },
+  {
+    "id": "00EFE3",
+    "offset": 61411,
+    "end": 61421,
+    "length": 10,
+    "jp": "うみがすきーっ？[END]",
+    "fr": "Vive la mer !",
+    "references": [
+      61053
+    ],
+    "raw": "0d 2a fd 10 17 11 73 3c 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Vive la|<FB>mer !",
+    "target_bank": 16,
+    "target_address": 19865,
+    "target_length": 16
+  },
+  {
+    "id": "00EFED",
+    "offset": 61421,
+    "end": 61433,
+    "length": 12,
+    "jp": "キャーッ\nおとこーっ？[END]",
+    "fr": "Aaah ! Un homme !",
+    "references": [
+      61035
+    ],
+    "raw": "43 6c 73 6f fe 0f 1e 14 73 3c 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Aaah ! Un|<FB>homme !",
+    "target_bank": 16,
+    "target_address": 19881,
+    "target_length": 20
+  },
+  {
+    "id": "00EFF9",
+    "offset": 61433,
+    "end": 61458,
+    "length": 25,
+    "jp": "きさま ラムさん\nというものが\nありながら！[END]",
+    "fr": "Salaud ! Et Lamu, tu y penses ?",
+    "references": [
+      60985
+    ],
+    "raw": "11 15 29 00 63 5d 15 38 fe 1e 0c 0d 2d 23 fd 10 fe 0b 32 1f fd 10 31 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Salaud !|<FB>Et Lamu,[WAIT]<FB>tu y|<FB>penses ?",
+    "target_bank": 16,
+    "target_address": 19901,
+    "target_length": 36
+  },
+  {
+    "id": "00F012",
+    "offset": 61458,
+    "end": 61476,
+    "length": 18,
+    "jp": "フハハハハ\nあかマント\nさんじょう[END]",
+    "fr": "Ha ha ha ! Voici la Cape rouge !",
+    "references": [
+      61009
+    ],
+    "raw": "58 56 56 56 56 fe 0b 10 5b 6a 50 fe 15 38 70 3b 0d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Ha ha|<FB>ha !|<FB>Voici la[WAIT]<FB>Cape|<FB>rouge !",
+    "target_bank": 16,
+    "target_address": 19937,
+    "target_length": 38
+  },
+  {
+    "id": "00F094",
+    "offset": 61588,
+    "end": 61615,
+    "length": 27,
+    "jp": "ランがみなみ11\nひがし14\nひがしむきにいる[END]",
+    "fr": "Ran : S11, E14. Elle regarde à l'est.",
+    "references": [
+      61476
+    ],
+    "raw": "63 6a fd 10 2a 1f 2a 02 02 fe 25 fd 10 16 02 05 fe 25 fd 10 16 2b 11 20 0c 33 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Ran :|<FB>S11, E14.|<FB>Elle[WAIT]<FB>regarde à|<FB>l'est.",
+    "target_bank": 16,
+    "target_address": 19975,
+    "target_length": 43
+  },
+  {
+    "id": "00F0AF",
+    "offset": 61615,
+    "end": 61642,
+    "length": 27,
+    "jp": "テンは1かいの\nみなみ3ひがし8\nにしむきですよ[END]",
+    "fr": "Ten : 1er étage, S3, E8. Vers l'ouest.",
+    "references": [
+      61478
+    ],
+    "raw": "4f 6a 24 02 10 0c 23 fe 2a 1f 2a 04 25 fd 10 16 09 fe 20 16 2b 11 fd 1d 17 30 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Ten : 1er|<FB>étage,|<FB>S3, E8.[WAIT]<FB>Vers|<FB>l'ouest.",
+    "target_bank": 16,
+    "target_address": 20018,
+    "target_length": 44
+  },
+  {
+    "id": "00F0CA",
+    "offset": 61642,
+    "end": 61666,
+    "length": 24,
+    "jp": "さくらは2かいの\nみなみ1\nひがし14にいる[END]",
+    "fr": "Sakura : 2e étage, S1, E14.",
+    "references": [
+      61482,
+      61486,
+      61490
+    ],
+    "raw": "15 12 31 24 03 10 0c 23 fe 2a 1f 2a 02 fe 25 fd 10 16 02 05 20 0c 33 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Sakura :|<FB>2e étage,|<FB>S1, E14.",
+    "target_bank": 16,
+    "target_address": 20062,
+    "target_length": 31
+  },
+  {
+    "id": "00F0E2",
+    "offset": 61666,
+    "end": 61691,
+    "length": 25,
+    "jp": "おんせんは1かいの\nみなみ6\nひがし11にいる[END]",
+    "fr": "Onsen : 1er étage, S6, E11.",
+    "references": [
+      61484
+    ],
+    "raw": "0f 38 18 38 24 02 10 0c 23 fe 2a 1f 2a 07 fe 25 fd 10 16 02 02 20 0c 33 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Onsen :|<FB>1er[WAIT]<FB>étage,|<FB>S6, E11.",
+    "target_bank": 16,
+    "target_address": 20093,
+    "target_length": 32
+  },
+  {
+    "id": "00F0FB",
+    "offset": 61691,
+    "end": 61718,
+    "length": 27,
+    "jp": "りゅうのすけは\n3かいのみなみ3\nひがし12です[END]",
+    "fr": "Ryûnosuke : 3e étage, S3, E12.",
+    "references": [
+      61488
+    ],
+    "raw": "32 3a 0d 23 17 13 24 fe 04 10 0c 23 2a 1f 2a 04 fe 25 fd 10 16 02 03 fd 1d 17 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Ryûnosu-|<FB>ke: 3e[WAIT]<FB>étage,|<FB>S3, E12.",
+    "target_bank": 16,
+    "target_address": 20125,
+    "target_length": 36
+  },
+  {
+    "id": "00F116",
+    "offset": 61718,
+    "end": 61745,
+    "length": 27,
+    "jp": "おゆきは3かいの\nみなみ9ひがし3\n？むきですよ[END]",
+    "fr": "Oyuki : 3e étage, S9, E3. Direction ?",
+    "references": [
+      61492,
+      61496,
+      61500
+    ],
+    "raw": "0f 2f 11 24 04 10 0c 23 fe 2a 1f 2a 0a 25 fd 10 16 04 fe 77 2b 11 fd 1d 17 30 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Oyuki :|<FB>3e étage,|<FB>S9, E3.[WAIT]<FB>Directi-|<FB>on?",
+    "target_bank": 16,
+    "target_address": 20161,
+    "target_length": 44
+  },
+  {
+    "id": "00F131",
+    "offset": 61745,
+    "end": 61771,
+    "length": 26,
+    "jp": "レイは3かいの\nみなみ5ひがし4\n？むきですよ[END]",
+    "fr": "Rei : 3e étage, S5, E4. Direction ?",
+    "references": [
+      61494
+    ],
+    "raw": "66 3e 24 04 10 0c 23 fe 2a 1f 2a 06 25 fd 10 16 05 fe 77 2b 11 fd 1d 17 30 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Rei : 3e|<FB>étage,|<FB>S5, E4.[WAIT]<FB>Directi-|<FB>on?",
+    "target_bank": 16,
+    "target_address": 20205,
+    "target_length": 42
+  },
+  {
+    "id": "00F14B",
+    "offset": 61771,
+    "end": 61798,
+    "length": 27,
+    "jp": "へんなトリが\n？かいのみなみ4\nひがし11にいる[END]",
+    "fr": "Un oiseau étrange : étage ?, S4, E11.",
+    "references": [
+      61498
+    ],
+    "raw": "27 38 1f 50 64 fd 10 fe 77 10 0c 23 2a 1f 2a 05 fe 25 fd 10 16 02 02 20 0c 33 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Un oiseau|<FB>étrange :[WAIT]<FB>étage ?,|<FB>S4, E11.",
+    "target_bank": 16,
+    "target_address": 20247,
+    "target_length": 42
+  },
+  {
+    "id": "00F166",
+    "offset": 61798,
+    "end": 61824,
+    "length": 26,
+    "jp": "しのぶは？かいの\nみなみ11\nひがし6にいます[END]",
+    "fr": "Shinobu : étage ?, S11, E6.",
+    "references": [
+      61502,
+      61506
+    ],
+    "raw": "16 23 fd 26 24 77 10 0c 23 fe 2a 1f 2a 02 02 fe 25 fd 10 16 07 20 0c 29 17 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Shinobu :|<FB>étage ?,|<FB>S11, E6.",
+    "target_bank": 16,
+    "target_address": 20289,
+    "target_length": 31
+  },
+  {
+    "id": "00F180",
+    "offset": 61824,
+    "end": 61851,
+    "length": 27,
+    "jp": "コタツは？かいの\nみなみ8ひがし7\n？むきですよ[END]",
+    "fr": "Kotatsu : étage ?, S8, E7. Direction ?",
+    "references": [
+      61504
+    ],
+    "raw": "46 4c 4e 24 77 10 0c 23 fe 2a 1f 2a 09 25 fd 10 16 08 fe 77 2b 11 fd 1d 17 30 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Kotatsu :|<FB>étage ?,|<FB>S8, E7.[WAIT]<FB>Directi-|<FB>on?",
+    "target_bank": 16,
+    "target_address": 20320,
+    "target_length": 45
+  },
+  {
+    "id": "00F19B",
+    "offset": 61851,
+    "end": 61878,
+    "length": 27,
+    "jp": "コースケは4かい\nみなみ？ひがし？\nにいましたねえ[END]",
+    "fr": "Kôsuke : 4e étage, S?, E?.",
+    "references": [
+      61508
+    ],
+    "raw": "46 73 49 45 24 05 10 0c fe 2a 1f 2a 77 25 fd 10 16 77 fe 20 0c 29 16 1a 22 0e ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Kôsuke :|<FB>4e étage,|<FB>S?, E?.",
+    "target_bank": 16,
+    "target_address": 20365,
+    "target_length": 30
+  },
+  {
+    "id": "00F1B6",
+    "offset": 61878,
+    "end": 61901,
+    "length": 23,
+    "jp": "ラムは7かいの\nみなみ3ひがし？\nにいます[END]",
+    "fr": "Lamu : 7e étage, S3, E?.",
+    "references": [
+      61512,
+      61516,
+      61520,
+      61524
+    ],
+    "raw": "63 5d 24 08 10 0c 23 fe 2a 1f 2a 04 25 fd 10 16 77 fe 20 0c 29 17 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Lamu : 7e|<FB>étage,|<FB>S3, E?.",
+    "target_bank": 16,
+    "target_address": 20395,
+    "target_length": 28
+  },
+  {
+    "id": "00F1CD",
+    "offset": 61901,
+    "end": 61927,
+    "length": 26,
+    "jp": "りゅうのすけの\nおやじは7かいの\nほくせいにいます[END]",
+    "fr": "Père de Ryû : 7e étage, au nord-ouest.",
+    "references": [
+      61514
+    ],
+    "raw": "32 3a 0d 23 17 13 23 fe 0f 2e 70 24 08 10 0c 23 fe 28 12 18 0c 20 0c 29 17 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Père de|<FB>Ryû : 7e|<FB>étage, au[WAIT]<FB>nord-|<FB>ouest.",
+    "target_bank": 16,
+    "target_address": 20423,
+    "target_length": 45
+  },
+  {
+    "id": "00F1E7",
+    "offset": 61927,
+    "end": 61951,
+    "length": 24,
+    "jp": "チェリーは\n6かいのみなみ1\nひがし？にいる[END]",
+    "fr": "Cherry : 6e étage, S1, E?.",
+    "references": [
+      61518
+    ],
+    "raw": "4d 78 64 73 24 fe 07 10 0c 23 2a 1f 2a 02 fe 25 fd 10 16 77 20 0c 33 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Cherry :|<FB>6e étage,|<FB>S1, E?.",
+    "target_bank": 16,
+    "target_address": 20468,
+    "target_length": 30
+  },
+  {
+    "id": "00F1FF",
+    "offset": 61951,
+    "end": 61975,
+    "length": 24,
+    "jp": "めんどうは\nたしか 7かいで\nみかけましたよ[END]",
+    "fr": "Mendô ? Vu au 7e étage, je crois.",
+    "references": [
+      61522
+    ],
+    "raw": "2c 38 72 0d 24 fe 1a 16 10 00 08 10 0c fd 1d fe 2a 10 13 29 16 1a 30 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Mendô ?|<FB>Vu au 7e[WAIT]<FB>étage, je|<FB>crois.",
+    "target_bank": 16,
+    "target_address": 20498,
+    "target_length": 38
+  },
+  {
+    "id": "00F217",
+    "offset": 61975,
+    "end": 62004,
+    "length": 29,
+    "jp": "ボスをさがすとき\nすべてのむきを\nしらべるように[END]",
+    "fr": "Pour trouver un chef, regarde dans chaque direction.",
+    "references": [
+      61480,
+      61510
+    ],
+    "raw": "fd 5a 49 37 15 fd 10 17 1e 11 fe 17 fd 27 1d 23 2b 11 37 fe 16 31 fd 27 33 30 0d 20 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Pour|<FB>trouver|<FB>un chef,[WAIT]<FB>regarde|<FB>dans|<FB>chaque[WAIT]<FB>directi-|<FB>on.",
+    "target_bank": 16,
+    "target_address": 20536,
+    "target_length": 63
+  },
+  {
+    "id": "00F234",
+    "offset": 62004,
+    "end": 62036,
+    "length": 32,
+    "jp": " みなさんしずかに\n ミスともびきを\n はっぴょうします[END]",
+    "fr": "Silence, je vous prie ! Voici Miss Tomobiki !",
+    "references": [
+      61526
+    ],
+    "raw": "fb 2a 1f 15 38 16 fd 17 10 20 fe fb 5c 49 1e 2d fd 25 11 37 fe fb 24 3c fa 25 3b 0d 16 29 17 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Silence,|<FB>je vous|<FB>prie ![WAIT]<FB>Voici|<FB>Miss|<FB>Tomobiki!",
+    "target_bank": 16,
+    "target_address": 20599,
+    "target_length": 51
+  },
+  {
+    "id": "00F254",
+    "offset": 62036,
+    "end": 62063,
+    "length": 27,
+    "jp": " ミスともびきは\n ラムさんに\n けっていします！[END]",
+    "fr": "Miss Tomobiki est... Lamu !",
+    "references": [
+      61528
+    ],
+    "raw": "fb 5c 49 1e 2d fd 25 11 24 fe fb 63 5d 15 38 20 fe fb 13 3c 1d 0c 16 29 17 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Miss|<FB>Tomobiki[WAIT]<FB>est…|<FB>Lamu !",
+    "target_bank": 16,
+    "target_address": 20650,
+    "target_length": 30
+  },
+  {
+    "id": "00F26F",
+    "offset": 62063,
+    "end": 62076,
+    "length": 13,
+    "jp": " うち\n うれしいっちゃ[END]",
+    "fr": "Je suis si heureuse !",
+    "references": [
+      61530
+    ],
+    "raw": "fb 0d 1b fe fb 0d 34 16 0c 3c 1b 39 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Je suis|<FB>si|<FB>heureuse!",
+    "target_bank": 16,
+    "target_address": 20680,
+    "target_length": 24
+  },
+  {
+    "id": "00F27C",
+    "offset": 62076,
+    "end": 62101,
+    "length": 25,
+    "jp": " さてラムさん\n プレゼントは\n だれに？[END]",
+    "fr": "Lamu, à qui va le cadeau ?",
+    "references": [
+      61532
+    ],
+    "raw": "fb 15 1d 63 5d 15 38 fe fb fa 58 66 fd 4a 6a 50 24 fe fb fd 1a 34 20 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Lamu, à|<FB>qui va le|<FB>cadeau ?",
+    "target_bank": 16,
+    "target_address": 20704,
+    "target_length": 30
+  },
+  {
+    "id": "00F295",
+    "offset": 62101,
+    "end": 62124,
+    "length": 23,
+    "jp": " ダーリンに\n キスして\n あげるっちゃ[END]",
+    "fr": "À mon chéri ! Un baiser !",
+    "references": [
+      61534
+    ],
+    "raw": "fb fd 4c 73 64 6a 20 fe fb 43 49 16 1d fe fb 0b fd 13 33 3c 1b 39 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>À mon|<FB>chéri ![WAIT]<FB>Un|<FB>baiser !",
+    "target_bank": 16,
+    "target_address": 20734,
+    "target_length": 30
+  },
+  {
+    "id": "00F2AC",
+    "offset": 62124,
+    "end": 62137,
+    "length": 13,
+    "jp": "  だれがするかっ！[END]",
+    "fr": "Tu peux rêver !",
+    "references": [
+      61536
+    ],
+    "raw": "fb fb fd 1a 34 fd 10 17 33 10 3c 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Tu peux|<FB><FB>rêver !",
+    "target_bank": 16,
+    "target_address": 20764,
+    "target_length": 20
+  },
+  {
+    "id": "00F2B9",
+    "offset": 62137,
+    "end": 62157,
+    "length": 20,
+    "jp": " あっ ダーリン\n どこいくっちゃ[END]",
+    "fr": "Hé, chéri ! Où vas-tu ?",
+    "references": [
+      61538
+    ],
+    "raw": "fb 0b 3c 00 fd 4c 73 64 6a fe fb fd 1e 14 0c 12 3c 1b 39 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Hé,|<FB>chéri ![WAIT]<FB>Où|<FB>vas-tu ?",
+    "target_bank": 16,
+    "target_address": 20784,
+    "target_length": 28
+  },
+  {
+    "id": "00F2CD",
+    "offset": 62157,
+    "end": 62179,
+    "length": 22,
+    "jp": "  ねえきみしゃしん\n  とらせてくれない[END]",
+    "fr": "Hé, toi ! Je peux te prendre en photo ?",
+    "references": [
+      61584
+    ],
+    "raw": "fb fb 22 0e 11 2a 16 39 16 38 fe fb fb 1e 31 18 1d 12 34 1f 0c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Hé,|<FB><FB>toi ! Je|<FB><FB>peux te[WAIT]<FB><FB>prendre|<FB><FB>en|<FB><FB>photo ?",
+    "target_bank": 16,
+    "target_address": 20812,
+    "target_length": 52
+  },
+  {
+    "id": "00F2E3",
+    "offset": 62179,
+    "end": 62197,
+    "length": 18,
+    "jp": " もう ダーリンの\n バカーっ[END]",
+    "fr": "Chéri, idiot !",
+    "references": [
+      61586
+    ],
+    "raw": "fb 2d 0d 00 fd 4c 73 64 6a 23 fe fb fd 56 42 73 3c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Chéri,|<FB>idiot !",
+    "target_bank": 16,
+    "target_address": 20864,
+    "target_length": 17
+  },
+  {
+    "id": "00F2F5",
+    "offset": 62197,
+    "end": 62215,
+    "length": 18,
+    "jp": "    うるせい\n    スタッフ[END]",
+    "fr": "URUSEI YATSURA|L'équipe",
+    "references": [
+      61540
+    ],
+    "raw": "fb fb 00 00 0d 33 18 0c fe fb fb 00 00 49 4c 6f 58 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>URUSEI|<FB><FB>YATSURA|<FB><FB>L'équipe",
+    "target_bank": 16,
+    "target_address": 20881,
+    "target_length": 30
+  },
+  {
+    "id": "00F307",
+    "offset": 62215,
+    "end": 62238,
+    "length": 23,
+    "jp": " エグゼクティヴ\n プロデューサー[END]",
+    "fr": "Production|exécutive",
+    "references": [
+      61542
+    ],
+    "raw": "fb 40 fd 44 fd 4a 44 4f 6b fd 3f fe fb fa 58 67 fd 4f 6d 73 47 73 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Produc-|<FB>tion|<FB>exécutive",
+    "target_bank": 16,
+    "target_address": 20911,
+    "target_length": 26
+  },
+  {
+    "id": "00F31E",
+    "offset": 62238,
+    "end": 62261,
+    "length": 23,
+    "jp": "\n  やの せいいち\n  すがぬま たかお[END]",
+    "fr": "Seiichi Yano|Takao Suganuma",
+    "references": [
+      61544
+    ],
+    "raw": "fe fb fb 2e 23 00 18 0c 0c 1b fe fb fb 17 fd 10 21 29 00 1a 10 0f ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Seiichi|<FB><FB>Yano[WAIT]<FB><FB>Takao|<FB><FB>Suganuma",
+    "target_bank": 16,
+    "target_address": 20937,
+    "target_length": 36
+  },
+  {
+    "id": "00F335",
+    "offset": 62261,
+    "end": 62293,
+    "length": 32,
+    "jp": " プロデューサー\n いしい かずとよ\n わかみややすゆき[END]",
+    "fr": "Production|Kazutoyo Ishii|Yasuyuki Wakamiya",
+    "references": [
+      61546
+    ],
+    "raw": "fb fa 58 67 fd 4f 6d 73 47 73 fe fb 0c 16 0c 00 10 fd 17 1e 30 fe fb 36 10 2a 2e 2e 17 2f 11 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Produc-|<FB>tion[WAIT]<FB>Kazutoyo|<FB>Ishii[WAIT]<FB>Yasuyuki|<FB>Wakamiya",
+    "target_bank": 16,
+    "target_address": 20973,
+    "target_length": 52
+  },
+  {
+    "id": "00F355",
+    "offset": 62293,
+    "end": 62316,
+    "length": 23,
+    "jp": "  プラン\n  3ディー\n   システム[END]",
+    "fr": "Conception|Système 3D",
+    "references": [
+      61548
+    ],
+    "raw": "fb fb fa 58 63 6a fe fb fb 04 fd 4f 6b 73 fe fb fb 00 48 49 4f 5d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Concep-|<FB><FB>tion[WAIT]<FB><FB>Système|<FB><FB>3D",
+    "target_bank": 16,
+    "target_address": 21025,
+    "target_length": 32
+  },
+  {
+    "id": "00F36C",
+    "offset": 62316,
+    "end": 62340,
+    "length": 24,
+    "jp": " 3ディー\n  グラフィック\n ストーリー[END]",
+    "fr": "Graphismes 3D|Scénario",
+    "references": [
+      61550
+    ],
+    "raw": "fb 04 fd 4f 6b 73 fe fb 00 fd 44 63 58 6b 6f 44 fe fb 49 50 73 64 73 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Graphis-|<FB>mes 3D|<FB>Scénario",
+    "target_bank": 16,
+    "target_address": 21057,
+    "target_length": 28
+  },
+  {
+    "id": "00F384",
+    "offset": 62340,
+    "end": 62366,
+    "length": 26,
+    "jp": "  マップデザイン\n\n  ほそだ くにはる[END]",
+    "fr": "Plans|Kuniharu Hosoda",
+    "references": [
+      61552
+    ],
+    "raw": "fb fb 5b 6f fa 58 fd 4f fd 47 3e 6a fe fe fb fb 28 19 fd 1a 00 12 20 24 33 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Plans|<FB><FB>Kuniharu|<FB><FB>Hosoda",
+    "target_bank": 16,
+    "target_address": 21085,
+    "target_length": 28
+  },
+  {
+    "id": "00F39E",
+    "offset": 62366,
+    "end": 62386,
+    "length": 20,
+    "jp": " テキスト\n アイテム\n ふかぴー♥[END]",
+    "fr": "Textes, objets|Fukapî♥",
+    "references": [
+      61554
+    ],
+    "raw": "fb 4f 43 49 50 fe fb 3d 3e 4f 5d fe fb 26 10 fa 25 73 79 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Textes,|<FB>objets|<FB>Fukapî♥",
+    "target_bank": 16,
+    "target_address": 21113,
+    "target_length": 26
+  },
+  {
+    "id": "00F3B2",
+    "offset": 62386,
+    "end": 62424,
+    "length": 38,
+    "jp": "  ぶき・デバッグ\n  ソバットしもやま\n  わかばやしとしお[END]",
+    "fr": "Armes, tests|Sobat Shimoyama|Toshio Wakabayashi",
+    "references": [
+      61556
+    ],
+    "raw": "fb fb fd 26 11 74 fd 4f fd 56 6f fd 44 fe fb fb 4b fd 56 6f 50 16 2d 2e 29 fe fb fb 36 10 fd 24 2e 16 1e 16 0f ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Armes,|<FB><FB>tests[WAIT]<FB><FB>Sobat|<FB><FB>Shimoya-|<FB><FB>ma[WAIT]<FB><FB>Toshio|<FB><FB>Wakaba-|<FB><FB>yashi",
+    "target_bank": 16,
+    "target_address": 21139,
+    "target_length": 68
+  },
+  {
+    "id": "00F3D8",
+    "offset": 62424,
+    "end": 62450,
+    "length": 26,
+    "jp": " メイン かお\n アニメ デモ\n グラフィック[END]",
+    "fr": "Portraits|Animation|Graphismes",
+    "references": [
+      61558
+    ],
+    "raw": "fb 5e 3e 6a 00 10 0f fe fb 3d 52 5e 00 fd 4f 5f fe fb fd 44 63 58 6b 6f 44 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Portraits|<FB>Animation[WAIT]<FB>Graphis-|<FB>mes",
+    "target_bank": 16,
+    "target_address": 21207,
+    "target_length": 37
+  },
+  {
+    "id": "00F3F2",
+    "offset": 62450,
+    "end": 62464,
+    "length": 14,
+    "jp": "\n  しみず のりかず[END]",
+    "fr": "Norikazu Shimizu",
+    "references": [
+      61560
+    ],
+    "raw": "fe fb fb 16 2a fd 17 00 23 32 10 fd 17 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Norikazu|<FB><FB>Shimizu",
+    "target_bank": 16,
+    "target_address": 21244,
+    "target_length": 21
+  },
+  {
+    "id": "00F400",
+    "offset": 62464,
+    "end": 62488,
+    "length": 24,
+    "jp": " サウンド\n エフェクト\n たかはまゆうすけ[END]",
+    "fr": "Son, effets|Yûsuke Takahama",
+    "references": [
+      61562
+    ],
+    "raw": "fb 47 3f 6a fd 50 fe fb 40 58 78 44 50 fe fb 1a 10 24 29 2f 0d 17 13 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Son,|<FB>effets[WAIT]<FB>Yûsuke|<FB>Takahama",
+    "target_bank": 16,
+    "target_address": 21265,
+    "target_length": 32
+  },
+  {
+    "id": "00F418",
+    "offset": 62488,
+    "end": 62505,
+    "length": 17,
+    "jp": "  システム\n  プログラム[END]",
+    "fr": "Programmation|du système",
+    "references": [
+      61568
+    ],
+    "raw": "fb fb 48 49 4f 5d fe fb fb fa 58 67 fd 44 63 5d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Program-|<FB><FB>mation[WAIT]<FB><FB>du|<FB><FB>système",
+    "target_bank": 16,
+    "target_address": 21297,
+    "target_length": 35
+  },
+  {
+    "id": "00F429",
+    "offset": 62505,
+    "end": 62539,
+    "length": 34,
+    "jp": "  デバッグ\n  エイリアン あべ\n  のりピーまつむら[END]",
+    "fr": "Tests|Alien Abe|Noripî Matsumura",
+    "references": [
+      61572
+    ],
+    "raw": "fb fb fd 4f fd 56 6f fd 44 fe fb fb 40 3e 64 3d 6a 00 0b fd 27 fe fb fb 23 32 fa 57 73 29 1c 2b 31 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Tests|<FB><FB>Alien|<FB><FB>Abe[WAIT]<FB><FB>Noripî|<FB><FB>Matsumu-|<FB><FB>ra",
+    "target_bank": 16,
+    "target_address": 21332,
+    "target_length": 47
+  },
+  {
+    "id": "00F44B",
+    "offset": 62539,
+    "end": 62560,
+    "length": 21,
+    "jp": " マダム とよかわ\n コソク せんたい[END]",
+    "fr": "Madame Toyokawa|Kosoku Sentai",
+    "references": [
+      61574
+    ],
+    "raw": "fb 5b fd 4c 5d 00 1e 30 10 36 fe fb 46 4b 44 00 18 38 1a 0c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Madame|<FB>Toyokawa[WAIT]<FB>Kosoku|<FB>Sentai",
+    "target_bank": 16,
+    "target_address": 21379,
+    "target_length": 34
+  },
+  {
+    "id": "00F460",
+    "offset": 62560,
+    "end": 62588,
+    "length": 28,
+    "jp": "  スペシャル\n   サンクス\n  いちかわひさよし[END]",
+    "fr": "Remerciements|Hisayoshi Ichikawa",
+    "references": [
+      61576
+    ],
+    "raw": "fb fb 49 fa 59 48 6c 65 fe fb fb 00 47 6a 44 49 fe fb fb 0c 1b 10 36 25 15 30 16 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Remer-|<FB><FB>ciements[WAIT]<FB><FB>Hisayos-|<FB><FB>hi|<FB><FB>Ichikawa",
+    "target_bank": 16,
+    "target_address": 21413,
+    "target_length": 47
+  },
+  {
+    "id": "00F47C",
+    "offset": 62588,
+    "end": 62619,
+    "length": 31,
+    "jp": " いのうえともゆき\n なかむら まさき\n いとう しゅんじ[END]",
+    "fr": "Tomoyuki Inoue|Masaki Nakamura|Shunji Itô",
+    "references": [
+      61578
+    ],
+    "raw": "fb 0c 23 0d 0e 1e 2d 2f 11 fe fb 1f 10 2b 31 00 29 15 11 fe fb 0c 1e 0d 00 16 3a 38 fd 16 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Tomoyuki|<FB>Inoue[WAIT]<FB>Masaki|<FB>Nakamura[WAIT]<FB>Shunji|<FB>Itô",
+    "target_bank": 16,
+    "target_address": 21460,
+    "target_length": 48
+  },
+  {
+    "id": "00F49B",
+    "offset": 62619,
+    "end": 62632,
+    "length": 13,
+    "jp": "\n  ちだ としつぐ[END]",
+    "fr": "Toshitsugu Chida",
+    "references": [
+      61580
+    ],
+    "raw": "fe fb fb 1b fd 1a 00 1e 16 1c fd 12 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Toshi-|<FB><FB>tsugu|<FB><FB>Chida",
+    "target_bank": 16,
+    "target_address": 21508,
+    "target_length": 25
+  },
+  {
+    "id": "00F4A8",
+    "offset": 62632,
+    "end": 62649,
+    "length": 17,
+    "jp": " かんとく\n ほそだ くにはる[END]",
+    "fr": "Direction|Kuniharu Hosoda",
+    "references": [
+      61582
+    ],
+    "raw": "fb 10 38 1e 12 fe fb 28 19 fd 1a 00 12 20 24 33 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Direction|<FB>Kuniharu|<FB>Hosoda",
+    "target_bank": 16,
+    "target_address": 21533,
+    "target_length": 29
+  },
+  {
+    "id": "00F4B9",
+    "offset": 62649,
+    "end": 62657,
+    "length": 8,
+    "jp": "\n サウンド[END]",
+    "fr": "Son",
+    "references": [
+      61564
+    ],
+    "raw": "fe fb 47 3f 6a fd 50 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Son",
+    "target_bank": 16,
+    "target_address": 21562,
+    "target_length": 6
+  },
+  {
+    "id": "00F4C1",
+    "offset": 62657,
+    "end": 62670,
+    "length": 13,
+    "jp": "\n しおだ のぶゆき[END]",
+    "fr": "Nobuyuki Shiota",
+    "references": [
+      61566
+    ],
+    "raw": "fe fb 16 0f fd 1a 00 23 fd 26 2f 11 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Nobuyuki|<FB>Shiota",
+    "target_bank": 16,
+    "target_address": 21568,
+    "target_length": 18
+  },
+  {
+    "id": "00F4CE",
+    "offset": 62670,
+    "end": 62684,
+    "length": 14,
+    "jp": " せきぐち\n しゅんいち[END]",
+    "fr": "Shunichi Sekiguchi",
+    "references": [
+      61570
+    ],
+    "raw": "fb 18 11 fd 12 1b fe fb 16 3a 38 0c 1b ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Shunichi|<FB>Sekiguchi",
+    "target_bank": 16,
+    "target_address": 21586,
+    "target_length": 21
+  },
+  {
+    "id": "00F5D2",
+    "offset": 62930,
+    "end": 62955,
+    "length": 25,
+    "jp": "  みっけ\n  しゃしんとっても\n  いいかな？[END]",
+    "fr": "Ah, te voilà ! Une photo de toi, ça te dit ?",
+    "references": [
+      62828,
+      62836,
+      62856,
+      62880,
+      62896
+    ],
+    "raw": "fb fb 2a 3c 13 fe fb fb 16 39 16 38 1e 3c 1d 2d fe fb fb 0c 0c 10 1f 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Ah, te|<FB><FB>voilà !|<FB><FB>Une[WAIT]<FB><FB>photo de|<FB><FB>toi, ça|<FB><FB>te dit ?",
+    "target_bank": 16,
+    "target_address": 21607,
+    "target_length": 57
+  },
+  {
+    "id": "00F5EB",
+    "offset": 62955,
+    "end": 62984,
+    "length": 29,
+    "jp": "  おいっ！\n  もってるものを\n  だまってわたせ！[END]",
+    "fr": "Hé ! File-moi tout, sans râler !",
+    "references": [
+      62736,
+      62740,
+      62744
+    ],
+    "raw": "fb fb 0f 0c 3c 76 fe fb fb 2d 3c 1d 33 2d 23 37 fe fb fb fd 1a 29 3c 1d 36 1a 18 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Hé !|<FB><FB>File-moi|<FB><FB>tout,[WAIT]<FB><FB>sans|<FB><FB>râler !",
+    "target_bank": 16,
+    "target_address": 21664,
+    "target_length": 43
+  },
+  {
+    "id": "00F608",
+    "offset": 62984,
+    "end": 63011,
+    "length": 27,
+    "jp": "  はいっ！\n  たのまれたものを\n  もってきたよ[END]",
+    "fr": "Tiens ! J'ai apporté ce que tu voulais.",
+    "references": [
+      62848,
+      62868,
+      62888
+    ],
+    "raw": "fb fb 24 0c 3c 76 fe fb fb 1a 23 29 34 1a 2d 23 37 fe fb fb 2d 3c 1d 11 1a 30 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Tiens !|<FB><FB>J'ai|<FB><FB>apporté[WAIT]<FB><FB>ce que|<FB><FB>tu|<FB><FB>voulais.",
+    "target_bank": 16,
+    "target_address": 21707,
+    "target_length": 52
+  },
+  {
+    "id": "00F623",
+    "offset": 63011,
+    "end": 63039,
+    "length": 28,
+    "jp": " とれるもんなら\n とってみい！\n いくで アホ！！[END]",
+    "fr": "Viens le prendre si tu peux, crétin !",
+    "references": [
+      62734
+    ],
+    "raw": "fb 1e 34 33 2d 38 1f 31 fe fb 1e 3c 1d 2a 0c 76 fe fb 0c 12 fd 1d 00 3d 5a 76 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Viens le|<FB>prendre|<FB>si tu[WAIT]<FB>peux,|<FB>crétin !",
+    "target_bank": 16,
+    "target_address": 21759,
+    "target_length": 43
+  },
+  {
+    "id": "00F63F",
+    "offset": 63039,
+    "end": 63067,
+    "length": 28,
+    "jp": " ほしければ\n ちからずくで\n うばってみい！[END]",
+    "fr": "Tu le veux ? Arrache-le-moi de force !",
+    "references": [
+      62738,
+      62754
+    ],
+    "raw": "fb 28 16 13 34 fd 24 fe fb 1b 10 31 fd 17 12 fd 1d fe fb 0d fd 24 3c 1d 2a 0c 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Tu le|<FB>veux ?|<FB>Arrache-[WAIT]<FB>le-moi de|<FB>force !",
+    "target_bank": 16,
+    "target_address": 21802,
+    "target_length": 45
+  },
+  {
+    "id": "00F65B",
+    "offset": 63067,
+    "end": 63072,
+    "length": 5,
+    "jp": " ！！！[END]",
+    "fr": "!!!",
+    "references": [
+      62742
+    ],
+    "raw": "fb 76 76 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>!!!",
+    "target_bank": 16,
+    "target_address": 21847,
+    "target_length": 5
+  },
+  {
+    "id": "00F660",
+    "offset": 63072,
+    "end": 63089,
+    "length": 17,
+    "jp": "  なにか\n  こころあたりは？[END]",
+    "fr": "Un indice ?",
+    "references": [
+      62832,
+      62844,
+      62852,
+      62864,
+      62876,
+      62884,
+      62892,
+      62900,
+      62824
+    ],
+    "raw": "fb fb 1f 20 10 fe fb fb 14 14 35 0b 1a 32 24 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Un|<FB><FB>indice ?",
+    "target_bank": 16,
+    "target_address": 21852,
+    "target_length": 16
+  },
+  {
+    "id": "00F671",
+    "offset": 63089,
+    "end": 63116,
+    "length": 27,
+    "jp": "  あたらしく\n  つかえる\n  かいだんはどこ？[END]",
+    "fr": "Où sont les nouveaux escaliers ?",
+    "references": [
+      62840,
+      62860,
+      62872,
+      62772,
+      62784,
+      62796
+    ],
+    "raw": "fb fb 0b 1a 31 16 12 fe fb fb 1c 10 0e 33 fe fb fb 10 0c fd 1a 38 24 72 14 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Où sont|<FB><FB>les|<FB><FB>nouveaux[WAIT]<FB><FB>esca-|<FB><FB>liers?",
+    "target_bank": 16,
+    "target_address": 21868,
+    "target_length": 44
+  },
+  {
+    "id": "00F68C",
+    "offset": 63116,
+    "end": 63143,
+    "length": 27,
+    "jp": " ランちゃん\n ははぶしが\n ほしいんだけどな[END]",
+    "fr": "Je voudrais du hahabushi",
+    "references": [
+      62826
+    ],
+    "raw": "fb 63 6a 1b 39 38 fe fb 24 24 fd 26 16 fd 10 fe fb 28 16 0c 38 fd 1a 13 72 1f ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Je|<FB>voudrais[WAIT]<FB>du|<FB>hahabushi",
+    "target_bank": 16,
+    "target_address": 21912,
+    "target_length": 29
+  },
+  {
+    "id": "00F6A7",
+    "offset": 63143,
+    "end": 63174,
+    "length": 31,
+    "jp": " うらないようの\n すいしょうだまを\n さがしてくれんか[END]",
+    "fr": "Trouve-moi une boule de cristal divinatoire.",
+    "references": [
+      62834
+    ],
+    "raw": "fb 0d 31 1f 0c 30 0d 23 fe fb 17 0c 16 3b 0d fd 1a 29 37 fe fb 15 fd 10 16 1d 12 34 38 10 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Trouve-|<FB>moi une|<FB>boule de[WAIT]<FB>cristal|<FB>divina-|<FB>toire.",
+    "target_bank": 16,
+    "target_address": 21941,
+    "target_length": 54
+  },
+  {
+    "id": "00F6C6",
+    "offset": 63174,
+    "end": 63201,
+    "length": 27,
+    "jp": " ついでにもう1つ\n しめなわを\n さがしてくれ[END]",
+    "fr": "Et aussi un shimenawa, s'il te plaît.",
+    "references": [
+      62846
+    ],
+    "raw": "fb 1c 0c fd 1d 20 2d 0d 02 1c fe fb 16 2c 1f 36 37 fe fb 15 fd 10 16 1d 12 34 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Et aussi|<FB>un|<FB>shimena-[WAIT]<FB>wa, s'il|<FB>te plaît.",
+    "target_bank": 16,
+    "target_address": 21995,
+    "target_length": 45
+  },
+  {
+    "id": "00F6E1",
+    "offset": 63201,
+    "end": 63232,
+    "length": 31,
+    "jp": " スノークリスタル\n をくだされば\n かんがえましょう[END]",
+    "fr": "Donnez-moi le cristal de neige. J'y réfléchirai.",
+    "references": [
+      62854
+    ],
+    "raw": "fb 49 55 73 44 64 49 4c 65 fe fb 37 12 fd 1a 15 34 fd 24 fe fb 10 38 fd 10 0e 29 16 3b 0d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Donnez-|<FB>moi le|<FB>cristal[WAIT]<FB>de neige.|<FB>J'y[WAIT]<FB>réfléchi-|<FB>rai.",
+    "target_bank": 16,
+    "target_address": 22040,
+    "target_length": 59
+  },
+  {
+    "id": "00F700",
+    "offset": 63232,
+    "end": 63264,
+    "length": 32,
+    "jp": " あと わたしの\n かってるペンギン\n もおねがいします[END]",
+    "fr": "Et mon pingouin de compagnie, aussi.",
+    "references": [
+      62866
+    ],
+    "raw": "fb 0b 1e 00 36 1a 16 23 fe fb 10 3c 1d 33 fa 59 6a fd 43 6a fe fb 2d 0f 22 fd 10 0c 16 29 17 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Et mon|<FB>pingouin|<FB>de[WAIT]<FB>compa-|<FB>gnie,|<FB>aussi.",
+    "target_bank": 16,
+    "target_address": 22099,
+    "target_length": 45
+  },
+  {
+    "id": "00F720",
+    "offset": 63264,
+    "end": 63293,
+    "length": 29,
+    "jp": " そうね だったら\n じくうのはなを\n みつけてきてよ[END]",
+    "fr": "Alors trouve-moi la fleur du temps !",
+    "references": [
+      62878
+    ],
+    "raw": "fb 19 0d 22 00 fd 1a 3c 1a 31 fe fb 70 12 0d 23 24 1f 37 fe fb 2a 1c 13 1d 11 1d 30 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Alors|<FB>trouve-|<FB>moi la[WAIT]<FB>fleur du|<FB>temps !",
+    "target_bank": 16,
+    "target_address": 22144,
+    "target_length": 43
+  },
+  {
+    "id": "00F73D",
+    "offset": 63293,
+    "end": 63324,
+    "length": 31,
+    "jp": " まだよ もう1つ\n うんめいのカギを\n とりかえしてよ[END]",
+    "fr": "Pas encore ! Récupère aussi la clé du destin.",
+    "references": [
+      62886
+    ],
+    "raw": "fb 29 fd 1a 30 00 2d 0d 02 1c fe fb 0d 38 2c 0c 23 42 fd 43 37 fe fb 1e 32 10 0e 16 1d 30 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Pas|<FB>encore !|<FB>Récupère[WAIT]<FB>aussi la|<FB>clé du|<FB>destin.",
+    "target_bank": 16,
+    "target_address": 22187,
+    "target_length": 52
+  },
+  {
+    "id": "00F75C",
+    "offset": 63324,
+    "end": 63351,
+    "length": 27,
+    "jp": " ウチのビキニが\n ないっちゃ\n さがすっちゃ[END]",
+    "fr": "Mon bikini a disparu ! Retrouve-le !",
+    "references": [
+      62894
+    ],
+    "raw": "fb 3f 4d 23 fd 57 43 52 fd 10 fe fb 1f 0c 3c 1b 39 fe fb 15 fd 10 17 3c 1b 39 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Mon|<FB>bikini a|<FB>disparu ![WAIT]<FB>Retrouve-|<FB>le!",
+    "target_bank": 16,
+    "target_address": 22239,
+    "target_length": 42
+  },
+  {
+    "id": "00F777",
+    "offset": 63351,
+    "end": 63374,
+    "length": 23,
+    "jp": " つぎは\n ウチのツノを\n さがすっちゃ[END]",
+    "fr": "Puis retrouve mes cornes !",
+    "references": [
+      62902
+    ],
+    "raw": "fb 1c fd 11 24 fe fb 3f 4d 23 4e 55 37 fe fb 15 fd 10 17 3c 1b 39 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Puis|<FB>retrouve[WAIT]<FB>mes|<FB>cornes !",
+    "target_bank": 16,
+    "target_address": 22281,
+    "target_length": 31
+  },
+  {
+    "id": "00F78E",
+    "offset": 63374,
+    "end": 63402,
+    "length": 28,
+    "jp": " もう フィルムが\n ないっちゃ！\n さがすっちゃ[END]",
+    "fr": "Je n'ai plus de pellicule ! Trouve-en !",
+    "references": [
+      62910
+    ],
+    "raw": "fb 2d 0d 00 58 6b 65 5d fd 10 fe fb 1f 0c 3c 1b 39 76 fe fb 15 fd 10 17 3c 1b 39 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Je n'ai|<FB>plus de|<FB>pellicu-[WAIT]<FB>le!|<FB>Trouve-|<FB>en!",
+    "target_bank": 16,
+    "target_address": 22312,
+    "target_length": 47
+  },
+  {
+    "id": "00F7AA",
+    "offset": 63402,
+    "end": 63427,
+    "length": 25,
+    "jp": " そういえば\n テンちゃんが\n もっていたわ[END]",
+    "fr": "Au fait, Ten l'avait sur lui.",
+    "references": [
+      62822
+    ],
+    "raw": "fb 19 0d 0c 0e fd 24 fe fb 4f 6a 1b 39 38 fd 10 fe fb 2d 3c 1d 0c 1a 36 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Au fait,|<FB>Ten[WAIT]<FB>l'avait|<FB>sur lui.",
+    "target_bank": 16,
+    "target_address": 22359,
+    "target_length": 34
+  },
+  {
+    "id": "00F7C3",
+    "offset": 63427,
+    "end": 63456,
+    "length": 29,
+    "jp": " おんせんマークが\n なにか こそこそ\n しておったな[END]",
+    "fr": "Onsen tramait quelque chose.",
+    "references": [
+      62830
+    ],
+    "raw": "fb 0f 38 18 38 5b 73 44 fd 10 fe fb 1f 20 10 00 14 19 14 19 fe fb 16 1d 0f 3c 1a 1f ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Onsen|<FB>tramait[WAIT]<FB>quelque|<FB>chose.",
+    "target_bank": 16,
+    "target_address": 22393,
+    "target_length": 33
+  },
+  {
+    "id": "00F7E0",
+    "offset": 63456,
+    "end": 63485,
+    "length": 29,
+    "jp": " さっきまで\n りゅうのすけが\n きておったがのう[END]",
+    "fr": "Ryûnosuke était là tout à l'heure.",
+    "references": [
+      62842
+    ],
+    "raw": "fb 15 3c 11 29 fd 1d fe fb 32 3a 0d 23 17 13 fd 10 fe fb 11 1d 0f 3c 1a fd 10 23 0d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Ryûnosuke|<FB>était là[WAIT]<FB>tout à|<FB>l'heure.",
+    "target_bank": 16,
+    "target_address": 22426,
+    "target_length": 39
+  },
+  {
+    "id": "00F7FD",
+    "offset": 63485,
+    "end": 63511,
+    "length": 26,
+    "jp": " レイが いつも\n だいじに\n もってましたわ[END]",
+    "fr": "Rei le gardait toujours précieusement.",
+    "references": [
+      62850
+    ],
+    "raw": "fb 66 3e fd 10 00 0c 1c 2d fe fb fd 1a 0c 70 20 fe fb 2d 3c 1d 29 16 1a 36 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Rei le|<FB>gardait|<FB>toujours[WAIT]<FB>précieu-|<FB>sement.",
+    "target_bank": 16,
+    "target_address": 22465,
+    "target_length": 46
+  },
+  {
+    "id": "00F817",
+    "offset": 63511,
+    "end": 63544,
+    "length": 33,
+    "jp": " 4かいのほくとう\n あたりではぐれて\n しまったのですわ[END]",
+    "fr": "J'ai perdu mon pingouin au nord-est du 4e étage.",
+    "references": [
+      62862
+    ],
+    "raw": "fb 05 10 0c 23 28 12 1e 0d fe fb 0b 1a 32 fd 1d 24 fd 12 34 1d fe fb 16 29 3c 1a 23 fd 1d 17 36 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>J'ai|<FB>perdu mon|<FB>pingouin[WAIT]<FB>au|<FB>nord-est[WAIT]<FB>du 4e|<FB>étage.",
+    "target_bank": 16,
+    "target_address": 22511,
+    "target_length": 56
+  },
+  {
+    "id": "00F838",
+    "offset": 63544,
+    "end": 63570,
+    "length": 26,
+    "jp": " コタツネコが\n あたまにさしてた\n のをみたわ[END]",
+    "fr": "Je l'ai vue plantée sur la tête du Chat Kotatsu.",
+    "references": [
+      62874
+    ],
+    "raw": "fb 46 4c 4e 54 46 fd 10 fe fb 0b 1a 29 20 15 16 1d 1a fe fb 23 37 2a 1a 36 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Je l'ai|<FB>vue|<FB>plantée[WAIT]<FB>sur la|<FB>tête du[WAIT]<FB>Chat|<FB>Kotatsu.",
+    "target_bank": 16,
+    "target_address": 22567,
+    "target_length": 56
+  },
+  {
+    "id": "00F852",
+    "offset": 63570,
+    "end": 63594,
+    "length": 24,
+    "jp": " コースケくんが\n かえして\n くれないのよ[END]",
+    "fr": "Kôsuke ne veut pas me la rendre !",
+    "references": [
+      62882
+    ],
+    "raw": "fb 46 73 49 45 12 38 fd 10 fe fb 10 0e 16 1d fe fb 12 34 1f 0c 23 30 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Kôsuke ne|<FB>veut pas[WAIT]<FB>me la|<FB>rendre !",
+    "target_bank": 16,
+    "target_address": 22623,
+    "target_length": 38
+  },
+  {
+    "id": "00F86A",
+    "offset": 63594,
+    "end": 63623,
+    "length": 29,
+    "jp": " りゅうのすけの\n とうちゃんが\n あやしいだっちゃ[END]",
+    "fr": "Le père de Ryûnosuke est suspect !",
+    "references": [
+      62890
+    ],
+    "raw": "fb 32 3a 0d 23 17 13 23 fe fb 1e 0d 1b 39 38 fd 10 fe fb 0b 2e 16 0c fd 1a 3c 1b 39 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Le père|<FB>de|<FB>Ryûnosuke[WAIT]<FB>est|<FB>suspect !",
+    "target_bank": 16,
+    "target_address": 22661,
+    "target_length": 40
+  },
+  {
+    "id": "00F887",
+    "offset": 63623,
+    "end": 63654,
+    "length": 31,
+    "jp": " チェリーがダシを\n とるっていって\n もってったっちゃ[END]",
+    "fr": "Cherry les a prises pour en faire du bouillon !",
+    "references": [
+      62898
+    ],
+    "raw": "fb 4d 78 64 73 fd 10 fd 4c 48 37 fe fb 1e 33 3c 1d 0c 3c 1d fe fb 2d 3c 1d 3c 1a 3c 1b 39 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Cherry|<FB>les a|<FB>prises[WAIT]<FB>pour en|<FB>faire du|<FB>bouillon!",
+    "target_bank": 16,
+    "target_address": 22701,
+    "target_length": 53
+  },
+  {
+    "id": "00F8A6",
+    "offset": 63654,
+    "end": 63685,
+    "length": 31,
+    "jp": " しかたないっちゃね\n しゅうたろうなら\n もってるっちゃ！[END]",
+    "fr": "Tant pis... Shûtarô en a sûrement !",
+    "references": [
+      62906
+    ],
+    "raw": "fb 16 10 1a 1f 0c 3c 1b 39 22 fe fb 16 3a 0d 1a 35 0d 1f 31 fe fb 2d 3c 1d 33 3c 1b 39 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Tant pis…|<FB>Shûtarô[WAIT]<FB>en a|<FB>sûrement!",
+    "target_bank": 16,
+    "target_address": 22754,
+    "target_length": 37
+  },
+  {
+    "id": "00F8C5",
+    "offset": 63685,
+    "end": 63711,
+    "length": 26,
+    "jp": "  フン\n  オマケで\n  とってやるだけだ[END]",
+    "fr": "Hmpf ! C'est juste pour te faire plaisir.",
+    "references": [],
+    "raw": "fb fb 58 6a fe fb fb 41 5b 45 fd 1d fe fb fb 1e 3c 1d 2e 33 fd 1a 13 fd 1a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Hmpf !|<FB><FB>C'est|<FB><FB>juste[WAIT]<FB><FB>pour te|<FB><FB>faire|<FB><FB>plaisir.",
+    "target_bank": 16,
+    "target_address": 22791,
+    "target_length": 54
+  },
+  {
+    "id": "00F8DF",
+    "offset": 63711,
+    "end": 63743,
+    "length": 32,
+    "jp": " みなみ3ひがし5\n にあるかいだんが\n つかえるわよ♥[END]",
+    "fr": "Les escaliers en S3, E5 sont ouverts !♥",
+    "references": [
+      62770
+    ],
+    "raw": "fb 2a 1f 2a 04 25 fd 10 16 06 fe fb 20 0b 33 10 0c fd 1a 38 fd 10 fe fb 1c 10 0e 33 36 30 79 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Les|<FB>escaliers|<FB>en S3, E5[WAIT]<FB>sont|<FB>ouverts!♥",
+    "target_bank": 16,
+    "target_address": 22845,
+    "target_length": 44
+  },
+  {
+    "id": "00F8FF",
+    "offset": 63743,
+    "end": 63771,
+    "length": 28,
+    "jp": " 2かいの\n みなみ13ひがし\n 5のいちにあるぞ[END]",
+    "fr": "Au 2e étage : S13, E5.",
+    "references": [
+      62838
+    ],
+    "raw": "fb 03 10 0c 23 fe fb 2a 1f 2a 02 04 25 fd 10 16 fe fb 06 23 0c 1b 20 0b 33 fd 19 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Au 2e|<FB>étage :|<FB>S13, E5.",
+    "target_bank": 16,
+    "target_address": 22889,
+    "target_length": 26
+  },
+  {
+    "id": "00F91B",
+    "offset": 63771,
+    "end": 63798,
+    "length": 27,
+    "jp": " 3かいの\n みなみ9ひがし1\n のいちにあるぞ[END]",
+    "fr": "Au 3e étage : S9, E1.",
+    "references": [
+      62782
+    ],
+    "raw": "fb 04 10 0c 23 fe fb 2a 1f 2a 0a 25 fd 10 16 02 fe fb 23 0c 1b 20 0b 33 fd 19 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Au 3e|<FB>étage :|<FB>S9, E1.",
+    "target_bank": 16,
+    "target_address": 22915,
+    "target_length": 25
+  },
+  {
+    "id": "00F936",
+    "offset": 63798,
+    "end": 63824,
+    "length": 26,
+    "jp": " 4かいの\n みなみ1ひがし9\n にありましたわ[END]",
+    "fr": "Au 4e étage : S1, E9.",
+    "references": [
+      62858
+    ],
+    "raw": "fb 05 10 0c 23 fe fb 2a 1f 2a 02 25 fd 10 16 0a fe fb 20 0b 32 29 16 1a 36 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Au 4e|<FB>étage :|<FB>S1, E9.",
+    "target_bank": 16,
+    "target_address": 22940,
+    "target_length": 25
+  },
+  {
+    "id": "00F950",
+    "offset": 63824,
+    "end": 63851,
+    "length": 27,
+    "jp": " 5かいのみなみ5\n ひがし13\n のいちにあるよ[END]",
+    "fr": "Au 5e étage : S5, E13.",
+    "references": [
+      62794
+    ],
+    "raw": "fb 06 10 0c 23 2a 1f 2a 06 fe fb 25 fd 10 16 02 04 fe fb 23 0c 1b 20 0b 33 30 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Au 5e|<FB>étage :|<FB>S5, E13.",
+    "target_bank": 16,
+    "target_address": 22965,
+    "target_length": 26
+  },
+  {
+    "id": "00F96B",
+    "offset": 63851,
+    "end": 63878,
+    "length": 27,
+    "jp": " 6かいのみなみ9\n ひがし 1\n のいちにあるよ[END]",
+    "fr": "Au 6e étage : S9, E1.",
+    "references": [
+      62870
+    ],
+    "raw": "fb 07 10 0c 23 2a 1f 2a 0a fe fb 25 fd 10 16 00 02 fe fb 23 0c 1b 20 0b 33 30 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Au 6e|<FB>étage :|<FB>S9, E1.",
+    "target_bank": 16,
+    "target_address": 22991,
+    "target_length": 25
+  },
+  {
+    "id": "00F986",
+    "offset": 63878,
+    "end": 63908,
+    "length": 30,
+    "jp": "  ラーンちゃん♥\n  みつかったよ\n  はい ははぶし[END]",
+    "fr": "Ran !♥ Je l'ai trouvé ! Ton hahabushi !",
+    "references": [
+      62780
+    ],
+    "raw": "fb fb 63 73 6a 1b 39 38 79 fe fb fb 2a 1c 10 3c 1a 30 fe fb fb 24 0c 00 24 24 fd 26 16 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Ran !♥|<FB><FB>Je l'ai|<FB><FB>trouvé ![WAIT]<FB><FB>Ton|<FB><FB>hahabu-|<FB><FB>shi!",
+    "target_bank": 16,
+    "target_address": 23016,
+    "target_length": 53
+  },
+  {
+    "id": "00F9A4",
+    "offset": 63908,
+    "end": 63937,
+    "length": 29,
+    "jp": " さすがダーリン♥\n ランちゃん\n とってもうれしい[END]",
+    "fr": "Bravo, chéri !♥ Je suis ravie !",
+    "references": [
+      62778
+    ],
+    "raw": "fb 15 17 fd 10 fd 4c 73 64 6a 79 fe fb 63 6a 1b 39 38 fe fb 1e 3c 1d 2d 0d 34 16 0c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Bravo,|<FB>chéri !♥[WAIT]<FB>Je suis|<FB>ravie !",
+    "target_bank": 16,
+    "target_address": 23069,
+    "target_length": 36
+  },
+  {
+    "id": "00F9C1",
+    "offset": 63937,
+    "end": 63964,
+    "length": 27,
+    "jp": "  ランちゃん\n  しゃしんとっても\n  いいかな？[END]",
+    "fr": "Ran, je peux te prendre en photo ?",
+    "references": [
+      62776
+    ],
+    "raw": "fb fb 63 6a 1b 39 38 fe fb fb 16 39 16 38 1e 3c 1d 2d fe fb fb 0c 0c 10 1f 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Ran, je|<FB><FB>peux te|<FB><FB>prendre[WAIT]<FB><FB>en|<FB><FB>photo ?",
+    "target_bank": 16,
+    "target_address": 23105,
+    "target_length": 45
+  },
+  {
+    "id": "00F9DC",
+    "offset": 63964,
+    "end": 63986,
+    "length": 22,
+    "jp": " いいわよ♥\n でも\n かわいくとってね[END]",
+    "fr": "Oui !♥ Mais fais-moi jolie !",
+    "references": [
+      62774
+    ],
+    "raw": "fb 0c 0c 36 30 79 fe fb fd 1d 2d fe fb 10 36 0c 12 1e 3c 1d 22 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Oui !♥|<FB>Mais[WAIT]<FB>fais-moi|<FB>jolie !",
+    "target_bank": 16,
+    "target_address": 23150,
+    "target_length": 33
+  },
+  {
+    "id": "00F9F2",
+    "offset": 63986,
+    "end": 64004,
+    "length": 18,
+    "jp": "  しめなわを\n  もってきました[END]",
+    "fr": "J'ai apporté le shimenawa.",
+    "references": [
+      62792
+    ],
+    "raw": "fb fb 16 2c 1f 36 37 fe fb fb 2d 3c 1d 11 29 16 1a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>J'ai|<FB><FB>apporté|<FB><FB>le[WAIT]<FB><FB>shimena-|<FB><FB>wa.",
+    "target_bank": 16,
+    "target_address": 23183,
+    "target_length": 39
+  },
+  {
+    "id": "00FA04",
+    "offset": 64004,
+    "end": 64025,
+    "length": 21,
+    "jp": " おっ！ おぬしが\n もってくるとはな[END]",
+    "fr": "Oh ! Toi, tu l'as trouvé ?",
+    "references": [
+      62790
+    ],
+    "raw": "fb 0f 3c 76 00 0f 21 16 fd 10 fe fb 2d 3c 1d 12 33 1e 24 1f ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Oh ! Toi,|<FB>tu l'as|<FB>trouvé ?",
+    "target_bank": 16,
+    "target_address": 23222,
+    "target_length": 30
+  },
+  {
+    "id": "00FA19",
+    "offset": 64025,
+    "end": 64053,
+    "length": 28,
+    "jp": "  サクラさん\n  ポーズを\n  とってください[END]",
+    "fr": "Sakura, prenez la pose !",
+    "references": [
+      62788
+    ],
+    "raw": "fb fb 47 44 63 15 38 fe fb fb fa 5a 73 fd 49 37 fe fb fb 1e 3c 1d 12 fd 1a 15 0c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Sakura,|<FB><FB>prenez[WAIT]<FB><FB>la|<FB><FB>pose !",
+    "target_bank": 16,
+    "target_address": 23252,
+    "target_length": 33
+  },
+  {
+    "id": "00FA35",
+    "offset": 64053,
+    "end": 64070,
+    "length": 17,
+    "jp": " まあよかろう\n とっていいぞ[END]",
+    "fr": "Soit. Tu peux me photographier.",
+    "references": [
+      62786
+    ],
+    "raw": "fb 29 0b 30 10 35 0d fe fb 1e 3c 1d 0c 0c fd 19 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Soit. Tu|<FB>peux me[WAIT]<FB>photogra-|<FB>phier.",
+    "target_bank": 16,
+    "target_address": 23285,
+    "target_length": 38
+  },
+  {
+    "id": "00FA46",
+    "offset": 64070,
+    "end": 64099,
+    "length": 29,
+    "jp": "  おユキさん♥\n  ペンギンを\n  みつけましたよ[END]",
+    "fr": "Oyuki !♥ J'ai trouvé votre pingouin !",
+    "references": [
+      62804
+    ],
+    "raw": "fb fb 0f 61 43 15 38 79 fe fb fb fa 59 6a fd 43 6a 37 fe fb fb 2a 1c 13 29 16 1a 30 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Oyuki !♥|<FB><FB>J'ai|<FB><FB>trouvé[WAIT]<FB><FB>votre|<FB><FB>pingou-|<FB><FB>in!",
+    "target_bank": 16,
+    "target_address": 23323,
+    "target_length": 51
+  },
+  {
+    "id": "00FA63",
+    "offset": 64099,
+    "end": 64128,
+    "length": 29,
+    "jp": " まあ あたるさん\n あら？ それは\n ツバメですわ[END]",
+    "fr": "Ataru ! Oh ? Mais c'est Tsubame !",
+    "references": [
+      62802
+    ],
+    "raw": "fb 29 0b 00 0b 1a 33 15 38 fe fb 0b 31 77 00 19 34 24 fe fb 4e fd 56 5e fd 1d 17 36 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Ataru !|<FB>Oh ? Mais[WAIT]<FB>c'est|<FB>Tsubame !",
+    "target_bank": 16,
+    "target_address": 23374,
+    "target_length": 38
+  },
+  {
+    "id": "00FA80",
+    "offset": 64128,
+    "end": 64145,
+    "length": 17,
+    "jp": "  ええ！！\n  そんなバカな[END]",
+    "fr": "Quoi ?! C'est impossible !",
+    "references": [
+      62800
+    ],
+    "raw": "fb fb 0e 0e 76 76 fe fb fb 19 38 1f fd 56 42 1f ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Quoi ?!|<FB><FB>C'est[WAIT]<FB><FB>impossi-|<FB><FB>ble!",
+    "target_bank": 16,
+    "target_address": 23412,
+    "target_length": 36
+  },
+  {
+    "id": "00FA91",
+    "offset": 64145,
+    "end": 64176,
+    "length": 31,
+    "jp": " じょうだんですわ\n さ しゃしんを\n おとりなさいませ[END]",
+    "fr": "Je plaisante. Prenez donc la photo !",
+    "references": [
+      62798
+    ],
+    "raw": "fb 70 3b 0d fd 1a 38 fd 1d 17 36 fe fb 15 00 16 39 16 38 37 fe fb 0f 1e 32 1f 15 0c 29 18 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Je|<FB>plaisan-|<FB>te.[WAIT]<FB>Prenez|<FB>donc la|<FB>photo !",
+    "target_bank": 16,
+    "target_address": 23448,
+    "target_length": 45
+  },
+  {
+    "id": "00FAB0",
+    "offset": 64176,
+    "end": 64188,
+    "length": 12,
+    "jp": "  これでいいのか？[END]",
+    "fr": "C'est bien ça ?",
+    "references": [
+      62812
+    ],
+    "raw": "fb fb 14 34 fd 1d 0c 0c 23 10 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>C'est|<FB><FB>bien|<FB><FB>ça ?",
+    "target_bank": 16,
+    "target_address": 23493,
+    "target_length": 22
+  },
+  {
+    "id": "00FABC",
+    "offset": 64188,
+    "end": 64219,
+    "length": 31,
+    "jp": " うん ありがとう\n じゃ しゃしんを\n とらせてあげる[END]",
+    "fr": "Oui, merci ! Tu peux me photographier.",
+    "references": [
+      62810
+    ],
+    "raw": "fb 0d 38 00 0b 32 fd 10 1e 0d fe fb 70 39 00 16 39 16 38 37 fe fb 1e 31 18 1d 0b fd 13 33 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Oui,|<FB>merci !|<FB>Tu peux[WAIT]<FB>me|<FB>photogra-|<FB>phier.",
+    "target_bank": 16,
+    "target_address": 23515,
+    "target_length": 47
+  },
+  {
+    "id": "00FADB",
+    "offset": 64219,
+    "end": 64248,
+    "length": 29,
+    "jp": "  ああっ！\n  カメラがない\n  どこにいったんだ[END]",
+    "fr": "Ah ! Mon appareil ! Où est-il passé ?",
+    "references": [
+      62808
+    ],
+    "raw": "fb fb 0b 0b 3c 76 fe fb fb 42 5e 63 fd 10 1f 0c fe fb fb 72 14 20 0c 3c 1a 38 fd 1a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Ah ! Mon|<FB><FB>appare-|<FB><FB>il! Où[WAIT]<FB><FB>est-il|<FB><FB>passé ?",
+    "target_bank": 16,
+    "target_address": 23562,
+    "target_length": 49
+  },
+  {
+    "id": "00FAF8",
+    "offset": 64248,
+    "end": 64280,
+    "length": 32,
+    "jp": " ・・・くびから\n さげてるじゃない\n ボケないでよね[END]",
+    "fr": "Il pend à ton cou... Arrête tes bêtises !",
+    "references": [
+      62806
+    ],
+    "raw": "fb 74 74 74 12 fd 25 10 31 fe fb 15 fd 13 1d 33 70 39 1f 0c fe fb fd 5a 45 1f 0c fd 1d 30 22 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Il pend à|<FB>ton cou…|<FB>Arrête[WAIT]<FB>tes|<FB>bêtises !",
+    "target_bank": 16,
+    "target_address": 23611,
+    "target_length": 45
+  },
+  {
+    "id": "00FB18",
+    "offset": 64280,
+    "end": 64313,
+    "length": 33,
+    "jp": "  ラム おるか？\n  しゃしんをとるぞ\n  ポーズをとれ[END]",
+    "fr": "Lamu, tu es là ? Je prends la photo. Pose !",
+    "references": [
+      62820
+    ],
+    "raw": "fb fb 63 5d 00 0f 33 10 77 fe fb fb 16 39 16 38 37 1e 33 fd 19 fe fb fb fa 5a 73 fd 49 37 1e 34 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Lamu, tu|<FB><FB>es là ?|<FB><FB>Je[WAIT]<FB><FB>prends|<FB><FB>la[WAIT]<FB><FB>photo.|<FB><FB>Pose !",
+    "target_bank": 16,
+    "target_address": 23656,
+    "target_length": 58
+  },
+  {
+    "id": "00FB39",
+    "offset": 64313,
+    "end": 64340,
+    "length": 27,
+    "jp": " やっぱり\n きてくれたっちゃ\n うれしいっちゃ♥[END]",
+    "fr": "Tu es venu ! Je suis contente !♥",
+    "references": [
+      62818
+    ],
+    "raw": "fb 2e 3c fa 24 32 fe fb 11 1d 12 34 1a 3c 1b 39 fe fb 0d 34 16 0c 3c 1b 39 79 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Tu es|<FB>venu ! Je|<FB>suis[WAIT]<FB>conten-|<FB>te!♥",
+    "target_bank": 16,
+    "target_address": 23714,
+    "target_length": 39
+  },
+  {
+    "id": "00FB54",
+    "offset": 64340,
+    "end": 64369,
+    "length": 29,
+    "jp": "  なにをぶつぶつ\n  いっておる\n  さ とるぞ[END]",
+    "fr": "Que marmonnes-tu ? Allez, je prends la photo !",
+    "references": [
+      62816
+    ],
+    "raw": "fb fb 1f 20 37 fd 26 1c fd 26 1c fe fb fb 0c 3c 1d 0f 33 fe fb fb 15 00 1e 33 fd 19 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Que|<FB><FB>marmonn-|<FB><FB>es-tu?[WAIT]<FB><FB>Allez,|<FB><FB>je|<FB><FB>prends[WAIT]<FB><FB>la|<FB><FB>photo !",
+    "target_bank": 16,
+    "target_address": 23753,
+    "target_length": 64
+  },
+  {
+    "id": "00FB71",
+    "offset": 64369,
+    "end": 64388,
+    "length": 19,
+    "jp": " ダーリン♥\n だーいすき！！！[END]",
+    "fr": "Chéri !♥ Je t'aime tant !",
+    "references": [
+      62814
+    ],
+    "raw": "fb fd 4c 73 64 6a 79 fe fb fd 1a 73 0c 17 11 76 76 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Chéri !♥|<FB>Je t'aime|<FB>tant !",
+    "target_bank": 16,
+    "target_address": 23817,
+    "target_length": 29
+  },
+  {
+    "id": "00FB84",
+    "offset": 64388,
+    "end": 64421,
+    "length": 33,
+    "jp": "  あっ いたいた\n  さ おユキさんの\n  ところにかえるぞ[END]",
+    "fr": "Ah, te voilà ! On retourne chez Oyuki !",
+    "references": [
+      62752
+    ],
+    "raw": "fb fb 0b 3c 00 0c 1a 0c 1a fe fb fb 15 00 0f 61 43 15 38 23 fe fb fb 1e 14 35 20 10 0e 33 fd 19 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Ah, te|<FB><FB>voilà !|<FB><FB>On[WAIT]<FB><FB>retourne|<FB><FB>chez|<FB><FB>Oyuki !",
+    "target_bank": 16,
+    "target_address": 23846,
+    "target_length": 52
+  },
+  {
+    "id": "00FBA5",
+    "offset": 64421,
+    "end": 64434,
+    "length": 13,
+    "jp": " ピ・ピピー！！！[END]",
+    "fr": "Pi-pipi !",
+    "references": [
+      62750
+    ],
+    "raw": "fb fa 57 74 fa 57 fa 57 73 76 76 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Pi-pipi !",
+    "target_bank": 16,
+    "target_address": 23898,
+    "target_length": 11
+  },
+  {
+    "id": "00FBB2",
+    "offset": 64434,
+    "end": 64469,
+    "length": 35,
+    "jp": "  こら あばれるな\n  ペンギンのくせに\n  おとなしくしろ[END]",
+    "fr": "Arrête de te débattre ! Du calme, pingouin !",
+    "references": [
+      62748
+    ],
+    "raw": "fb fb 14 31 00 0b fd 24 34 33 1f fe fb fb fa 59 6a fd 43 6a 23 12 18 20 fe fb fb 0f 1e 1f 16 12 16 35 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Arrête|<FB><FB>de te|<FB><FB>débatt-[WAIT]<FB><FB>re! Du|<FB><FB>calme,[WAIT]<FB><FB>pingou-|<FB><FB>in!",
+    "target_bank": 16,
+    "target_address": 23909,
+    "target_length": 61
+  },
+  {
+    "id": "00FBD5",
+    "offset": 64469,
+    "end": 64484,
+    "length": 15,
+    "jp": " ピピピピピー！！[END]",
+    "fr": "Pipipipipi !",
+    "references": [
+      62746
+    ],
+    "raw": "fb fa 57 fa 57 fa 57 fa 57 fa 57 73 76 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Pipipipi-|<FB>pi!",
+    "target_bank": 16,
+    "target_address": 23970,
+    "target_length": 16
+  },
+  {
+    "id": "00FBE4",
+    "offset": 64484,
+    "end": 64505,
+    "length": 21,
+    "jp": "  コースケ！！\n  もらいにきたぞ！[END]",
+    "fr": "Kôsuke ! Je viens la reprendre !",
+    "references": [
+      62760
+    ],
+    "raw": "fb fb 46 73 49 45 76 76 fe fb fb 2d 31 0c 20 11 1a fd 19 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Kôsuke !|<FB><FB>Je viens|<FB><FB>la[WAIT]<FB><FB>repren-|<FB><FB>dre!",
+    "target_bank": 16,
+    "target_address": 23986,
+    "target_length": 44
+  },
+  {
+    "id": "00FBF9",
+    "offset": 64505,
+    "end": 64514,
+    "length": 9,
+    "jp": " なにをだ！？[END]",
+    "fr": "Reprendre quoi ?",
+    "references": [
+      62758
+    ],
+    "raw": "fb 1f 20 37 fd 1a 76 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Reprendre|<FB>quoi ?",
+    "target_bank": 16,
+    "target_address": 24030,
+    "target_length": 19
+  },
+  {
+    "id": "00FC02",
+    "offset": 64514,
+    "end": 64537,
+    "length": 23,
+    "jp": "  きまっておろう\n  うんめいのカギだ[END]",
+    "fr": "La clé du destin, bien sûr !",
+    "references": [
+      62756
+    ],
+    "raw": "fb fb 11 29 3c 1d 0f 35 0d fe fb fb 0d 38 2c 0c 23 42 fd 43 fd 1a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>La clé|<FB><FB>du|<FB><FB>destin,[WAIT]<FB><FB>bien|<FB><FB>sûr !",
+    "target_bank": 16,
+    "target_address": 24049,
+    "target_length": 39
+  },
+  {
+    "id": "00FC19",
+    "offset": 64537,
+    "end": 64565,
+    "length": 28,
+    "jp": "  おい おやじ\n  ラムのビキニを\n  しらんか？[END]",
+    "fr": "Hé, le vieux ! Tu sais où est le bikini de Lamu ?",
+    "references": [
+      62768
+    ],
+    "raw": "fb fb 0f 0c 00 0f 2e 70 fe fb fb 63 5d 23 fd 57 43 52 37 fe fb fb 16 31 38 10 77 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Hé, le|<FB><FB>vieux !|<FB><FB>Tu sais[WAIT]<FB><FB>où est|<FB><FB>le|<FB><FB>bikini[WAIT]<FB><FB>de|<FB><FB>Lamu ?",
+    "target_bank": 16,
+    "target_address": 24088,
+    "target_length": 66
+  },
+  {
+    "id": "00FC35",
+    "offset": 64565,
+    "end": 64579,
+    "length": 14,
+    "jp": " はて？\n なんのことやら[END]",
+    "fr": "Hein ? De quoi parles-tu ?",
+    "references": [
+      62766
+    ],
+    "raw": "fb 24 1d 77 fe fb 1f 38 23 14 1e 2e 31 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Hein ? De|<FB>quoi[WAIT]<FB>parles-|<FB>tu?",
+    "target_bank": 16,
+    "target_address": 24154,
+    "target_length": 31
+  },
+  {
+    "id": "00FC43",
+    "offset": 64579,
+    "end": 64612,
+    "length": 33,
+    "jp": "  ごまかすな！\n  ふところのものを\n  かえしてもらうぞ[END]",
+    "fr": "Ne mens pas ! Rends ce que tu caches !",
+    "references": [
+      62764
+    ],
+    "raw": "fb fb fd 14 29 10 17 1f 76 fe fb fb 26 1e 14 35 23 2d 23 37 fe fb fb 10 0e 16 1d 2d 31 0d fd 19 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Ne mens|<FB><FB>pas !|<FB><FB>Rends ce[WAIT]<FB><FB>que tu|<FB><FB>caches !",
+    "target_bank": 16,
+    "target_address": 24185,
+    "target_length": 49
+  },
+  {
+    "id": "00FC64",
+    "offset": 64612,
+    "end": 64639,
+    "length": 27,
+    "jp": " はまぢゃやの\n おそろしさを\n おしえてやろう！[END]",
+    "fr": "Tu vas connaître la terreur du Hamajaya !",
+    "references": [
+      62762
+    ],
+    "raw": "fb 24 29 fd 1b 39 2e 23 fe fb 0f 19 35 16 15 37 fe fb 0f 16 0e 1d 2e 35 0d 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Tu vas|<FB>connaître|<FB>la[WAIT]<FB>terreur|<FB>du|<FB>Hamajaya!",
+    "target_bank": 16,
+    "target_address": 24234,
+    "target_length": 47
+  },
+  {
+    "id": "00FC7F",
+    "offset": 64639,
+    "end": 64673,
+    "length": 34,
+    "jp": "  おかしいな？\n  たしかに 5まい\n  もらったはずだが[END]",
+    "fr": "Étrange... On m'en avait donné cinq !",
+    "references": [
+      62908
+    ],
+    "raw": "fb fb 0f 10 16 0c 1f 77 fe fb fb 1a 16 10 20 00 06 29 0c fe fb fb 2d 31 3c 1a 24 fd 17 fd 1a fd 10 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Étrange…|<FB><FB>On m'en|<FB><FB>avait[WAIT]<FB><FB>donné|<FB><FB>cinq !",
+    "target_bank": 16,
+    "target_address": 24281,
+    "target_length": 46
+  },
+  {
+    "id": "00FCA1",
+    "offset": 64673,
+    "end": 64705,
+    "length": 32,
+    "jp": "  フィルムを1まい\n  ぬきとったのは\n  キサマだな！！[END]",
+    "fr": "Tu as volé une pellicule, c'est ça ?!",
+    "references": [
+      62920
+    ],
+    "raw": "fb fb 58 6b 65 5d 37 02 29 0c fe fb fb 21 11 1e 3c 1a 23 24 fe fb fb 43 47 5b fd 1a 1f 76 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Tu as|<FB><FB>volé une|<FB><FB>pellicu-[WAIT]<FB><FB>le,|<FB><FB>c'est|<FB><FB>ça ?!",
+    "target_bank": 16,
+    "target_address": 24327,
+    "target_length": 52
+  },
+  {
+    "id": "00FCC1",
+    "offset": 64705,
+    "end": 64732,
+    "length": 27,
+    "jp": " フッ つまらん\n いいがかりは\n やめてほしいな[END]",
+    "fr": "Hmpf. Épargne-moi tes accusations !",
+    "references": [
+      62918
+    ],
+    "raw": "fb 58 6f 00 1c 29 31 38 fe fb 0c 0c fd 10 10 32 24 fe fb 2e 2c 1d 28 16 0c 1f ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Hmpf.|<FB>Épargne-|<FB>moi tes[WAIT]<FB>accusa-|<FB>tions!",
+    "target_bank": 16,
+    "target_address": 24379,
+    "target_length": 43
+  },
+  {
+    "id": "00FCDC",
+    "offset": 64732,
+    "end": 64765,
+    "length": 33,
+    "jp": "  やはり ちからで\n  うばいとるしか\n  ないようだな[END]",
+    "fr": "Je vais devoir te l'arracher de force !",
+    "references": [
+      62916
+    ],
+    "raw": "fb fb 2e 24 32 00 1b 10 31 fd 1d fe fb fb 0d fd 24 0c 1e 33 16 10 fe fb fb 1f 0c 30 0d fd 1a 1f ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Je vais|<FB><FB>devoir|<FB><FB>te[WAIT]<FB><FB>l'arra-|<FB><FB>cher de|<FB><FB>force !",
+    "target_bank": 16,
+    "target_address": 24422,
+    "target_length": 54
+  },
+  {
+    "id": "00FCFD",
+    "offset": 64765,
+    "end": 64797,
+    "length": 32,
+    "jp": " フフフ よかろう\n いざしょうぶっ！\n ！！！！！！！！[END]",
+    "fr": "Ha ha ! Très bien ! En garde !",
+    "references": [
+      62914
+    ],
+    "raw": "fb 58 58 58 00 30 10 35 0d fe fb 0c fd 15 16 3b 0d fd 26 3c 76 fe fb 76 76 76 76 76 76 76 76 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Ha ha !|<FB>Très[WAIT]<FB>bien ! En|<FB>garde !",
+    "target_bank": 16,
+    "target_address": 24476,
+    "target_length": 35
+  },
+  {
+    "id": "00FD1D",
+    "offset": 64797,
+    "end": 64825,
+    "length": 28,
+    "jp": "  リュウちゃん♥\n  しめなわを\n  もってないかな[END]",
+    "fr": "Ryû !♥ Tu n'aurais pas un shimenawa ?",
+    "references": [
+      62928
+    ],
+    "raw": "fb fb 64 6d 3f 1b 39 38 79 fe fb fb 16 2c 1f 36 37 fe fb fb 2d 3c 1d 1f 0c 10 1f ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Ryû !♥|<FB><FB>Tu|<FB><FB>n'aurais[WAIT]<FB><FB>pas un|<FB><FB>shimena-|<FB><FB>wa?",
+    "target_bank": 16,
+    "target_address": 24511,
+    "target_length": 51
+  },
+  {
+    "id": "00FD39",
+    "offset": 64825,
+    "end": 64851,
+    "length": 26,
+    "jp": " しらねえな\n ようがねえなら\n かえってくんな[END]",
+    "fr": "J'en sais rien. Si c'est tout, va-t'en !",
+    "references": [
+      62926
+    ],
+    "raw": "fb 16 31 22 0e 1f fe fb 30 0d fd 10 22 0e 1f 31 fe fb 10 0e 3c 1d 12 38 1f ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>J'en sais|<FB>rien. Si|<FB>c'est[WAIT]<FB>tout,|<FB>va-t'en !",
+    "target_bank": 16,
+    "target_address": 24562,
+    "target_length": 46
+  },
+  {
+    "id": "00FD53",
+    "offset": 64851,
+    "end": 64879,
+    "length": 28,
+    "jp": "  あれ？ この\n  さらしが\n  かかってるナワは[END]",
+    "fr": "Tiens ? Cette corde où pend ton bandage...",
+    "references": [
+      62924
+    ],
+    "raw": "fb fb 0b 34 77 00 14 23 fe fb fb 15 31 16 fd 10 fe fb fb 10 10 3c 1d 33 51 68 24 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Tiens ?|<FB><FB>Cette|<FB><FB>corde où[WAIT]<FB><FB>pend ton|<FB><FB>bandage…",
+    "target_bank": 16,
+    "target_address": 24608,
+    "target_length": 51
+  },
+  {
+    "id": "00FD6F",
+    "offset": 64879,
+    "end": 64910,
+    "length": 31,
+    "jp": " なにしてやがる！\n てんめえ もう\n かんべんならねえ[END]",
+    "fr": "Qu'est-ce que tu fiches ? Je ne te pardonnerai pas !",
+    "references": [
+      62922
+    ],
+    "raw": "fb 1f 20 16 1d 2e fd 10 33 76 fe fb 1d 38 2c 0e 00 2d 0d fe fb 10 38 fd 27 38 1f 31 22 0e ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB>Qu'est-ce|<FB>que tu|<FB>fiches ?[WAIT]<FB>Je ne te|<FB>pardonne-|<FB>rai pas !",
+    "target_bank": 16,
+    "target_address": 24659,
+    "target_length": 61
+  },
+  {
+    "id": "00FD8E",
+    "offset": 64910,
+    "end": 64940,
+    "length": 30,
+    "jp": "  ほれ ラム\n  もってきたぞ！\n  これでよかろう[END]",
+    "fr": "Lamu, voilà ! J'ai rapporté ça ! Ça te va ?",
+    "references": [
+      62904,
+      62912
+    ],
+    "raw": "fb fb 28 34 00 63 5d fe fb fb 2d 3c 1d 11 1a fd 19 76 fe fb fb 14 34 fd 1d 30 10 35 0d ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "<FB><FB>Lamu,|<FB><FB>voilà !|<FB><FB>J'ai[WAIT]<FB><FB>rapporté|<FB><FB>ça ! Ça|<FB><FB>te va ?",
+    "target_bank": 16,
+    "target_address": 24720,
+    "target_length": 56
+  },
+  {
+    "id": "00FDAC",
+    "offset": 64940,
+    "end": 64963,
+    "length": 23,
+    "jp": " を、つかいます。 \n[NL1]はい     いいえ[END]",
+    "fr": "L'utiliser ?|[NL1]Oui    Non",
+    "references": [],
+    "raw": "00 37 71 1c 10 0c 29 17 75 00 fe fc 24 0c 00 00 00 00 00 0c 0c 0e ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "L'utiliser ?|[NL1]Oui    Non",
+    "target_bank": 16,
+    "target_address": 24776,
+    "target_length": 25
+  },
+  {
+    "id": "00FDC3",
+    "offset": 64963,
+    "end": 64974,
+    "length": 11,
+    "jp": "うるせい スタッフフ[END]",
+    "fr": "URUSEI - ÉQUIPE",
+    "references": [],
+    "raw": "0d 33 18 0c 00 49 4c 6f 58 58 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "URUSEI - ÉQUIPE",
+    "target_bank": 16,
+    "target_address": 24801,
+    "target_length": 16
+  },
+  {
+    "id": "00FDCE",
+    "offset": 64974,
+    "end": 65007,
+    "length": 33,
+    "jp": "エグゼクチヴ プロヂューサー\nせ・やの\nた・すがぬま[END]",
+    "fr": "Production|exécutive|S. Yano|T. Suganuma",
+    "references": [],
+    "raw": "40 fd 44 fd 4a 44 4d fd 3f 00 fa 58 67 fd 4d 6d 73 47 73 fe 18 74 2e 23 fe 1a 74 17 fd 10 21 29 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Production|exécutive|S. Yano|T. Suganuma",
+    "target_bank": 16,
+    "target_address": 24817,
+    "target_length": 41
+  },
+  {
+    "id": "00FDEF",
+    "offset": 65007,
+    "end": 65030,
+    "length": 23,
+    "jp": "プロヂューサー\nか・いしい\nや・わかみや[END]",
+    "fr": "Production|K. Ishii|Y. Wakamiya",
+    "references": [],
+    "raw": "fa 58 67 fd 4d 6d 73 47 73 fe 10 74 0c 16 0c fe 2e 74 36 10 2a 2e ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Production|K. Ishii|Y. Wakamiya",
+    "target_bank": 16,
+    "target_address": 24858,
+    "target_length": 32
+  },
+  {
+    "id": "00FE06",
+    "offset": 65030,
+    "end": 65077,
+    "length": 47,
+    "jp": "プラン\n3ヂェー\nシステム グラフィック\nストーリー\nマプデザイン\nク・ホソダ[END]",
+    "fr": "Conception|Système 3D|Graphismes|Scénario|Plans|K. Hosoda",
+    "references": [],
+    "raw": "fa 58 63 6a fe 04 fd 4d 78 73 fe 48 49 4f 5d 00 fd 44 63 58 6b 6f 44 fe 49 50 73 64 73 fe 5b fa 58 fd 4f fd 47 3e 6a fe 44 74 5a 4b fd 4c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Conception|Système 3D|Graphismes|Scénario|Plans|K. Hosoda",
+    "target_bank": 16,
+    "target_address": 24890,
+    "target_length": 58
+  },
+  {
+    "id": "00FE35",
+    "offset": 65077,
+    "end": 65094,
+    "length": 17,
+    "jp": "テキスト アイテム\nま・ふかさわ[END]",
+    "fr": "Textes, objets|M. Fukasawa",
+    "references": [],
+    "raw": "4f 43 49 50 00 3d 3e 4f 5d fe 29 74 26 10 15 36 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Textes, objets|M. Fukasawa",
+    "target_bank": 16,
+    "target_address": 24948,
+    "target_length": 27
+  },
+  {
+    "id": "00FE46",
+    "offset": 65094,
+    "end": 65113,
+    "length": 19,
+    "jp": "ぶき デバッグ\nひ・しもやま[END]",
+    "fr": "Armes, tests|H. Shimoyama",
+    "references": [],
+    "raw": "fd 26 11 00 fd 4f fd 56 6f fd 44 fe 25 74 16 2d 2e 29 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Armes, tests|H. Shimoyama",
+    "target_bank": 16,
+    "target_address": 24975,
+    "target_length": 26
+  },
+  {
+    "id": "00FE59",
+    "offset": 65113,
+    "end": 65141,
+    "length": 28,
+    "jp": "メイン かお\n アニメ デモ\nクラフィック\nしみず[END]",
+    "fr": "Portraits|Animation|Graphismes|Shimizu",
+    "references": [],
+    "raw": "5e 3e 6a 00 10 0f fe 00 3d 52 5e 00 fd 4f 5f fe 44 63 58 6b 6f 44 fe 16 2a fd 17 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Portraits|Animation|Graphismes|Shimizu",
+    "target_bank": 16,
+    "target_address": 25001,
+    "target_length": 39
+  },
+  {
+    "id": "00FE75",
+    "offset": 65141,
+    "end": 65159,
+    "length": 18,
+    "jp": "サウンド\n エフィクト\nたかはま[END]",
+    "fr": "Son, effets|Takahama",
+    "references": [],
+    "raw": "47 3f 6a fd 50 fe 00 40 58 6b 44 50 fe 1a 10 24 29 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Son, effets|Takahama",
+    "target_bank": 16,
+    "target_address": 25040,
+    "target_length": 21
+  },
+  {
+    "id": "00FE87",
+    "offset": 65159,
+    "end": 65178,
+    "length": 19,
+    "jp": "システム\nプログラム\nせきぐち[END]",
+    "fr": "Programmation|Sekiguchi",
+    "references": [],
+    "raw": "48 49 4f 5d fe fa 58 67 fd 44 63 5d fe 18 11 fd 12 1b ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Programmation|Sekiguchi",
+    "target_bank": 16,
+    "target_address": 25061,
+    "target_length": 24
+  },
+  {
+    "id": "00FE9A",
+    "offset": 65178,
+    "end": 65215,
+    "length": 37,
+    "jp": "デバッグ\nと・わかばやし\nの・まつむら\nか・とよかわ\nひ・あべ[END]",
+    "fr": "Tests|T. Wakabayashi|N. Matsumura|K. Toyokawa|H. Abe",
+    "references": [],
+    "raw": "fd 4f fd 56 6f fd 44 fe 1e 74 36 10 fd 24 2e 16 fe 23 74 29 1c 2b 31 fe 10 74 1e 30 10 36 fe 25 74 0b fd 27 ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Tests|T. Wakabayashi|N. Matsumura|K. Toyokawa|H. Abe",
+    "target_bank": 16,
+    "target_address": 25085,
+    "target_length": 53
+  },
+  {
+    "id": "00FEBF",
+    "offset": 65215,
+    "end": 65260,
+    "length": 45,
+    "jp": "スペシャル サンクス\nひ・いちかわ\nと・いのうえ\nま・なかむら\nしゅ・いとう\nせんだ[END]",
+    "fr": "Remerciements|H. Ichikawa|T. Inoue|M. Nakamura|Sh. Itô|Senda",
+    "references": [],
+    "raw": "49 fa 59 48 6c 65 00 47 6a 44 49 fe 25 74 0c 1b 10 36 fe 1e 74 0c 23 0d 0e fe 29 74 1f 10 2b 31 fe 16 3a 74 0c 1e 0d fe 18 38 fd 1a ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Remerciements|H. Ichikawa|T. Inoue|M. Nakamura|Sh. Itô|Senda",
+    "target_bank": 16,
+    "target_address": 25138,
+    "target_length": 61
+  },
+  {
+    "id": "00FEEC",
+    "offset": 65260,
+    "end": 65274,
+    "length": 14,
+    "jp": "ディレクト\nク・ホソダ[END]",
+    "fr": "Direction|K. Hosoda",
+    "references": [],
+    "raw": "fd 4f 6b 66 44 50 fe 44 74 5a 4b fd 4c ff",
+    "source_bank": 3,
+    "fr_encoded_layout": "Direction|K. Hosoda",
+    "target_bank": 16,
+    "target_address": 25199,
+    "target_length": 20
+  },
+  {
+    "id": "005287",
+    "offset": 21127,
+    "end": 21144,
+    "length": 17,
+    "jp": "いんちきは、なにをつかいますか？[END]",
+    "fr": "Quelle ruse ?",
+    "references": [],
+    "raw": "0c 38 1b 11 24 71 1f 20 37 1c 10 0c 29 17 10 77 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Quelle ruse ?",
+    "target_bank": 17,
+    "target_address": 16384,
+    "target_length": 14
+  },
+  {
+    "id": "005298",
+    "offset": 21144,
+    "end": 21161,
+    "length": 17,
+    "jp": "アイテムは、なにをつかいますか？[END]",
+    "fr": "Quel objet ?",
+    "references": [],
+    "raw": "3d 3e 4f 5d 24 71 1f 20 37 1c 10 0c 29 17 10 77 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Quel objet ?",
+    "target_bank": 17,
+    "target_address": 16398,
+    "target_length": 13
+  },
+  {
+    "id": "0052BC",
+    "offset": 21180,
+    "end": 21187,
+    "length": 7,
+    "jp": "ぎゅうどん[END]",
+    "fr": "Gyûdon",
+    "references": [],
+    "raw": "fd 11 3a 0d 72 38 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Gyûdon",
+    "target_bank": 17,
+    "target_address": 16411,
+    "target_length": 7,
+    "fr_narrow_9": "Gyûdon",
+    "fr_shop": "Gyûdon",
+    "fr_narrow_7": "Gyûdon"
+  },
+  {
+    "id": "0052D6",
+    "offset": 21206,
+    "end": 21211,
+    "length": 5,
+    "jp": "すきやき[END]",
+    "fr": "Sukiyaki",
+    "references": [],
+    "raw": "17 11 2e 11 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Sukiyaki",
+    "target_bank": 17,
+    "target_address": 16418,
+    "target_length": 9,
+    "fr_narrow_9": "Sukiyaki",
+    "fr_shop": "Sukiyaki",
+    "fr_narrow_7": "Sukiy."
+  },
+  {
+    "id": "0052EE",
+    "offset": 21230,
+    "end": 21239,
+    "length": 9,
+    "jp": "ぼんのうなべ[END]",
+    "fr": "Fondue du vice",
+    "references": [],
+    "raw": "fd 28 38 23 0d 1f fd 27 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Fondue du vice",
+    "target_bank": 17,
+    "target_address": 16427,
+    "target_length": 15,
+    "fr_narrow_9": "Fond.vice",
+    "fr_shop": "Fond.vice",
+    "fr_narrow_7": "F.vice"
+  },
+  {
+    "id": "00530A",
+    "offset": 21258,
+    "end": 21266,
+    "length": 8,
+    "jp": "マンナンライス[END]",
+    "fr": "Riz de konjac",
+    "references": [],
+    "raw": "5b 6a 51 6a 63 3e 49 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Riz de konjac",
+    "target_bank": 17,
+    "target_address": 16442,
+    "target_length": 14,
+    "fr_narrow_9": "R.konjac",
+    "fr_shop": "R.konjac",
+    "fr_narrow_7": "Konjac"
+  },
+  {
+    "id": "005325",
+    "offset": 21285,
+    "end": 21291,
+    "length": 6,
+    "jp": "メグスリ[END]",
+    "fr": "Collyre",
+    "references": [],
+    "raw": "5e fd 44 49 64 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Collyre",
+    "target_bank": 17,
+    "target_address": 16456,
+    "target_length": 8,
+    "fr_narrow_9": "Collyre",
+    "fr_shop": "Collyre",
+    "fr_narrow_7": "Collyre"
+  },
+  {
+    "id": "00533E",
+    "offset": 21310,
+    "end": 21317,
+    "length": 7,
+    "jp": "ほんねシャツ[END]",
+    "fr": "Chemise sincère",
+    "references": [],
+    "raw": "28 38 22 48 6c 4e ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Chemise sincère",
+    "target_bank": 17,
+    "target_address": 16464,
+    "target_length": 16,
+    "fr_narrow_9": "Ch.sinc.",
+    "fr_shop": "Ch.sinc.",
+    "fr_narrow_7": "Ch.sinc"
+  },
+  {
+    "id": "005358",
+    "offset": 21336,
+    "end": 21345,
+    "length": 9,
+    "jp": "チェリーのひやく[END]",
+    "fr": "Élixir de Cherry",
+    "references": [],
+    "raw": "4d 78 64 73 23 25 2e 12 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Élixir de Cherry",
+    "target_bank": 17,
+    "target_address": 16480,
+    "target_length": 17,
+    "fr_narrow_9": "Él.Cherry",
+    "fr_shop": "Él.Cherry",
+    "fr_narrow_7": "Cherry"
+  },
+  {
+    "id": "005374",
+    "offset": 21364,
+    "end": 21368,
+    "length": 4,
+    "jp": "ごふ[END]",
+    "fr": "Talisman",
+    "references": [],
+    "raw": "fd 14 26 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Talisman",
+    "target_bank": 17,
+    "target_address": 16497,
+    "target_length": 9,
+    "fr_narrow_9": "Talisman",
+    "fr_shop": "Talisman",
+    "fr_narrow_7": "Talis."
+  },
+  {
+    "id": "00538B",
+    "offset": 21387,
+    "end": 21395,
+    "length": 8,
+    "jp": "げどくアメ[END]",
+    "fr": "Bonbon antidote",
+    "references": [],
+    "raw": "fd 13 fd 1e 12 3d 5e ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Bonbon antidote",
+    "target_bank": 17,
+    "target_address": 16506,
+    "target_length": 16,
+    "fr_narrow_9": "Bonbon",
+    "fr_shop": "Bonbon",
+    "fr_narrow_7": "Bonbon"
+  },
+  {
+    "id": "0053A6",
+    "offset": 21414,
+    "end": 21421,
+    "length": 7,
+    "jp": "ヨンタ・フェ[END]",
+    "fr": "Yonta Fé",
+    "references": [],
+    "raw": "62 6a 4c 74 58 78 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Yonta Fé",
+    "target_bank": 17,
+    "target_address": 16522,
+    "target_length": 9,
+    "fr_narrow_9": "Yonta Fé",
+    "fr_shop": "Yonta Fé",
+    "fr_narrow_7": "YontaFé"
+  },
+  {
+    "id": "0053C0",
+    "offset": 21440,
+    "end": 21444,
+    "length": 4,
+    "jp": "こたつ[END]",
+    "fr": "Kotatsu",
+    "references": [],
+    "raw": "14 1a 1c ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Kotatsu",
+    "target_bank": 17,
+    "target_address": 16531,
+    "target_length": 8,
+    "fr_narrow_9": "Kotatsu",
+    "fr_shop": "Kotatsu",
+    "fr_narrow_7": "Kotatsu"
+  },
+  {
+    "id": "0053D7",
+    "offset": 21463,
+    "end": 21468,
+    "length": 5,
+    "jp": "たいやき[END]",
+    "fr": "Taiyaki",
+    "references": [],
+    "raw": "1a 0c 2e 11 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Taiyaki",
+    "target_bank": 17,
+    "target_address": 16539,
+    "target_length": 8,
+    "fr_narrow_9": "Taiyaki",
+    "fr_shop": "Taiyaki",
+    "fr_narrow_7": "Taiyaki"
+  },
+  {
+    "id": "0053EF",
+    "offset": 21487,
+    "end": 21494,
+    "length": 7,
+    "jp": "フライパン[END]",
+    "fr": "Poêle",
+    "references": [],
+    "raw": "58 63 3e fa 56 6a ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Poêle",
+    "target_bank": 17,
+    "target_address": 16547,
+    "target_length": 6,
+    "fr_narrow_9": "Poêle",
+    "fr_shop": "Poêle",
+    "fr_narrow_7": "Poêle"
+  },
+  {
+    "id": "005409",
+    "offset": 21513,
+    "end": 21522,
+    "length": 9,
+    "jp": "じょうねつのクツ[END]",
+    "fr": "Souliers ardents",
+    "references": [],
+    "raw": "70 3b 0d 22 1c 23 44 4e ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Souliers ardents",
+    "target_bank": 17,
+    "target_address": 16553,
+    "target_length": 17,
+    "fr_narrow_9": "Soul.feu",
+    "fr_shop": "Soul.feu",
+    "fr_narrow_7": "S.feu"
+  },
+  {
+    "id": "005425",
+    "offset": 21541,
+    "end": 21550,
+    "length": 9,
+    "jp": "コスモボックス[END]",
+    "fr": "Boîte cosmique",
+    "references": [],
+    "raw": "46 49 5f fd 5a 6f 44 49 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Boîte cosmique",
+    "target_bank": 17,
+    "target_address": 16570,
+    "target_length": 15,
+    "fr_narrow_9": "B.cosmos",
+    "fr_shop": "B.cosmos",
+    "fr_narrow_7": "Cosmos"
+  },
+  {
+    "id": "005441",
+    "offset": 21569,
+    "end": 21575,
+    "length": 6,
+    "jp": "ツリガネ[END]",
+    "fr": "Cloche",
+    "references": [],
+    "raw": "4e 64 fd 42 54 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Cloche",
+    "target_bank": 17,
+    "target_address": 16585,
+    "target_length": 7,
+    "fr_narrow_9": "Cloche",
+    "fr_shop": "Cloche",
+    "fr_narrow_7": "Cloche"
+  },
+  {
+    "id": "00545A",
+    "offset": 21594,
+    "end": 21600,
+    "length": 6,
+    "jp": "タコぶえ[END]",
+    "fr": "Flûte poulpe",
+    "references": [],
+    "raw": "4c 46 fd 26 0e ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Flûte poulpe",
+    "target_bank": 17,
+    "target_address": 16592,
+    "target_length": 13,
+    "fr_narrow_9": "Fl.poulpe",
+    "fr_shop": "Fl.poulpe",
+    "fr_narrow_7": "Poulpe"
+  },
+  {
+    "id": "005473",
+    "offset": 21619,
+    "end": 21625,
+    "length": 6,
+    "jp": "きのぼう[END]",
+    "fr": "Bâton de bois",
+    "references": [],
+    "raw": "11 23 fd 28 0d ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Bâton de bois",
+    "target_bank": 17,
+    "target_address": 16605,
+    "target_length": 14,
+    "fr_narrow_9": "Bâton",
+    "fr_shop": "Bâton",
+    "fr_narrow_7": "Bâton"
+  },
+  {
+    "id": "00548C",
+    "offset": 21644,
+    "end": 21650,
+    "length": 6,
+    "jp": "パラソル[END]",
+    "fr": "Parasol",
+    "references": [],
+    "raw": "fa 56 63 4b 65 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Parasol",
+    "target_bank": 17,
+    "target_address": 16619,
+    "target_length": 8,
+    "fr_narrow_9": "Parasol",
+    "fr_shop": "Parasol",
+    "fr_narrow_7": "Parasol"
+  },
+  {
+    "id": "0054A5",
+    "offset": 21669,
+    "end": 21677,
+    "length": 8,
+    "jp": "ドライバー[END]",
+    "fr": "Tournevis",
+    "references": [],
+    "raw": "fd 50 63 3e fd 56 73 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Tournevis",
+    "target_bank": 17,
+    "target_address": 16627,
+    "target_length": 10,
+    "fr_narrow_9": "Tournevis",
+    "fr_shop": "Tournevis",
+    "fr_narrow_7": "Tourn."
+  },
+  {
+    "id": "0054C0",
+    "offset": 21696,
+    "end": 21703,
+    "length": 7,
+    "jp": "フリスビー[END]",
+    "fr": "Frisbee",
+    "references": [],
+    "raw": "58 64 49 fd 57 73 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Frisbee",
+    "target_bank": 17,
+    "target_address": 16637,
+    "target_length": 8,
+    "fr_narrow_9": "Frisbee",
+    "fr_shop": "Frisbee",
+    "fr_narrow_7": "Frisbee"
+  },
+  {
+    "id": "0054DA",
+    "offset": 21722,
+    "end": 21729,
+    "length": 7,
+    "jp": "きのハンマー[END]",
+    "fr": "Maillet de bois",
+    "references": [],
+    "raw": "11 23 56 6a 5b 73 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Maillet de bois",
+    "target_bank": 17,
+    "target_address": 16645,
+    "target_length": 16,
+    "fr_narrow_9": "Maillet",
+    "fr_shop": "Maillet",
+    "fr_narrow_7": "Maillet"
+  },
+  {
+    "id": "0054F4",
+    "offset": 21748,
+    "end": 21752,
+    "length": 4,
+    "jp": "しない[END]",
+    "fr": "Shinai",
+    "references": [],
+    "raw": "16 1f 0c ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Shinai",
+    "target_bank": 17,
+    "target_address": 16661,
+    "target_length": 7,
+    "fr_narrow_9": "Shinai",
+    "fr_shop": "Shinai",
+    "fr_narrow_7": "Shinai"
+  },
+  {
+    "id": "00550B",
+    "offset": 21771,
+    "end": 21781,
+    "length": 10,
+    "jp": "パンチのバット[END]",
+    "fr": "Batte de Punch",
+    "references": [],
+    "raw": "fa 56 6a 4d 23 fd 56 6f 50 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Batte de Punch",
+    "target_bank": 17,
+    "target_address": 16668,
+    "target_length": 15,
+    "fr_narrow_9": "B.Punch",
+    "fr_shop": "B.Punch",
+    "fr_narrow_7": "B.Punch"
+  },
+  {
+    "id": "005528",
+    "offset": 21800,
+    "end": 21808,
+    "length": 8,
+    "jp": "アイアンクロー[END]",
+    "fr": "Griffe de fer",
+    "references": [],
+    "raw": "3d 3e 3d 6a 44 67 73 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Griffe de fer",
+    "target_bank": 17,
+    "target_address": 16683,
+    "target_length": 14,
+    "fr_narrow_9": "Gr.fer",
+    "fr_shop": "Gr.fer",
+    "fr_narrow_7": "Gr.fer"
+  },
+  {
+    "id": "005543",
+    "offset": 21827,
+    "end": 21838,
+    "length": 11,
+    "jp": "スーパーはごいた[END]",
+    "fr": "Super hagoita",
+    "references": [],
+    "raw": "49 73 fa 56 73 24 fd 14 0c 1a ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Super hagoita",
+    "target_bank": 17,
+    "target_address": 16697,
+    "target_length": 14,
+    "fr_narrow_9": "Hagoita+",
+    "fr_shop": "Hagoita+",
+    "fr_narrow_7": "Hagoit+"
+  },
+  {
+    "id": "005561",
+    "offset": 21857,
+    "end": 21865,
+    "length": 8,
+    "jp": "あやしいかたな[END]",
+    "fr": "Sabre suspect",
+    "references": [],
+    "raw": "0b 2e 16 0c 10 1a 1f ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Sabre suspect",
+    "target_bank": 17,
+    "target_address": 16711,
+    "target_length": 14,
+    "fr_narrow_9": "S.suspect",
+    "fr_shop": "S.suspect",
+    "fr_narrow_7": "S.susp."
+  },
+  {
+    "id": "00557C",
+    "offset": 21884,
+    "end": 21892,
+    "length": 8,
+    "jp": "エッチなナイフ[END]",
+    "fr": "Couteau coquin",
+    "references": [],
+    "raw": "40 6f 4d 1f 51 3e 58 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Couteau coquin",
+    "target_bank": 17,
+    "target_address": 16725,
+    "target_length": 15,
+    "fr_narrow_9": "C.coquin",
+    "fr_shop": "C.coquin",
+    "fr_narrow_7": "C.coq."
+  },
+  {
+    "id": "005597",
+    "offset": 21911,
+    "end": 21919,
+    "length": 8,
+    "jp": "さだめのつえ[END]",
+    "fr": "Bâton du destin",
+    "references": [],
+    "raw": "15 fd 1a 2c 23 1c 0e ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Bâton du destin",
+    "target_bank": 17,
+    "target_address": 16740,
+    "target_length": 16,
+    "fr_narrow_9": "B.destin",
+    "fr_shop": "B.destin",
+    "fr_narrow_7": "Destin"
+  },
+  {
+    "id": "0055B2",
+    "offset": 21938,
+    "end": 21947,
+    "length": 9,
+    "jp": "オーレのバット[END]",
+    "fr": "Batte d'Ole",
+    "references": [],
+    "raw": "41 73 66 23 fd 56 6f 50 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Batte d'Ole",
+    "target_bank": 17,
+    "target_address": 16756,
+    "target_length": 12,
+    "fr_narrow_9": "Batte Ole",
+    "fr_shop": "Batte Ole",
+    "fr_narrow_7": "B.Ole"
+  },
+  {
+    "id": "0055CE",
+    "offset": 21966,
+    "end": 21976,
+    "length": 10,
+    "jp": "しのぶのハンマー[END]",
+    "fr": "Maillet Shinobu",
+    "references": [],
+    "raw": "16 23 fd 26 23 56 6a 5b 73 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Maillet Shinobu",
+    "target_bank": 17,
+    "target_address": 16768,
+    "target_length": 16,
+    "fr_narrow_9": "M.Shinobu",
+    "fr_shop": "M.Shinobu",
+    "fr_narrow_7": "M.Shin."
+  },
+  {
+    "id": "0055EB",
+    "offset": 21995,
+    "end": 22006,
+    "length": 11,
+    "jp": "とうげんのつるぎ[END]",
+    "fr": "Épée du paradis",
+    "references": [],
+    "raw": "1e 0d fd 13 38 23 1c 33 fd 11 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Épée du paradis",
+    "target_bank": 17,
+    "target_address": 16784,
+    "target_length": 16,
+    "fr_narrow_9": "Ép.parad.",
+    "fr_shop": "Ép.parad.",
+    "fr_narrow_7": "É.parad"
+  },
+  {
+    "id": "005609",
+    "offset": 22025,
+    "end": 22034,
+    "length": 9,
+    "jp": "きんたろうのオノ[END]",
+    "fr": "Hache Kintarô",
+    "references": [],
+    "raw": "11 38 1a 35 0d 23 41 55 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Hache Kintarô",
+    "target_bank": 17,
+    "target_address": 16800,
+    "target_length": 14,
+    "fr_narrow_9": "H.Kintarô",
+    "fr_shop": "H.Kintarô",
+    "fr_narrow_7": "H.Kint."
+  },
+  {
+    "id": "005625",
+    "offset": 22053,
+    "end": 22062,
+    "length": 9,
+    "jp": "ねむりのハンマー[END]",
+    "fr": "Maillet sommeil",
+    "references": [],
+    "raw": "22 2b 32 23 56 6a 5b 73 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Maillet sommeil",
+    "target_bank": 17,
+    "target_address": 16814,
+    "target_length": 16,
+    "fr_narrow_9": "M.sommeil",
+    "fr_shop": "M.sommeil",
+    "fr_narrow_7": "M.somn."
+  },
+  {
+    "id": "005641",
+    "offset": 22081,
+    "end": 22090,
+    "length": 9,
+    "jp": "しにがみのカマ[END]",
+    "fr": "Faux de la Mort",
+    "references": [],
+    "raw": "16 20 fd 10 2a 23 42 5b ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Faux de la Mort",
+    "target_bank": 17,
+    "target_address": 16830,
+    "target_length": 16,
+    "fr_narrow_9": "F.Mort",
+    "fr_shop": "F.Mort",
+    "fr_narrow_7": "F.Mort"
+  },
+  {
+    "id": "00565D",
+    "offset": 22109,
+    "end": 22120,
+    "length": 11,
+    "jp": "とうこんグローブ[END]",
+    "fr": "Gants combatifs",
+    "references": [],
+    "raw": "1e 0d 14 38 fd 44 67 73 fd 58 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Gants combatifs",
+    "target_bank": 17,
+    "target_address": 16846,
+    "target_length": 16,
+    "fr_narrow_9": "G.combat",
+    "fr_shop": "G.combat",
+    "fr_narrow_7": "G.comb."
+  },
+  {
+    "id": "00567B",
+    "offset": 22139,
+    "end": 22149,
+    "length": 10,
+    "jp": "グラビアのけん[END]",
+    "fr": "Épée glamour",
+    "references": [],
+    "raw": "fd 44 63 fd 57 3d 23 13 38 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Épée glamour",
+    "target_bank": 17,
+    "target_address": 16862,
+    "target_length": 13,
+    "fr_narrow_9": "Ép.glamm.",
+    "fr_shop": "Ép.glamm.",
+    "fr_narrow_7": "É.glam."
+  },
+  {
+    "id": "005698",
+    "offset": 22168,
+    "end": 22174,
+    "length": 6,
+    "jp": "ワイシャツ[END]",
+    "fr": "Chemise",
+    "references": [],
+    "raw": "68 3e 48 6c 4e ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Chemise",
+    "target_bank": 17,
+    "target_address": 16875,
+    "target_length": 8,
+    "fr_narrow_9": "Chemise",
+    "fr_shop": "Chemise",
+    "fr_narrow_7": "Chemise"
+  },
+  {
+    "id": "0056B1",
+    "offset": 22193,
+    "end": 22202,
+    "length": 9,
+    "jp": "ロングパンツ[END]",
+    "fr": "Pantalon",
+    "references": [],
+    "raw": "67 6a fd 44 fa 56 6a 4e ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Pantalon",
+    "target_bank": 17,
+    "target_address": 16883,
+    "target_length": 9,
+    "fr_narrow_9": "Pantalon",
+    "fr_shop": "Pantalon",
+    "fr_narrow_7": "Pantal."
+  },
+  {
+    "id": "0056CD",
+    "offset": 22221,
+    "end": 22233,
+    "length": 12,
+    "jp": "エンジのジャージ[END]",
+    "fr": "Survêt bordeaux",
+    "references": [],
+    "raw": "40 6a fd 48 23 fd 48 6c 73 fd 48 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Survêt bordeaux",
+    "target_bank": 17,
+    "target_address": 16892,
+    "target_length": 16,
+    "fr_narrow_9": "Surv.bord",
+    "fr_shop": "Surv.bord",
+    "fr_narrow_7": "Surv.b."
+  },
+  {
+    "id": "0056EC",
+    "offset": 22252,
+    "end": 22258,
+    "length": 6,
+    "jp": "ガクラン[END]",
+    "fr": "Gakuran",
+    "references": [],
+    "raw": "fd 42 44 63 6a ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Gakuran",
+    "target_bank": 17,
+    "target_address": 16908,
+    "target_length": 8,
+    "fr_narrow_9": "Gakuran",
+    "fr_shop": "Gakuran",
+    "fr_narrow_7": "Gakuran"
+  },
+  {
+    "id": "005705",
+    "offset": 22277,
+    "end": 22281,
+    "length": 4,
+    "jp": "コート[END]",
+    "fr": "Manteau",
+    "references": [],
+    "raw": "46 73 50 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Manteau",
+    "target_bank": 17,
+    "target_address": 16916,
+    "target_length": 8,
+    "fr_narrow_9": "Manteau",
+    "fr_shop": "Manteau",
+    "fr_narrow_7": "Manteau"
+  },
+  {
+    "id": "00571C",
+    "offset": 22300,
+    "end": 22307,
+    "length": 7,
+    "jp": "トラのヨロイ[END]",
+    "fr": "Armure du tigre",
+    "references": [],
+    "raw": "50 63 23 62 67 3e ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Armure du tigre",
+    "target_bank": 17,
+    "target_address": 16924,
+    "target_length": 16,
+    "fr_narrow_9": "Ar.tigre",
+    "fr_shop": "Ar.tigre",
+    "fr_narrow_7": "A.tigre"
+  },
+  {
+    "id": "005736",
+    "offset": 22326,
+    "end": 22333,
+    "length": 7,
+    "jp": "はおりはかま[END]",
+    "fr": "Haori-hakama",
+    "references": [],
+    "raw": "24 0f 32 24 10 29 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Haori-hakama",
+    "target_bank": 17,
+    "target_address": 16940,
+    "target_length": 13,
+    "fr_narrow_9": "Haori",
+    "fr_shop": "Haori",
+    "fr_narrow_7": "Haori"
+  },
+  {
+    "id": "005750",
+    "offset": 22352,
+    "end": 22362,
+    "length": 10,
+    "jp": "くろこしょうぞく[END]",
+    "fr": "Tenue kuroko",
+    "references": [],
+    "raw": "12 35 14 16 3b 0d fd 19 12 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Tenue kuroko",
+    "target_bank": 17,
+    "target_address": 16953,
+    "target_length": 13,
+    "fr_narrow_9": "Kuroko",
+    "fr_shop": "Kuroko",
+    "fr_narrow_7": "Kuroko"
+  },
+  {
+    "id": "00576D",
+    "offset": 22381,
+    "end": 22391,
+    "length": 10,
+    "jp": "オリジナルどてら[END]",
+    "fr": "Dotera original",
+    "references": [],
+    "raw": "41 64 fd 48 51 65 72 1d 31 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Dotera original",
+    "target_bank": 17,
+    "target_address": 16966,
+    "target_length": 16,
+    "fr_narrow_9": "Dotera",
+    "fr_shop": "Dotera",
+    "fr_narrow_7": "Dotera"
+  },
+  {
+    "id": "00578A",
+    "offset": 22410,
+    "end": 22418,
+    "length": 8,
+    "jp": "たいでんふく[END]",
+    "fr": "Tenue électrique",
+    "references": [],
+    "raw": "1a 0c fd 1d 38 26 12 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Tenue électrique",
+    "target_bank": 17,
+    "target_address": 16982,
+    "target_length": 17,
+    "fr_narrow_9": "T.électr.",
+    "fr_shop": "T.électr.",
+    "fr_narrow_7": "T.élec."
+  },
+  {
+    "id": "0057A5",
+    "offset": 22437,
+    "end": 22445,
+    "length": 8,
+    "jp": "あすかのよろい[END]",
+    "fr": "Armure d'Asuka",
+    "references": [],
+    "raw": "0b 17 10 23 30 35 0c ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Armure d'Asuka",
+    "target_bank": 17,
+    "target_address": 16999,
+    "target_length": 15,
+    "fr_narrow_9": "Ar.Asuka",
+    "fr_shop": "Ar.Asuka",
+    "fr_narrow_7": "A.Asuka"
+  },
+  {
+    "id": "0057C0",
+    "offset": 22464,
+    "end": 22474,
+    "length": 10,
+    "jp": "とうげんのよろい[END]",
+    "fr": "Armure paradis",
+    "references": [],
+    "raw": "1e 0d fd 13 38 23 30 35 0c ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Armure paradis",
+    "target_bank": 17,
+    "target_address": 17014,
+    "target_length": 15,
+    "fr_narrow_9": "Ar.parad.",
+    "fr_shop": "Ar.parad.",
+    "fr_narrow_7": "A.parad"
+  },
+  {
+    "id": "0057DD",
+    "offset": 22493,
+    "end": 22504,
+    "length": 11,
+    "jp": "いいだのサポータ[END]",
+    "fr": "Support d'Iida",
+    "references": [],
+    "raw": "0c 0c fd 1a 23 47 fa 5a 73 4c ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Support d'Iida",
+    "target_bank": 17,
+    "target_address": 17029,
+    "target_length": 15,
+    "fr_narrow_9": "Supp.Iida",
+    "fr_shop": "Supp.Iida",
+    "fr_narrow_7": "S.Iida"
+  },
+  {
+    "id": "0057FB",
+    "offset": 22523,
+    "end": 22533,
+    "length": 10,
+    "jp": "がくせいカバン[END]",
+    "fr": "Cartable",
+    "references": [],
+    "raw": "fd 10 12 18 0c 42 fd 56 6a ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Cartable",
+    "target_bank": 17,
+    "target_address": 17044,
+    "target_length": 9,
+    "fr_narrow_9": "Cartable",
+    "fr_shop": "Cartable",
+    "fr_narrow_7": "Cartab."
+  },
+  {
+    "id": "005818",
+    "offset": 22552,
+    "end": 22561,
+    "length": 9,
+    "jp": "とうげんのたて[END]",
+    "fr": "Écu du paradis",
+    "references": [],
+    "raw": "1e 0d fd 13 38 23 1a 1d ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Écu du paradis",
+    "target_bank": 17,
+    "target_address": 17053,
+    "target_length": 15,
+    "fr_narrow_9": "Écu parad",
+    "fr_shop": "Écu parad",
+    "fr_narrow_7": "Écu par"
+  },
+  {
+    "id": "005834",
+    "offset": 22580,
+    "end": 22590,
+    "length": 10,
+    "jp": "デリシャススーツ[END]",
+    "fr": "Tenue Delicious",
+    "references": [],
+    "raw": "fd 4f 64 48 6c 49 49 73 4e ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Tenue Delicious",
+    "target_bank": 17,
+    "target_address": 17068,
+    "target_length": 16,
+    "fr_narrow_9": "Delicious",
+    "fr_shop": "Delicious",
+    "fr_narrow_7": "Delic."
+  },
+  {
+    "id": "005851",
+    "offset": 22609,
+    "end": 22617,
+    "length": 8,
+    "jp": "もんつきはかま[END]",
+    "fr": "Hakama à blason",
+    "references": [],
+    "raw": "2d 38 1c 11 24 10 29 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Hakama à blason",
+    "target_bank": 17,
+    "target_address": 17084,
+    "target_length": 16,
+    "fr_narrow_9": "H.blason",
+    "fr_shop": "H.blason",
+    "fr_narrow_7": "H.blas."
+  },
+  {
+    "id": "00586C",
+    "offset": 22636,
+    "end": 22648,
+    "length": 12,
+    "jp": "ゾンビにんぎょう[END]",
+    "fr": "Poupée zombie",
+    "references": [],
+    "raw": "fd 4b 6a fd 57 20 38 fd 11 3b 0d ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Poupée zombie",
+    "target_bank": 17,
+    "target_address": 17100,
+    "target_length": 14,
+    "fr_narrow_9": "P.zombie",
+    "fr_shop": "P.zombie",
+    "fr_narrow_7": "P.zomb."
+  },
+  {
+    "id": "00588B",
+    "offset": 22667,
+    "end": 22676,
+    "length": 9,
+    "jp": "むっちりアーマー[END]",
+    "fr": "Armure moulante",
+    "references": [],
+    "raw": "2b 3c 1b 32 3d 73 5b 73 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Armure moulante",
+    "target_bank": 17,
+    "target_address": 17114,
+    "target_length": 16,
+    "fr_narrow_9": "Ar.moul.",
+    "fr_shop": "Ar.moul.",
+    "fr_narrow_7": "A.moul."
+  },
+  {
+    "id": "0058A7",
+    "offset": 22695,
+    "end": 22706,
+    "length": 11,
+    "jp": "クリンチグローブ[END]",
+    "fr": "Gants clinch",
+    "references": [],
+    "raw": "44 64 6a 4d fd 44 67 73 fd 58 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Gants clinch",
+    "target_bank": 17,
+    "target_address": 17130,
+    "target_length": 13,
+    "fr_narrow_9": "G.clinch",
+    "fr_shop": "G.clinch",
+    "fr_narrow_7": "Clinch"
+  },
+  {
+    "id": "0058C5",
+    "offset": 22725,
+    "end": 22733,
+    "length": 8,
+    "jp": "ヌードのたて[END]",
+    "fr": "Bouclier nu",
+    "references": [],
+    "raw": "53 73 fd 50 23 1a 1d ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Bouclier nu",
+    "target_bank": 17,
+    "target_address": 17143,
+    "target_length": 12,
+    "fr_narrow_9": "Boucl.nu",
+    "fr_shop": "Boucl.nu",
+    "fr_narrow_7": "Écu nu"
+  },
+  {
+    "id": "0058EA",
+    "offset": 22762,
+    "end": 22767,
+    "length": 5,
+    "jp": "かいふく[END]",
+    "fr": "Soin",
+    "references": [],
+    "raw": "10 0c 26 12 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Soin",
+    "target_bank": 17,
+    "target_address": 17155,
+    "target_length": 5,
+    "fr_narrow_9": "Soin",
+    "fr_shop": "Soin",
+    "fr_narrow_7": "Soin"
+  },
+  {
+    "id": "005902",
+    "offset": 22786,
+    "end": 22791,
+    "length": 5,
+    "jp": "どくけし[END]",
+    "fr": "Antidote",
+    "references": [],
+    "raw": "72 12 13 16 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Antidote",
+    "target_bank": 17,
+    "target_address": 17160,
+    "target_length": 9,
+    "fr_narrow_9": "Antidote",
+    "fr_shop": "Antidote",
+    "fr_narrow_7": "Antid."
+  },
+  {
+    "id": "00591A",
+    "offset": 22810,
+    "end": 22819,
+    "length": 9,
+    "jp": "めだまひんむき[END]",
+    "fr": "Yeux écarquillés",
+    "references": [],
+    "raw": "2c fd 1a 29 25 38 2b 11 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Yeux écarquillés",
+    "target_bank": 17,
+    "target_address": 17169,
+    "target_length": 17,
+    "fr_narrow_9": "Gros yeux",
+    "fr_shop": "Gros yeux",
+    "fr_narrow_7": "Yeux !"
+  },
+  {
+    "id": "005936",
+    "offset": 22838,
+    "end": 22843,
+    "length": 5,
+    "jp": "ワープ[END]",
+    "fr": "Téléportation",
+    "references": [],
+    "raw": "68 73 fa 58 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Téléportation",
+    "target_bank": 17,
+    "target_address": 17186,
+    "target_length": 14,
+    "fr_narrow_9": "Téléport.",
+    "fr_shop": "Téléport.",
+    "fr_narrow_7": "Télép."
+  },
+  {
+    "id": "00594E",
+    "offset": 22862,
+    "end": 22867,
+    "length": 5,
+    "jp": "れいせい[END]",
+    "fr": "Sang-froid",
+    "references": [],
+    "raw": "34 0c 18 0c ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Sang-froid",
+    "target_bank": 17,
+    "target_address": 17200,
+    "target_length": 11,
+    "fr_narrow_9": "Calme",
+    "fr_shop": "Calme",
+    "fr_narrow_7": "Calme"
+  },
+  {
+    "id": "005966",
+    "offset": 22886,
+    "end": 22893,
+    "length": 7,
+    "jp": "とわにねむれ[END]",
+    "fr": "Sommeil éternel",
+    "references": [],
+    "raw": "1e 36 20 22 2b 34 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Sommeil éternel",
+    "target_bank": 17,
+    "target_address": 17211,
+    "target_length": 16,
+    "fr_narrow_9": "Sommeil",
+    "fr_shop": "Sommeil",
+    "fr_narrow_7": "Sommeil"
+  },
+  {
+    "id": "005980",
+    "offset": 22912,
+    "end": 22918,
+    "length": 6,
+    "jp": "ひあそび[END]",
+    "fr": "Jeu de feu",
+    "references": [],
+    "raw": "25 0b 19 fd 25 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Jeu de feu",
+    "target_bank": 17,
+    "target_address": 17227,
+    "target_length": 11,
+    "fr_narrow_9": "Jeu feu",
+    "fr_shop": "Jeu feu",
+    "fr_narrow_7": "Jeu feu"
+  },
+  {
+    "id": "005999",
+    "offset": 22937,
+    "end": 22942,
+    "length": 5,
+    "jp": "ワクチン[END]",
+    "fr": "Vaccin",
+    "references": [],
+    "raw": "68 44 4d 6a ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Vaccin",
+    "target_bank": 17,
+    "target_address": 17238,
+    "target_length": 7,
+    "fr_narrow_9": "Vaccin",
+    "fr_shop": "Vaccin",
+    "fr_narrow_7": "Vaccin"
+  },
+  {
+    "id": "0059B1",
+    "offset": 22961,
+    "end": 22966,
+    "length": 5,
+    "jp": "おはらい[END]",
+    "fr": "Exorcisme",
+    "references": [],
+    "raw": "0f 24 31 0c ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Exorcisme",
+    "target_bank": 17,
+    "target_address": 17245,
+    "target_length": 10,
+    "fr_narrow_9": "Exorcisme",
+    "fr_shop": "Exorcisme",
+    "fr_narrow_7": "Exorc."
+  },
+  {
+    "id": "0059C9",
+    "offset": 22985,
+    "end": 22995,
+    "length": 10,
+    "jp": "しずかにしてろ！[END]",
+    "fr": "Silence !",
+    "references": [],
+    "raw": "16 fd 17 10 20 16 1d 35 76 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Silence !",
+    "target_bank": 17,
+    "target_address": 17255,
+    "target_length": 10,
+    "fr_narrow_9": "Silence !",
+    "fr_shop": "Silence !",
+    "fr_narrow_7": "Silence"
+  },
+  {
+    "id": "0059E6",
+    "offset": 23014,
+    "end": 23019,
+    "length": 5,
+    "jp": "はったり[END]",
+    "fr": "Bluff",
+    "references": [],
+    "raw": "24 3c 1a 32 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Bluff",
+    "target_bank": 17,
+    "target_address": 17265,
+    "target_length": 6,
+    "fr_narrow_9": "Bluff",
+    "fr_shop": "Bluff",
+    "fr_narrow_7": "Bluff"
+  },
+  {
+    "id": "0059FE",
+    "offset": 23038,
+    "end": 23046,
+    "length": 8,
+    "jp": "さいるいガス[END]",
+    "fr": "Gaz lacrymogène",
+    "references": [],
+    "raw": "15 0c 33 0c fd 42 49 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Gaz lacrymogène",
+    "target_bank": 17,
+    "target_address": 17271,
+    "target_length": 16,
+    "fr_narrow_9": "Gaz lacr.",
+    "fr_shop": "Gaz lacr.",
+    "fr_narrow_7": "Gaz"
+  },
+  {
+    "id": "005A19",
+    "offset": 23065,
+    "end": 23071,
+    "length": 6,
+    "jp": "ひあぶり[END]",
+    "fr": "Supplice du feu",
+    "references": [],
+    "raw": "25 0b fd 26 32 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Supplice du feu",
+    "target_bank": 17,
+    "target_address": 17287,
+    "target_length": 16,
+    "fr_narrow_9": "Bûcher",
+    "fr_shop": "Bûcher",
+    "fr_narrow_7": "Bûcher"
+  },
+  {
+    "id": "005A32",
+    "offset": 23090,
+    "end": 23095,
+    "length": 5,
+    "jp": "まんたん[END]",
+    "fr": "Plein d'énergie",
+    "references": [],
+    "raw": "29 38 1a 38 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Plein d'énergie",
+    "target_bank": 17,
+    "target_address": 17303,
+    "target_length": 16,
+    "fr_narrow_9": "Énergie",
+    "fr_shop": "Énergie",
+    "fr_narrow_7": "Énergie"
+  },
+  {
+    "id": "005A4A",
+    "offset": 23114,
+    "end": 23121,
+    "length": 7,
+    "jp": "カバのムラ[END]",
+    "fr": "Hippovillage",
+    "references": [],
+    "raw": "42 fd 56 23 5d 63 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Hippovillage",
+    "target_bank": 17,
+    "target_address": 17319,
+    "target_length": 13,
+    "fr_narrow_9": "Hippo",
+    "fr_shop": "Hippo",
+    "fr_narrow_7": "Hippo"
+  },
+  {
+    "id": "005A64",
+    "offset": 23140,
+    "end": 23148,
+    "length": 8,
+    "jp": "さいみんじゅつ[END]",
+    "fr": "Hypnose",
+    "references": [],
+    "raw": "15 0c 2a 38 70 3a 1c ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Hypnose",
+    "target_bank": 17,
+    "target_address": 17332,
+    "target_length": 8,
+    "fr_narrow_9": "Hypnose",
+    "fr_shop": "Hypnose",
+    "fr_narrow_7": "Hypnose"
+  },
+  {
+    "id": "005A7F",
+    "offset": 23167,
+    "end": 23177,
+    "length": 10,
+    "jp": "びょうげんきん[END]",
+    "fr": "Microbes",
+    "references": [],
+    "raw": "fd 25 3b 0d fd 13 38 11 38 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Microbes",
+    "target_bank": 17,
+    "target_address": 17340,
+    "target_length": 9,
+    "fr_narrow_9": "Microbes",
+    "fr_shop": "Microbes",
+    "fr_narrow_7": "Microb."
+  },
+  {
+    "id": "005A9C",
+    "offset": 23196,
+    "end": 23206,
+    "length": 10,
+    "jp": "コクバンひっかき[END]",
+    "fr": "Griffe tableau",
+    "references": [],
+    "raw": "46 44 fd 56 6a 25 3c 10 11 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Griffe tableau",
+    "target_bank": 17,
+    "target_address": 17349,
+    "target_length": 15,
+    "fr_narrow_9": "Gr.table",
+    "fr_shop": "Gr.table",
+    "fr_narrow_7": "Gr.tab."
+  },
+  {
+    "id": "005AB9",
+    "offset": 23225,
+    "end": 23235,
+    "length": 10,
+    "jp": "チェーンこうげき[END]",
+    "fr": "Attaque chaîne",
+    "references": [],
+    "raw": "4d 78 73 6a 14 0d fd 13 11 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Attaque chaîne",
+    "target_bank": 17,
+    "target_address": 17364,
+    "target_length": 15,
+    "fr_narrow_9": "Chaîne",
+    "fr_shop": "Chaîne",
+    "fr_narrow_7": "Chaîne"
+  },
+  {
+    "id": "005AD6",
+    "offset": 23254,
+    "end": 23263,
+    "length": 9,
+    "jp": "のろいのささやき[END]",
+    "fr": "Murmure maudit",
+    "references": [],
+    "raw": "23 35 0c 23 15 15 2e 11 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Murmure maudit",
+    "target_bank": 17,
+    "target_address": 17379,
+    "target_length": 15,
+    "fr_narrow_9": "Murmure",
+    "fr_shop": "Murmure",
+    "fr_narrow_7": "Murmure"
+  },
+  {
+    "id": "005AF2",
+    "offset": 23282,
+    "end": 23289,
+    "length": 7,
+    "jp": "しりたたき！[END]",
+    "fr": "Fessée !",
+    "references": [],
+    "raw": "16 32 1a 1a 11 76 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Fessée !",
+    "target_bank": 17,
+    "target_address": 17394,
+    "target_length": 9,
+    "fr_narrow_9": "Fessée !",
+    "fr_shop": "Fessée !",
+    "fr_narrow_7": "Fessée"
+  },
+  {
+    "id": "005B0C",
+    "offset": 23308,
+    "end": 23318,
+    "length": 10,
+    "jp": "かみつきこうげき[END]",
+    "fr": "Morsure",
+    "references": [],
+    "raw": "10 2a 1c 11 14 0d fd 13 11 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Morsure",
+    "target_bank": 17,
+    "target_address": 17403,
+    "target_length": 8,
+    "fr_narrow_9": "Morsure",
+    "fr_shop": "Morsure",
+    "fr_narrow_7": "Morsure"
+  },
+  {
+    "id": "005B29",
+    "offset": 23337,
+    "end": 23341,
+    "length": 4,
+    "jp": "ほのお[END]",
+    "fr": "Flammes",
+    "references": [],
+    "raw": "28 23 0f ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Flammes",
+    "target_bank": 17,
+    "target_address": 17411,
+    "target_length": 8,
+    "fr_narrow_9": "Flammes",
+    "fr_shop": "Flammes",
+    "fr_narrow_7": "Flammes"
+  },
+  {
+    "id": "005B40",
+    "offset": 23360,
+    "end": 23367,
+    "length": 7,
+    "jp": "つむじかぜ[END]",
+    "fr": "Tourbillon",
+    "references": [],
+    "raw": "1c 2b 70 10 fd 18 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Tourbillon",
+    "target_bank": 17,
+    "target_address": 17419,
+    "target_length": 11,
+    "fr_narrow_9": "Tornade",
+    "fr_shop": "Tornade",
+    "fr_narrow_7": "Tornade"
+  },
+  {
+    "id": "005B5A",
+    "offset": 23386,
+    "end": 23396,
+    "length": 10,
+    "jp": "ねっけつスパイク[END]",
+    "fr": "Smash ardent",
+    "references": [],
+    "raw": "22 3c 13 1c 49 fa 56 3e 44 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Smash ardent",
+    "target_bank": 17,
+    "target_address": 17430,
+    "target_length": 13,
+    "fr_narrow_9": "Smash feu",
+    "fr_shop": "Smash feu",
+    "fr_narrow_7": "Smash"
+  },
+  {
+    "id": "005B77",
+    "offset": 23415,
+    "end": 23424,
+    "length": 9,
+    "jp": "とうこんタックル[END]",
+    "fr": "Tacle combatif",
+    "references": [],
+    "raw": "1e 0d 14 38 4c 6f 44 65 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Tacle combatif",
+    "target_bank": 17,
+    "target_address": 17443,
+    "target_length": 15,
+    "fr_narrow_9": "Tacle",
+    "fr_shop": "Tacle",
+    "fr_narrow_7": "Tacle"
+  },
+  {
+    "id": "005B93",
+    "offset": 23443,
+    "end": 23449,
+    "length": 6,
+    "jp": "おたけび[END]",
+    "fr": "Cri de guerre",
+    "references": [],
+    "raw": "0f 1a 13 fd 25 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Cri de guerre",
+    "target_bank": 17,
+    "target_address": 17458,
+    "target_length": 14,
+    "fr_narrow_9": "Cri",
+    "fr_shop": "Cri",
+    "fr_narrow_7": "Cri"
+  },
+  {
+    "id": "005BAC",
+    "offset": 23468,
+    "end": 23474,
+    "length": 6,
+    "jp": "つきだし[END]",
+    "fr": "Poussée",
+    "references": [],
+    "raw": "1c 11 fd 1a 16 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Poussée",
+    "target_bank": 17,
+    "target_address": 17472,
+    "target_length": 8,
+    "fr_narrow_9": "Poussée",
+    "fr_shop": "Poussée",
+    "fr_narrow_7": "Poussée"
+  },
+  {
+    "id": "005BC5",
+    "offset": 23493,
+    "end": 23503,
+    "length": 10,
+    "jp": "レオパルト！！！[END]",
+    "fr": "Leopard !",
+    "references": [],
+    "raw": "66 41 fa 56 65 50 76 76 76 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Leopard !",
+    "target_bank": 17,
+    "target_address": 17480,
+    "target_length": 10,
+    "fr_narrow_9": "Leopard !",
+    "fr_shop": "Leopard !",
+    "fr_narrow_7": "Leopard"
+  },
+  {
+    "id": "005BCF",
+    "offset": 23503,
+    "end": 23520,
+    "length": 17,
+    "jp": "ーLV:  ーーやるき:   ー[END]",
+    "fr": "-NV:  --PV:   -",
+    "references": [],
+    "raw": "73 7d 7f f2 fb fb 73 73 2e 33 11 f2 fb fb fb 73 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "-NV:  --PV:   -",
+    "target_bank": 17,
+    "target_address": 17490,
+    "target_length": 16
+  },
+  {
+    "id": "0075DB",
+    "offset": 30171,
+    "end": 30193,
+    "length": 22,
+    "jp": "あたるのなかで\nなにかが\nかわった！！[END]",
+    "fr": "Ataru a|changé !",
+    "references": [],
+    "raw": "0b 1a 33 23 1f 10 fd 1d fe 1f 20 10 fd 10 fe 10 36 3c 1a 76 76 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Ataru a|changé !",
+    "target_bank": 17,
+    "target_address": 17506,
+    "target_length": 17
+  },
+  {
+    "id": "0075F1",
+    "offset": 30193,
+    "end": 30202,
+    "length": 9,
+    "jp": "いいもん みっけ[END]",
+    "fr": "Trouvé !",
+    "references": [],
+    "raw": "0c 0c 2d 38 fb 2a 3c 13 ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Trouvé !",
+    "target_bank": 17,
+    "target_address": 17523,
+    "target_length": 9
+  },
+  {
+    "id": "0075FA",
+    "offset": 30202,
+    "end": 30219,
+    "length": 17,
+    "jp": "ちからずくで\nうばいとった[END]",
+    "fr": "Arraché|de force",
+    "references": [],
+    "raw": "1b 10 31 fd 17 12 fd 1d fe 0d fd 24 0c 1e 3c 1a ff",
+    "source_bank": 1,
+    "fr_encoded_layout": "Arraché|de force",
+    "target_bank": 17,
+    "target_address": 17532,
+    "target_length": 17
+  }
+]

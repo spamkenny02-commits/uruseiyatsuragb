@@ -1,0 +1,31 @@
+{
+  "source_extraction_entries": 436,
+  "baseline_rebuild_matches_current_rom": true,
+  "modified_dialogue_and_both_alias_pools_verified": true,
+  "rejected_edits": [
+    {
+      "id": "00E959",
+      "error": "00E959 / Texte : page 1, case 15, rangée 1 hors cadre (14 × 13)."
+    },
+    {
+      "id": "0052BC",
+      "error": "0052BC : nom limité à 9 caractères, sur une ligne."
+    },
+    {
+      "id": "00E5EC",
+      "error": "Réinsertion refusée : AssertionError: ('shop confirmation cursors', 'Achat ?')"
+    },
+    {
+      "id": "00F5D2",
+      "error": "00F5D2 : caractère non disponible '€'."
+    },
+    {
+      "id": "00EB45",
+      "error": "00EB45 : positions fixes. Conserver les espaces, les commandes et le nombre de cases ; compléter les libellés courts avec des espaces."
+    }
+  ],
+  "ips_roundtrip_verified": true,
+  "project_json_roundtrip_verified": true,
+  "tk_startup_selection_edit_and_async_preview_verified": true,
+  "baseline_sha256": "9455e6a057a4d1aa9091d25a36815f2c5afa95661b48295311637f962a93b33a"
+}

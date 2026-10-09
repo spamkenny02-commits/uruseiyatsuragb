@@ -1,0 +1,39 @@
+Urusei Yatsura — Miss Tomobiki o Sagase! — VERSION FRANÇAISE1.0
+
+ROM prête à jouer : Miss_Tomobiki_FR_v1.0.gb
+Patch : Miss_Tomobiki_FR_v1.0.ips
+
+Le patch s’applique à une copie de la ROM japonaise de262144octets.
+SHA-256 japonais : 65429bd2a36a33cd8ab696be2f485b647260b327039887931cec4775c718424f
+SHA-256 français : bac41690449ca23d3ea386f7446a8637f9558e45579fe7c9388d52446a50a711
+La ROM française fait524288octets et utilise MBC5 avec RAM et batterie.
+Utiliser un émulateur compatible MBC5. Commencer une nouvelle partie ou une
+sauvegarde batterie française ; les savestates japonaises ont des adresses
+et tuiles différentes. Conserver les fichiers originaux.
+
+Contenu :436 entrées traduites, dialogues, règles, indices, menus, objets,
+techniques, personnages et crédits. Fonte accentuée et pagination adaptées.
+Sous-titre, menu initial, affiche, accueil, boussole et carte FIN français.
+Le logo japonais illustré de la série est conservé.
+
+Validation :44contrôles principaux et5audits supplémentaires réussis dans
+PyBoy2.8.0, patch/checksums vérifiés, sources reconstruites à l’identique.
+Le parcours de validation traverse les25quêtes et la fin avec un personnage
+préparé une fois au départ. Il ne démontre pas l’acquisition naturelle de ses
+attributs/équipement. Une partie naturelle distincte vainc Onsen au niveau6.
+Sauver puis redémarrer avec Continuer conserve inventaire, équipement,
+quête, attributs, PV/ruse, argent et exploration. Les fixtures d’affichage
+et autres préparations sont décrites précisément dans les rapports.
+Pas de test sur matériel réel ; chaque effet ennemi n’est pas rejoué.
+Une fiche graphique D1 mal formée dans l’original est conservée ; aucune
+invocation observée dans les parcours testés, sans prétention d’inaccessibilité.
+
+Extraction bilingue : textes_japonais_francais.json
+Audit des exigences : audit_final_FR_v1.0.json
+Rapport général : verification_FR_v1.0.json
+Sources : sources_romhack. Copier sa ROM japonaise comme original.gb dans
+ce dossier, installer Python et Pillow puis lancer build.py. Le résultat
+est fr_alpha.gb (nom interne du script). Fontes Windows nécessaires :
+Consolas, ConsolasBold et ArialBold ; leurs empreintes sont dans le rapport
+de reconstruction. L’archive de diffusion contient le patch et les sources,
+sans ROM. La ROM française prête à jouer est fournie séparément localement.

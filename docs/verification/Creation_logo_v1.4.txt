@@ -1,0 +1,15 @@
+LOGO URUSEI YATSURA — VERSION GAME BOY
+
+Création avec l'outil intégré imagegen, compétence imagegen, à partir de
+l'image de référence fournie par l'utilisateur. Le résultat est converti en
+une ressource de 152 × 44 pixels et quatre niveaux, puis encodé en tuiles 2bpp.
+Le motif étoilé original du jeu est recomposé derrière le logo. Les blancs
+enfermés dans les lettres et le contour restent opaques pour la lisibilité.
+
+Logo source généré : Logo_URUSEI_source_v1.4.png
+Aperçu de l'asset : Logo_URUSEI_YATSURA_GameBoy.png
+Ressource de ROM : sources/title_logo.png
+Capture d'émulateur : Ecran_titre_FR_v1.4.png
+
+PROMPT UTILISÉ
+Use case: logo-brand. Asset type: an actual monochrome Game Boy title logo to be encoded into ROM tiles. Reference image: attached image is a STYLE REFERENCE only. Create a new isolated logo with EXACT text URUSEI on first line and YATSURA on second line, centered. Preserve the reference's chunky bold italic forward-slanted block lettering and the small five-point star inside the R of URUSEI. Fill letters pure black, very thin white inner outline then black external outline/drop shadow toward bottom right, all against a pure white background. Star should be white with a thin black contour so it is visible inside the black R. Two lines with no overlap and a small white gap. Very wide composition about 3.5:1 to fit a 152 by 44 pixel zone: URUSEI slightly narrower than YATSURA. Design like crisp clean retro pixel art with deliberate straight stepped pixel edges, based on a virtual 152x44 grid scaled up uniformly, no anti-aliasing, no textures, no gradients, no blue background, no colored details, no other text or objects, no decorative stars outside the R. Keep minimal white margins around logo. The entire logo must be in frame. Only logo asset, not a Game Boy console or screenshot.

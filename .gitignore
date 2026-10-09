@@ -1,0 +1,15 @@
+# ROMs and emulator saves stay local.
+*.gb
+*.gbc
+*.ram
+*.sav
+*.state
+*.gb.zip
+
+# Temporary builds and Python caches.
+**/cache/
+**/__pycache__/
+*.py[cod]
+editeur/outputs/
+.venv/
+*.log

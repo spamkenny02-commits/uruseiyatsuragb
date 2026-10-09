@@ -1,0 +1,16 @@
+{
+  "rom_sha256": "9455e6a057a4d1aa9091d25a36815f2c5afa95661b48295311637f962a93b33a",
+  "fresh_boot_verified": true,
+  "subtitle_rom_pixels_and_runtime_pixels_match_design": true,
+  "logo_star_background_portrait_and_start_prompt_identical_to_v1_4": true,
+  "start_menu_identical_to_v1_4": true,
+  "changed_screen_pixels": 726,
+  "text": [
+    "À LA RECHERCHE DE",
+    "MISS TOMOBIKI !"
+  ],
+  "style": "compact header, bold italic headline, gray drop shadow, symmetric sparkles",
+  "changed_bytes_since_v1_4": 345,
+  "only_title_graphics_and_checksum_changed": true,
+  "ips_roundtrip_verified": true
+}
