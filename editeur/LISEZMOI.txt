@@ -35,6 +35,10 @@ des espaces, commandes et du nombre de cases : raccourcir un libellé exige
 de compléter avec des espaces. Cette restriction protège les champs voisins.
 Les lettres et accents disponibles sont ceux de la police française du jeu.
 
+Depuis la v1.6, le menu de combat utilise <FB> au début de chaque ligne pour
+préserver sa bordure gauche. Les anciens projets et imports TXT dont les
+trois lignes commencent par deux espaces sont convertis automatiquement.
+
 APERÇU ET LIMITES
 L'aperçu lit les octets du texte et de la police dans la ROM reconstruite :
 il montre les lignes, marges et pages réellement encodées, avec une grille.

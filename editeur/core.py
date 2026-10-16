@@ -28,6 +28,11 @@ def validate_project(data):
             raise ValueError(f'La rubrique {key} doit contenir tous les identifiants attendus.')
         if any(not isinstance(v,str) or '\n' in v or '\r' in v for v in data[key].values()):
             raise ValueError('Chaque texte doit être une chaîne sur une ligne ; utiliser | pour les retours.')
+    # Projects from v1.5 used a blank tile over the left combat border.
+    # Convert that first cell into the original renderer's skip command.
+    lines=data['texts']['00E38D'].split('|')
+    if len(lines)==3 and all(line.startswith('  ') for line in lines):
+        data['texts']['00E38D']='|'.join('<FB>'+line[1:] for line in lines)
     return data
 
 def validate_text(ident, text, width=None):

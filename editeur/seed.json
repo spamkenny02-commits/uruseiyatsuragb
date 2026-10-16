@@ -22,13 +22,13 @@
     "end": 58290,
     "length": 37,
     "jp": "  たたかう アイテム\n  いんちき ステータス\n  にげる  はなす[END]",
-    "fr": "  Att. Objet|  Ruse État|  Fuir Parle",
+    "fr": "<FB> Att. Objet|<FB> Ruse État|<FB> Fuir Parle",
     "references": [
       58177
     ],
     "raw": "fb 00 1a 1a 10 0d 00 3d 3e 4f 5d fe fb 00 0c 38 1b 11 00 49 4f 73 4c 49 fe fb 00 20 fd 13 33 00 00 24 1f 17 ff",
     "source_bank": 3,
-    "fr_encoded_layout": "  Att. Objet|  Ruse État|  Fuir Parle",
+    "fr_encoded_layout": "<FB> Att. Objet|<FB> Ruse État|<FB> Fuir Parle",
     "target_bank": 16,
     "target_address": 16420,
     "target_length": 38

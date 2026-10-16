@@ -31,6 +31,8 @@ def apply(rom,root,subtitle):
     # the complete second title page and its French start menu.
     protected_blocks=set(maps[40:])
     protected_tiles={rom[blocks+k*4+j] for k in protected_blocks for j in range(4)}
+    # The menu writes this cursor dynamically, so it is absent from its map.
+    protected_tiles.add(0xd5)
     available_tiles=iter(sorted(set(range(256))-protected_tiles))
     assigned={bytes(rom[base+t*16:base+(t+1)*16]):t for t in protected_tiles}
     initial_tiles=len(assigned)

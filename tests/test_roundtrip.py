@@ -19,6 +19,11 @@ def main():
     metadata=json.loads((ROOT/'version.json').read_text('utf8'))
     assert hashlib.sha256(rom).hexdigest()==metadata['french_rom_sha256']
     assert core.validate_project(json.loads(json.dumps(data)))==data
+    legacy=copy.deepcopy(data)
+    legacy['texts']['00E38D']='  Att. Objet|  Ruse État|  Fuir Parle'
+    assert core.validate_project(legacy)['texts']['00E38D']==data['texts']['00E38D']
+    menu=next(e for e in manifest if e['id']=='00E38D')
+    assert all(line.startswith(b'\xfb\x00') for line in core.payload(menu,rom,'Texte').split(b'\xfe'))
     edited=copy.deepcopy(data)
     edited['texts']['00F5D2']='Jouez ! Choix : x, k et z. Élève, à bientôt !'
     name=next(iter(edited['nine']))
@@ -44,6 +49,6 @@ def main():
         patched[address:address+length]=patch[pos:pos+length];pos+=length
     assert bytes(patched)==modified
     assert int.from_bytes(modified[0x14e:0x150],'big')==(sum(modified)-sum(modified[0x14e:0x150]))&65535
-    print('OK: 436 extracted entries; v1.5 SHA-256; dialogue and aliases; invalid edits; IPS roundtrip.')
+    print('OK: 436 entries; current ROM SHA-256; combat margins and legacy projects; dialogue and aliases; invalid edits; IPS roundtrip.')
 
 if __name__=='__main__':main()

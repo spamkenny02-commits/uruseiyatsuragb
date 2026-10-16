@@ -1,5 +1,5 @@
 00E36B=Changer d'étage ?|    Oui       Non
-00E38D=  Att. Objet|  Ruse État|  Fuir Parle
+00E38D=<FB> Att. Objet|<FB> Ruse État|<FB> Fuir Parle
 00E3B2=Voir    Objet|Ruse    État|Sauver  Équip.
 00E3DC=     pts|  de dégâts|    reçus
 00E3FD=    pts| de dégâts| infligés

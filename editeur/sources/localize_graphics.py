@@ -1,4 +1,5 @@
 from PIL import Image, ImageDraw, ImageFont
+from pathlib import Path
 import json
 
 def tile_bytes(im):
@@ -40,10 +41,11 @@ def subtitle_image():
     subtitle.paste(170,(1,1),headline)
     subtitle.paste(0,(0,0),headline)
     # Small symmetric sparkles link the subtitle to the starry main logo.
-    d=ImageDraw.Draw(subtitle)
-    for cx in (2,106):
-        d.point((cx,10),fill=85);d.line((cx-1,11,cx+1,11),fill=85)
-        d.point((cx,12),fill=85)
+    # Reuse the game's star tile: this leaves a font tile free for the live
+    # startup cursor instead of assigning its pattern to subtitle artwork.
+    with Image.open(Path(__file__).parent/'title_background.png') as background:
+        sparkle=background.convert('L').crop((8,0,16,8))
+    subtitle.paste(sparkle,(0,8));subtitle.paste(sparkle,(104,8))
     return subtitle
 
 def apply(rom, source, root):

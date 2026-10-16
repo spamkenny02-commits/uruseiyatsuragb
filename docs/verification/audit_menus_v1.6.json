@@ -1,0 +1,96 @@
+{
+  "rom_sha256": "b9d28869db3e74c802829364d470ee6a816b66595128e011f325ec9c5358cb86",
+  "startup_method": "Fresh boot, Start, alternate Right/Left six times; compare every Suite/Jouer glyph and the loaded cursor bitmap.",
+  "startup_choices": [
+    "Jouer",
+    "Suite",
+    "Jouer",
+    "Suite",
+    "Jouer",
+    "Suite",
+    "Jouer"
+  ],
+  "original_arrow_bitmap_restored": true,
+  "combat_method": "Real armed Chibi encounter checkpoint; ordinary A and directional inputs, no memory/register edits.",
+  "combat_choices": [
+    {
+      "input": null,
+      "choice": 2,
+      "left_border": [
+        126,
+        126,
+        126,
+        126,
+        126
+      ]
+    },
+    {
+      "input": "down",
+      "choice": 3,
+      "left_border": [
+        126,
+        126,
+        126,
+        126,
+        126
+      ]
+    },
+    {
+      "input": "down",
+      "choice": 4,
+      "left_border": [
+        126,
+        126,
+        126,
+        126,
+        126
+      ]
+    },
+    {
+      "input": "right",
+      "choice": 7,
+      "left_border": [
+        126,
+        126,
+        126,
+        126,
+        126
+      ]
+    },
+    {
+      "input": "up",
+      "choice": 6,
+      "left_border": [
+        126,
+        126,
+        126,
+        126,
+        126
+      ]
+    },
+    {
+      "input": "up",
+      "choice": 5,
+      "left_border": [
+        126,
+        126,
+        126,
+        126,
+        126
+      ]
+    },
+    {
+      "input": "left",
+      "choice": 2,
+      "left_border": [
+        126,
+        126,
+        126,
+        126,
+        126
+      ]
+    }
+  ],
+  "combat_menu_redraws_verified": 2,
+  "all_left_border_tiles_preserved": true
+}

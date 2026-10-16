@@ -1,0 +1,20 @@
+MISS TOMOBIKI — FR v1.6
+
+Corrections des menus :
+- Le curseur de Suite n’efface plus son S.
+- La flèche d’origine est restaurée et son dessin est réservé.
+- Les trois lignes Att. / Ruse / Fuir préservent le cadre gauche.
+- L’éditeur adapte automatiquement la marge des anciens projets.
+
+Les petits éclats du sous-titre réutilisent les étoiles du jeu pour libérer
+la tuile du curseur ; le logo et le fond étoilé sont conservés.
+
+Utiliser la ROM GB v1.6 directement, ou appliquer l’IPS à la ROM japonaise
+originale lamujp.gb (256 Ko), jamais à une ROM déjà traduite.
+SHA256 source : 65429bd2a36a33cd8ab696be2f485b647260b327039887931cec4775c718424f
+SHA256 ROM v1.6 : b9d28869db3e74c802829364d470ee6a816b66595128e011f325ec9c5358cb86
+
+Tests : démarrage neuf, sélection répétée de Jouer / Suite, comparaison
+des lettres et du dessin du curseur ; vrai combat repris à un point de
+sauvegarde, parcours des six commandes puis attaque et retour au menu.
+Les 436 chaînes, la reconstruction IPS et l’éditeur ont aussi été vérifiés.

@@ -27,5 +27,5 @@
   "ips_roundtrip_verified": true,
   "project_json_roundtrip_verified": true,
   "tk_startup_selection_edit_and_async_preview_verified": true,
-  "baseline_sha256": "9455e6a057a4d1aa9091d25a36815f2c5afa95661b48295311637f962a93b33a"
+  "baseline_sha256": "b9d28869db3e74c802829364d470ee6a816b66595128e011f325ec9c5358cb86"
 }

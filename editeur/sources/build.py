@@ -24,7 +24,8 @@ sheet.save(out/'fonte_francaise.png')
 # F2 prints the resource-11 colon rather than the ordinary alphabet tile.
 rom[0x11800:0x11810]=font_tile(':')
 # The startup menu is baked into background tiles, separate from dialogue fonts.
-menu_glyphs=[0xd5,0xd8,0xdc,0xdd,0xdf,0xde,0xe0,0xe3,0xe6,0xe9,0xeb,0xf2,0xf3,0xf8,0xdb]
+# D5 is the live startup cursor, not a spare text glyph.
+menu_glyphs=[0xd8,0xdc,0xdd,0xdf,0xde,0xe0,0xe3,0xe6,0xe9,0xeb,0xf2,0xf3,0xf8,0xdb]
 menu_chars=sorted(set('JouerSuiteChoix?')-{' '})
 assert len(menu_chars)<=len(menu_glyphs)
 menu_codes=dict(zip(menu_chars,menu_glyphs))
@@ -35,7 +36,7 @@ menu_map=bytearray(source[0x34fe9:0x3504d]);available=[0x47,0x49,0x4c,0x53,0x56,
 blocks={};used=0
 for y in (6,7):
  row=[0]*20
- for x,s in ([(3,'Jouer'),(12,'Suite')] if y==6 else [(6,'Choix ?')]):
+ for x,s in ([(3,'Jouer'),(13,'Suite')] if y==6 else [(6,'Choix ?')]):
   for j,ch in enumerate(s):row[x+j]=menu_codes.get(ch,0)
  for x in range(1,9):
   block=bytes([0,0,row[x*2],row[x*2+1]])
@@ -190,6 +191,9 @@ for bank,srcbank in [(16,3),(17,1)]:
  cursor=0x4000;mapping=bytearray()
  for e in subset:
   text=fr[e['id']]
+  if e['id']=='00E38D':
+   lines=text.split('|')
+   assert len(lines)==3 and all(line.startswith('<FB> ') and len(encode(line))<=13 for line in lines),('combat border and cursor margins',text)
   if e['id'] in ['00E5E2','00E5EC','00E5FF','00E62E','00E644']:
    assert '|' not in text and len(text)<=({'00E5E2':9,'00E5EC':9,'00E5FF':9,'00E62E':9,'00E644':12}[e['id']]),(e['id'],text,'reserve box overlap')
   if e['id']=='00E5EC':assert text[0]==text[4]==' ',('shop confirmation cursors',text)

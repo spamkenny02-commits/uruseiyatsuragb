@@ -1,7 +1,7 @@
 {
-  "version": "1.5",
+  "version": "1.6",
   "original_rom_sha256": "65429bd2a36a33cd8ab696be2f485b647260b327039887931cec4775c718424f",
-  "french_rom_sha256": "9455e6a057a4d1aa9091d25a36815f2c5afa95661b48295311637f962a93b33a",
+  "french_rom_sha256": "b9d28869db3e74c802829364d470ee6a816b66595128e011f325ec9c5358cb86",
   "original_rom_size": 262144,
   "french_rom_size": 524288,
   "extracted_entries": 436
